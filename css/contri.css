@@ -1,0 +1,24 @@
+.cd-slider-content .content-wrapper {
+    background-size: cover !important;
+    background-position: center !important;
+    /*opacity: 0.4;*/
+}
+
+.cd-slideshow>li .content-wrapper {
+    /*background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.4)), url(http://hackncs.com/img/portfolio-03.jpeg) !important;*/
+}
+
+/*:nth-of-type(1)*/
+
+.project:nth-of-type(2), .project:nth-of-type(5) {
+    background: #eac05c;
+}
+
+.project:nth-of-type(3), .project:nth-of-type(6) {
+    background: #7e68b5;
+}
+
+.cd-slideshow {
+    padding: 0;
+    list-style: none;
+}

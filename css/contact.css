@@ -1,0 +1,38 @@
+body {
+    background-color: #fff;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.app {
+    width: 100%;
+    height: 100%;
+    padding: 2%;
+    box-sizing: border-box;
+    background: #2d303a;
+}
+
+.app-main {
+    height: 100%;
+    width: 100%;
+    padding: 1%;
+    border: 5px solid #ddd;
+}
+
+.contact {
+    height: 70vh;
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: #fff;
+    opacity: 0.9;
+    overflow: auto;
+    margin: 5%;
+}
+
+#map {
+    width: 100%;
+    min-height: 80vh;
+}

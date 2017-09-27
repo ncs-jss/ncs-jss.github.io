@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Nibble Computer Society</title>
+        <link rel="icon" type="image/png" href="media/favicon.ico"/>
+        <link href="/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+        <!-- <link rel="stylesheet" type="text/css" href="/css/jquery.fullpage.min.css"/> -->
+        <link rel="stylesheet" type="text/css" href="/css/onepage-scroll.css"/>
+        <link href="/css/animate.css" rel="stylesheet" type="text/css"/>
+        <link href="/css/style.css" rel="stylesheet" type="text/css"/>
+        <link href="/css/main.css" rel="stylesheet" type="text/css"/>
+        <link href="/css/sidebar.css" rel="stylesheet" type="text/css"/>
+        <!-- <link rel="shortcut icon" type="image/ico" href="images/favicon.ico"> -->
+        <style type="text/css">
+            .arrow-wrapper {
+                position: absolute;
+                left: 50%;
+                right: initial;
+            }
+        </style>
+    </head>
+    <body class="unloaded" id="main-body" data-page="home">
+        <div class="float-menu" data-target="#menuModal" data-toggle="modal">
+            <div class="hamburger">
+                <div class="bar b1"></div>
+                <div class="bar b2"></div>
+                <div class="bar b3"></div>
+            </div>
+        </div>
+        <div class="heading-badge animated slideInRight">
+            <h4>Home</h4>
+        </div>
+        <div class="container-wrapper preloader-wrapper"></div>
+        <div id="full-page">
+            <div class="section first-section">
+                <div class="container-wrapper image-gallery-wrapper visible">
+                    <div class="images-list">
+                        <img alt="" src="/media/banner/image-1.jpg"/>
+                        <img alt="" src="/media/banner/image-2.jpg"/>
+                        <img alt="" src="/media/banner/image-3.jpg"/>
+                        <img alt="" src="/media/banner/image-4.jpg"/>
+                        <img alt="" src="/media/banner/image-5.jpg"/>
+                        <img alt="" src="/media/banner/image-6.jpg"/>
+                        <img alt="" src="/media/banner/image-7.jpg"/>
+                        <img alt="" src="/media/banner/image-8.jpg"/>
+                    </div>
+                    <div class="text-on-image-wrapper">
+                        <p class="toi-text">Creative</p>
+                        <p class="toi-text">Driven</p>
+                        <p class="toi-text">Superheroes</p>
+                        <p class="toi-text">A Team</p>
+                        <!-- 
+                        Run this in the console - 
+                        window.location = "https://goo.gl/forms/AmOc3cXCmUPwjWiz1";
+                         -->
+                        <p class="toi-text">Passionate</p>
+                        <p class="toi-text">Geeks</p>
+                        <p class="toi-text">Ambitious</p>
+                    </div>
+                    <div class="logo-wrapper"></div>
+                    <div class="arrow-wrapper">
+                        <img src="/media/cd-icon-arrow.svg" alt="arrow" class=""/>
+                    </div>
+                </div>
+            </div>
+            <div class="section event-section">
+                <div class="upcoming-event-heading animated fadeInUp">
+                    <h2 id="event-description"></h2>
+                </div>
+                <a href="//register.hackncs.com">
+                    <div class="container-wrapper upcoming-event-wrapper">
+                        <hr/>
+                        <img src="" class="img-responsive animated fadeInUp" alt="" id="event-image"/>
+                        <hr/>
+                    </div>
+                </a>
+            </div>
+            <div class="section">
+                <div class="container-wrapper stats-grid-wrapper">
+                    <div class="stats-grid-row" id="sg-row-1">
+                        <div class="stats-grid-box" id="sgb-1">
+                            <div class="stat-inside-main">
+                                <!-- <object alt="" class="img" data="/media/numbers/since.svg"></object> -->
+                                <div class="img">
+                                    <h2>2000</h2>
+                                </div>
+                            </div>
+                            <p class="stat-content" style="display: block;">Since</p>
+                        </div>
+                        <div class="stats-grid-box" id="sgb-2">
+                            <div class="stat-inside-main">
+                                <!-- <object alt="" class="img" data="/media/numbers/events.svg"></object> -->
+                                <div class="img">
+                                    <h2>160+</h2>
+                                </div>
+                            </div>
+                            <p class="stat-content" style="display: block;">Events</p>
+                        </div>
+                        <div class="stats-grid-box" id="sgb-3">
+                            <div class="stat-inside-main">
+                                <!-- <object alt="" class="img" data="/media/numbers/workshop.svg"></object> -->
+                                <div class="img">
+                                    <h2>230+</h2>
+                                </div>
+                            </div>
+                            <p class="stat-content" style="display: block;">Workshops</p>
+                        </div>
+                    </div>
+                    <div class="stats-grid-row" id="sg-row-2">
+                        <div class="stats-grid-box" id="sgb-4">
+                            <div class="stat-inside-main">
+                                <!-- <object alt="" class="img" data="/media/numbers/seminars.svg"></object> -->
+                                <div class="img">
+                                    <h2>20+</h2>
+                                </div>
+                            </div>
+                            <p class="stat-content" style="display: block;">Seminars</p>
+                        </div>
+                        <div class="stats-grid-box" id="sgb-5">
+                            <div class="stat-inside-main">
+                                <!-- <object alt="" class="img" data="/media/numbers/GM.svg"></object> -->
+                                <div class="img">
+                                    <h2>6500</h2>
+                                </div>
+                            </div>
+                            <p class="stat-content" style="display: block;">General Members</p>
+                        </div>
+                        <div class="stats-grid-box" id="sgb-6">
+                            <div class="stat-inside-main">
+                                <!-- <object alt="" class="img" data="/media/numbers/projects.svg"></object> -->
+                                <div class="img">
+                                    <h2>10+</h2>
+                                </div>
+                            </div>
+                            <p class="stat-content" style="display: block;">Live Projects</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="section last-section">
+                <div class="sitemap">
+                    <div class="container-wrapper" id="job-listing-wrapper">
+                        <div class="container">
+                            <div class="row">
+                                <div class="jc-title-wrapper">
+                                    <h2>Explore!</h2>
+                                </div>
+                                <div class="job-type-wrapper">
+                                    <div class="line-wrapper">
+                                        <div class="col-xs-4 col-sm-2 job-type-block animated fadeInDown" id="jtb-7">
+                                            <a href="/">
+                                                <div class="jtb-icon">
+                                                    <img alt="" src="/media/nav_modal/svg/fs-home.png"/>
+                                                </div>
+                                                <p>Home</p>
+                                            </a>
+                                        </div>
+                                        <div class="col-xs-4 col-sm-2 job-type-block animated fadeInDown" id="jtb-2">
+                                            <a href="/clubs">
+                                                <div class="jtb-icon">
+                                                    <img alt="" src="/media/nav_modal/svg/clubs.svg"/>
+                                                </div>
+                                                <p>Clubs</p>
+                                            </a>
+                                        </div>
+                                        <div class="col-xs-4 col-sm-2 job-type-block animated fadeInDown" id="jtb-3">
+                                            <a href="/contributions">
+                                                <div class="jtb-icon">
+                                                    <img alt="" src="/media/nav_modal/svg/contri.svg"/>
+                                                </div>
+                                                <p>Contributions</p>
+                                            </a>
+                                        </div>
+                                        <div class="col-xs-4 col-sm-2 job-type-block animated fadeInDown" id="jtb-4">
+                                            <a href="/events">
+                                                <div class="jtb-icon">
+                                                    <img alt="" src="/media/nav_modal/svg/events.svg"/>
+                                                </div>
+                                                <p>Events</p>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="line-wrapper">
+                                        <div class="col-xs-4 col-sm-2 job-type-block animated fadeInDown" id="jtb-5">
+                                            <a href="//register.hackncs.com">
+                                                <div class="jtb-icon">
+                                                    <img alt="" src="/media/nav_modal/svg/registration.svg"/>
+                                                </div>
+                                                <p>Register</p>
+                                            </a>
+                                        </div>
+                                        <!-- <div class="col-xs-4 col-sm-2 job-type-block animated fadeInDown" id="jtb-1">
+                                            <a href="/contact">
+                                                <div class="jtb-icon">
+                                                    <img alt="" src="/media/nav_modal/svg/about.svg"/>
+                                                </div>
+                                                <p>Contact Us</p>
+                                            </a>
+                                        </div> -->
+                                        <div class="col-xs-4 col-sm-2 job-type-block animated fadeInDown" id="jtb-7">
+                                            <a href="/team">
+                                                <div class="jtb-icon">
+                                                    <img alt="" src="/media/nav_modal/svg/teamwork.svg"/>
+                                                </div>
+                                                <p>Team</p>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--                         <div class="bms-btn job-listing-btn">
+                                        <a href="/job-listings/">See all Jobs</a>
+                                    </div> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <footer>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="social-links">
+                                <div>
+                                    <!-- <span>Mail Us At</span> -->
+                                    <br>
+                                    <a href="mailto:hello@hackncs.com"><img src="media/mail.png"></a>
+                                </div>
+                                <div>
+                                    <!-- <span>Our FB Page</span> -->
+                                    <br>
+                                    <a href="https://www.facebook.com/nibblecomputersociety"><img src="media/fb1.png"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4" style="position: relative;height: 120px;">
+                            <div class="arrow-wrapper" id="top">
+                                <img src="/media/cd-icon-arrow.svg" alt="arrow" class="" />
+                            </div>
+                        </div>
+                        <!-- <div class="col-md-2" style="position: relative;height: 120px;">
+                            <div class="arrow-wrapper" id="top" style="right: 22px;left: initial;top: 21px;">
+                                <img src="/media/cd-icon-arrow.svg" alt="arrow" class="" style="width: 68px;" />
+                            </div>
+                        </div> -->
+                        <div class="col-md-4">
+                            <div class="logo-box pull-right"></div>
+                        </div>
+                    </div>
+                </footer>
+            </div>
+        </div>
+    </body>
+</html>
+<!-- <footer></footer> -->
+<div class="modal-wrapper"></div>
+<script src="/js/jquery.min.js" type="text/javascript"></script>
+<script src="/js/bootstrap.min.js" type="text/javascript"></script>
+<!-- <script type="text/javascript" src="/js/jquery.fullpage.min.js"></script> -->
+<script type="text/javascript" src="/js/jquery.onepage-scroll.min.js"></script>
+<script src="/js/main.js" type="text/javascript"></script>

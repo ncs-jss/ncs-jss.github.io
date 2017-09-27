@@ -1,0 +1,257 @@
+a {
+    text-decoration: none !important;
+}
+
+@font-face {
+    font-family: "BigNoodleTitling";
+    src: url(/fonts/big_noodle_titling.ttf);
+}
+
+.arrow-wrapper {
+    position: fixed;
+    bottom: 45px;
+    margin-left: -20px;
+    z-index: 24;
+    right: 30px;
+}
+
+.arrow-wrapper img {
+    animation-duration: 1s;
+    animation-direction: alternate;
+}
+
+#top.arrow-wrapper img {
+    transform: rotate(180deg);
+    /*display: none;*/
+}
+
+.images-list img {
+    display: none;
+}
+
+.images-list img.visible {
+    display: block;
+}
+
+.toi-text {
+    /*display: none;*/
+}
+
+.toi-text.visible {
+    display: block !important;
+}
+
+#main-body {
+    height: 100vh;
+}
+
+#main-body.unloaded {
+    overflow: hidden;
+}
+
+.job-type-wrapper p {}
+
+@font-face {
+    font-family: Blanch Caps;
+    src: url(../fonts/blanch/BLANCH_CAPS.eot);
+    src: url(../fonts/blanch/BLANCH_CAPS.eot?#iefix) format("embedded-opentype"), url(../fonts/blanch/BLANCH_CAPS.woff) format("woff"), url(../fonts/blanch/BLANCH_CAPS.ttf) format("truetype"), url("../fonts/blanch/BLANCH_CAPS.svg#Blanch Caps") format("svg");
+    font-weight: 400;
+    font-style: normal
+}
+
+.preloader-wrapper {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10000;
+    /*background: url(../media/Preloader_6.gif) center no-repeat #95a5a6;*/
+    background: url(../media/preloader.svg) center no-repeat #2c3e50;
+}
+
+.logo-wrapper {
+    position: absolute;
+    height: 100px;
+    width: 215px;
+    bottom: 10px;
+    left: 20px;
+    background: url(/media/logo/ncsncs_logo.png);
+    z-index: 24;
+    /* background: #000; */
+    background-size: cover;
+    background-position: center;
+}
+
+.projects-container p {
+    color: #555;
+    text-align: center;
+}
+
+.cd-vertical-nav li {
+    list-style: none;
+}
+
+.last-section {
+    background: #101524;
+}
+
+footer {
+    /*background: rgba(0, 0, 0, 0.6);*/
+    background: rgba(32, 32, 47, 0.6);
+    position: absolute;
+    /*bottom: 0px;*/
+    width: 100%;
+    height: 120px;
+}
+
+footer .social-links {
+    height: 110px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+}
+
+footer .social-links div {
+    padding: 20px 0px 10px 10px;
+}
+
+footer .social-links a {
+    padding-left: 10px;
+    text-decoration: none !important;
+    font-size: 17px;
+    color: rgba(99, 99, 114, 0.89);
+    transition: 1s;
+}
+
+footer .social-links img {
+    width: 60px;
+}
+
+footer .social-links span {
+    color: #eee;
+    font-size: 16px;
+}
+
+footer .social-links a:hover {
+    color: #fff;
+}
+
+footer .logo-box {
+    height: 120px;
+    width: 215px;
+    background: url(/media/logo/ncsncs_logo.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.last-section {
+    position: relative;
+}
+
+.event-section {
+    background: rgba(32, 32, 47, 0.91);
+    background: #101524;
+    /*background: #e17259;*/
+}
+
+.upcoming-event-heading {
+    height: 20%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.upcoming-event-heading h2 {
+    font-family: Blanch Caps !important;
+    font-size: 60px;
+    /*color: #fff;*/
+    color: #e17259;
+}
+
+.upcoming-event-wrapper {
+    height: 80%;
+    display: flex;
+    align-items: center;
+    /*justify-content: center;*/
+    justify-content: space-between;
+    /*background: url(http://hackncs.com/img/photo.jpg);*/
+    /*background-position: center;*/
+    /*background-size: cover;*/
+    /*background-size: 100% 100%;*/
+}
+
+.upcoming-event-wrapper hr {
+    width: 20%;
+    border-color: #e17259;
+}
+
+.upcoming-event-wrapper img {
+    height: 400px;
+    width: auto;
+    box-shadow: 2px 2px 20px 4px rgba(0, 0, 0, 0.4);
+}
+
+.image-gallery-wrapper {
+    min-height: 100vh;
+}
+
+.stats-grid-box .img h2 {
+    margin-top: 50px;
+    font-size: 168px;
+    font-family: "BigNoodleTitling";
+}
+
+#sgb-2 h2, #sgb-4 h2, #sgb-6 h2 {
+    color: #f1c40f;
+}
+
+.heading-badge {
+    position: fixed;
+    top: 40px;
+    right: -25px;
+    width: 180px;
+    height: 50px;
+    background: #e17259;
+    color: #fff;
+    border-radius: 30px;
+    z-index: 1300;
+    padding-left: 25px;
+    display: flex;
+    align-items: center;
+    /*font-family: "BigNoodleTitling";*/
+    font-family: "Blanch Caps";
+    box-shadow: 4px 2px 42px 4px rgba(0, 0, 0, 0.5);
+}
+
+.fb {
+    width: 50px;
+}
+
+.heading-badge h4 {
+    font-size: 32px;
+}
+
+.back-button {
+    position: fixed;
+    top: 100px;
+    left: 30px;
+    z-index: 1300;
+}
+
+.back-button img {
+    transform: rotate(90deg);
+    width: 36px;
+    transition: 0.7s;
+}
+
+.back-button:hover img {
+    transform: rotate(90deg) scale(1.1);
+}
+
+.sitemap {
+    height: calc(100vh - 120px);
+}

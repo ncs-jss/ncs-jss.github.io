@@ -1,0 +1,6 @@
+{
+"devDependencies": {
+  "gulp": "latest",
+  "gulp-connect": "latest"
+  }
+}

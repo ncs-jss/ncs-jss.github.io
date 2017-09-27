@@ -1,0 +1,206 @@
+#main-body {
+    background: #101524;
+}
+
+.img-box {
+    position: relative;
+    overflow: hidden;
+    padding: 0;
+}
+
+.img {
+    /*background-position: center;*/
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50vh;
+    width: 100%;
+    transition: all 1s ease-in-out;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /*background: rgba(0, 0, 0, 0.6);*/
+    background: rgba(16, 21, 36, 0.63);
+    color: #fff;
+    font-size: 20px;
+    opacity: 0;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    /*transition: 2s;*/
+    /*opacity: 0.6;*/
+    transition: all 1s ease-in-out;
+}
+
+.img-box:hover .img {
+    transform: scale(1.3);
+    opacity: 0.6;
+}
+
+.img-box:hover .overlay {
+    opacity: 1;
+}
+
+.social-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 130px;
+    opacity: 0;
+    transition: 3s;
+}
+
+.img-box .social-row a {
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 60px;
+    height: 60px;
+    transition: 0.4s;
+}
+
+.img-box:hover .social-row {
+    opacity: 1;
+}
+
+.social-row .icon-fb {
+    background-image: url(../media/fb.png);
+}
+
+.social-row .icon-linkedin {
+    background-image: url(../media/linkedin.png);
+}
+
+.social-row .icon-fb:hover {
+    background-image: url(../media/fb4.png);
+}
+
+.social-row .icon-linkedin:hover {
+    background-image: url(../media/l4.png);
+}
+
+.details {
+    position: absolute;
+    left: 0;
+    bottom: 20px;
+    font-family: Blanch Caps;
+    font-size: 30px;
+    width: 220px;
+    color: #fff;
+    transition: 1s;
+}
+
+.img-box:hover .details {
+    /*transform: scaleX(0);*/
+    /*transform-origin: left;*/
+    opacity: 0;
+}
+
+.details .name {
+    background: #e17259;
+    padding-left: 30px;
+    animation-delay: .72s;
+}
+
+.details .designation {
+    padding-left: 30px;
+    margin-right: 20px;
+    background: #101524;
+    animation-delay: .65s;
+}
+
+.a1_img {
+    background-image: url(../media/team/anukriti.jpg);
+}
+
+.a2_img {
+    background-image: url(../media/team/abhinav.jpg);
+}
+
+.a3_img {
+    background-image: url(../media/team/2.3.jpg);
+}
+
+.a4_img {
+    background-image: url(../media/team/2.4.jpg);
+}
+
+.a5_img {
+    background-image: url(../media/team/2.5.jpg);
+}
+
+.b1_img {
+    background-image: url(../media/team/Second/3.1.jpg);
+}
+
+.b2_img {
+    background-image: url(../media/team/Second/3.2.jpg);
+}
+
+.b3_img {
+    background-image: url(../media/team/Second/3.3.jpg);
+}
+
+.b4_img {
+    background-image: url(../media/team/Second/3.4.jpg);
+}
+
+.b5_img {
+    background-image: url(../media/team/Second/3.5.jpg);
+}
+
+.b6_img {
+    background-image: url(../media/team/Second/3.7.jpg);
+}
+
+.b7_img {
+    background-image: url(../media/team/Second/3.6.jpg);
+}
+
+.b8_img {
+    background-image: url(../media/team/Second/prankur.jpg);
+}
+
+.b9_img {
+    background-image: url(../media/team/Second/niki-3.jpg);
+    background-position: center;
+}
+
+.b10_img {
+    background-image: url(../media/team/Second/3.10.jpg);
+}
+
+.b11_img {
+    background-image: url(../media/team/Second/sid.jpg);
+}
+
+.b12_img {
+    background-image: url(../media/team/Second/3.12.jpg);
+}
+
+.alumni-cover {
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-image: url("/media/team/alumni.jpg");
+    position: relative;
+}
+
+.alumni-cover h2 {
+    color: #fff;
+    margin-bottom: 35px;
+    font-family: Blanch Caps;
+    font-size: 55px;
+    padding-top: 68px;
+    position: absolute;
+    bottom: 20%;
+    width: 100%;
+    text-align: center;
+}

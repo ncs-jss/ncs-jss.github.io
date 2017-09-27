@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Registration</title>
+        <link href="/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+        <link href="/css/animate.css" rel="stylesheet" type="text/css"/>
+        <link href="/css/sidebar.css" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="/css/main.css"/>
+        <link rel="stylesheet" href="/css/register.css"/>
+    </head>
+    <body data-page="register">
+        <div class="container-wrapper preloader-wrapper"></div>
+        <div class="float-menu" data-toggle="modal" data-target="#menuModal">
+            <div class="hamburger">
+                <div class="bar b1"></div>
+                <div class="bar b2"></div>
+                <div class="bar b3"></div>
+            </div>
+        </div>
+        <div class="back-button">
+            <img src="/media/cd-icon-arrow.svg" alt="arrow" class=""/>
+        </div>
+        <div class="heading-badge animated slideInRight">
+            <h4>Register</h4>
+        </div>
+        <div class='form-container'>
+            <h1>Register</h1>
+            <h2>
+                <strong>Code Maniac</strong>
+                Event
+            </h2>
+            <form class="form" id="register-form" action="#" novalidate>
+                <fieldset class="form-fieldset ui-input">
+                    <input type="text" id="username" tabindex="0" placeholder="Your Name" required/>
+                    <label for="username">
+                        <span data-text="Name">Name</span>
+                    </label>
+                </fieldset>
+                <fieldset class="form-fieldset ui-input">
+                    <input type="email" id="email" tabindex="0" placeholder="example@gmail.com" required/>
+                    <label for="email">
+                        <span data-text="E-mail Address">E-mail Address</span>
+                    </label>
+                </fieldset>
+                <fieldset class="form-fieldset ui-input">
+                    <input type="text" id="phno" tabindex="0" placeholder="Phone No." required/>
+                    <label for="phno">
+                        <span data-text="Phone">Phone</span>
+                    </label>
+                </fieldset>
+                <fieldset class="form-fieldset ui-input">
+                    <input type="text" id="admission-no" minlength="7" placeholder="15CS001" required/>
+                    <label for="admission-no">
+                        <span data-text="Admission No.">Admission No.</span>
+                    </label>
+                </fieldset>
+                <fieldset class="form-fieldset ui-input">
+                    <input type="number" id="year" min="1" max="4" placeholder="1" required/>
+                    <label for="year">
+                        <span data-text="Admission Year.">Admission Year</span>
+                    </label>
+                </fieldset>
+                <input class='animated' type='submit' value='Register'/>
+            </form>
+            <!-- <div class='agree'>
+                <input id='agree' name='agree' type='checkbox'/>
+                <label for='agree'></label>
+                Accept rules and conditions
+            </div> -->
+        </div>
+        <div class="modal-wrapper"></div>
+        <script src="/js/jquery.min.js" type="text/javascript"></script>
+        <script src="/js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="/js/main.js" type="text/javascript"></script>
+        <!-- <script src="/js/register.js"></script> -->
+    </body>
+</html>
+<!-- <div class='login'>
+    <h2>Get Yourself Registered</h2>
+    <input name='name' placeholder='Name' type='text'/>
+    <input id='pw' name='password' placeholder='Password' type='password'/>
+    <input name='email' placeholder='E-Mail Address' type='text'/>
+    <div class='agree'>
+        <input id='agree' name='agree' type='checkbox'/>
+        <label for='agree'></label>
+        Accept rules and conditions
+    </div>
+    <input class='animated' type='submit' value='Register'/>
+    <a class='forgot' href='#'>Already have an account?</a>
+</div> -->

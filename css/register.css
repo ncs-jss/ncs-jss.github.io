@@ -1,0 +1,301 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /*background: #2E3740;*/
+    color: #435160;
+    background-color: #363E4A;
+    font-family: "Blanch Caps" !important;
+    font-size: 16px;
+    color: #ffffff;
+    line-height: 1.5;
+}
+
+.form:invalid {
+    /*background: #000;*/
+}
+
+input[type=checkbox] {
+    display: none;
+}
+
+.label {
+    display: block;
+    position: absolute;
+    margin-right: 10px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: transparent;
+    content: "";
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    border: 3px solid #435160;
+}
+
+#agree:checked~label[for=agree] {
+    background: #435160;
+}
+
+input[type="submit"] {
+    background: #d0ac32;
+    border: 0;
+    width: 100%;
+    height: 40px;
+    border-radius: 3px;
+    outline: none;
+    margin-top: 40px;
+    color: #fff;
+    font-size: 27px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+}
+
+.form:not(:invalid) input[type="submit"]:hover {
+    background: #16aa56;
+}
+
+.form:invalid input[type="submit"]:hover {
+    animation-name: shake;
+}
+
+.agree {
+    padding: 30px 0px;
+    font-size: 12px;
+    text-indent: 25px;
+    line-height: 15px;
+}
+
+::-webkit-input-placeholder {
+    color: #aaa;
+    color: rgba(255, 255, 255, 0.1);
+    font-size: 24px;
+}
+
+.animated {
+    animation-fill-mode: both;
+    animation-duration: 1s;
+}
+
+@keyframes shake {
+    0%, 100% {
+        transform: translateX(0);
+    }
+    10%, 30%, 50%, 70%, 90% {
+        transform: translateX(-10px);
+    }
+    20%, 40%, 60%, 80% {
+        transform: translateX(10px);
+    }
+}
+
+h1 {
+    font-family: "Texta", "Avenir Next", "Avenir", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Blanch Caps";
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-align: center;
+    font-size: 50px;
+}
+
+h2 {
+    font-weight: 400;
+    font-size: 40px;
+    color: rgba(255, 255, 255, 0.4);
+}
+
+.form-container {
+    max-width: 320px;
+    margin: 0 auto;
+    /*padding: 20px 16px 40px 16px;*/
+    padding: 5px 16px 30px 16px;
+    text-align: center;
+}
+
+.ui-input {
+    position: relative;
+    padding: 0;
+    border: 0;
+}
+
+.ui-input input {
+    border: 0;
+    background: none;
+    padding: 16px 0 16px 0;
+    font-size: 24px;
+    outline: 0;
+    width: 100%;
+    tap-highlight-color: transparent;
+    color: #bbb;
+    touch-callout: none;
+}
+
+.ui-input:-webkit-autofill {
+    background: none !important;
+    color: #bbb !important;
+}
+
+.ui-input input+label {
+    position: relative;
+    display: block;
+    padding: 8px 0 8px 0;
+    text-transform: uppercase;
+    font-size: 24px;
+    letter-spacing: .0875em;
+    font-weight: 500;
+    text-align: left;
+}
+
+.ui-input input+label::before, .ui-input input+label::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "";
+    width: 100%;
+    height: 1px;
+}
+
+.ui-input input+label::before {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.ui-input input+label::after {
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 300ms cubic-bezier(0.215, 0.61, 0.355, 1);
+    background-color: #6EB1FF;
+    height: 2px;
+}
+
+.ui-input input+label span {
+    position: relative;
+    color: rgba(255, 255, 255, 0.2);
+    transition: color 300ms cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+
+.ui-input input+label span::after {
+    content: attr(data-text);
+    position: absolute;
+    overflow: hidden;
+    left: 0;
+    transform: scaleX(1);
+    white-space: nowrap;
+    color: #fff;
+    background-image: linear-gradient(to right, #4A90E2 50%, rgba(255, 255, 255, 0) 0%);
+    background-position: 100% 50%;
+    background-size: 200%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    backface-visibility: hidden;
+    perspective: 1000;
+    transform: translateZ(0);
+    transition: background-position 300ms cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+
+.ui-input input:focus+label::after, .ui-input input.error+label::after, .ui-input input.filled:invalid+label::after, .ui-input input.filled+label::after {
+    transform: scaleX(1);
+    transform-origin: left;
+}
+
+.ui-input input:focus+label span::after, .ui-input input.error+label span::after, .ui-input input.filled:invalid+label span::after, .ui-input input.filled+label span::after {
+    background-image: linear-gradient(to right, white 50%, rgba(255, 255, 255, 0) 0%);
+    background-position: 0% 50%;
+}
+
+.ui-input input.filled {
+    color: #ffffff;
+}
+
+.ui-input input.filled+label::after {
+    background-color: #ffffff;
+}
+
+.ui-input input.filled+label span::after {
+    background-image: linear-gradient(to right, #ffffff 50%, rgba(255, 255, 255, 0) 0%);
+    background-position: 0% 50%;
+}
+
+.ui-input input:focus {
+    color: #6EB1FF;
+}
+
+.ui-input input:focus+label::after {
+    background-color: #6EB1FF;
+}
+
+.ui-input input:focus+label span::after {
+    background-image: linear-gradient(to right, #6EB1FF 50%, rgba(255, 255, 255, 0) 0%);
+    background-position: 0% 50%;
+}
+
+.ui-input input.error, .ui-input input.filled:invalid {
+    color: #E66161;
+}
+
+.ui-input input.error+label::after, .ui-input input.filled:invalid+label::after {
+    background-color: #E66161;
+}
+
+.ui-input input.error+label span::after, .ui-input input.filled:invalid+label span::after {
+    background-image: linear-gradient(to right, #E66161 50%, rgba(255, 255, 255, 0) 0%);
+    background-position: 0% 50%;
+}
+
+.btn {
+    border: 0;
+    background-color: #50617A;
+    padding: 18px 30px 18px 30px;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: .0875em;
+    font-weight: 500;
+    border-radius: 100px;
+    outline: 0;
+    transition: background-color 300ms cubic-bezier(0.215, 0.61, 0.355, 1), color 300ms cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+
+.btn:focus, .btn:active, .btn:hover {
+    background-color: #6EB1FF;
+    color: white;
+}
+
+.ui-input {
+    animation-name: fadeIn;
+    animation-duration: 180ms;
+    animation-fill-mode: both;
+    animation-iteration-count: 1;
+}
+
+.ui-input:nth-of-type(1) {
+    animation-delay: 0ms;
+}
+
+.ui-input:nth-of-type(2) {
+    animation-delay: 80ms;
+}
+
+.ui-input:nth-of-type(3) {
+    animation-delay: 180ms;
+}
+
+.ui-input:nth-of-type(4) {
+    animation-delay: 220ms;
+}
+
+.ui-input:nth-of-type(5) {
+    animation-delay: 300ms;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translate3d(0, -25%, 0);
+    }
+    to {
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+    }
+}

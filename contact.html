@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Nibble Computer Society</title>
+        <link rel="icon" type="image/png" href="media/favicon.ico"/>
+        <link href="/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+        <link href="/css/animate.css" rel="stylesheet" type="text/css"/>
+        <link href='http://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'/>
+        <link rel="stylesheet" href="css/sidebar.css"/>
+        <link rel="stylesheet" href="css/contact-form/style.css"/>
+        <link rel="stylesheet" href="css/custom-google-map/style.css"/>
+        <link rel="stylesheet" href="css/contact.css"/>
+    </head>
+    <body>
+        <div class="float-menu" data-toggle="modal" data-target="#menuModal">
+            <div class="hamburger">
+                <div class="bar b1"></div>
+                <div class="bar b2"></div>
+                <div class="bar b3"></div>
+            </div>
+        </div>
+        <div class="container app">
+            <div class="row app-main">
+                <div id="map"></div>
+                <div class="col-sm-5 contact">
+                    <div class="contact-main">
+                        <form class="cd-form floating-labels">
+                            <fieldset>
+                                <legend>Contact Us</legend>
+                                <!-- <div class="error-message">
+                                    <p>Please enter a valid email address</p>
+                                </div> -->
+                                <div class="icon">
+                                    <label class="cd-label" for="cd-name">Name</label>
+                                    <input class="user" type="text" name="cd-name" id="cd-name" required/>
+                                </div>
+                                <!-- <div class="icon">
+                                                                <label class="cd-label" for="cd-company">Branch</label>
+                                                                <input class="company" type="text" name="cd-company" id="cd-company" required>
+                                                            </div> -->
+                                <div class="icon">
+                                    <label class="cd-label" for="cd-email">Email</label>
+                                    <input class="email error" type="email" name="cd-email" id="cd-email" required/>
+                                </div>
+                                <!-- <div>
+                                                                <p class="cd-select icon">
+                                                                    <select class="budget">
+                                                                        <option value="1">1 Year</option>
+                                                                        <option value="2">2 Year</option>
+                                                                        <option value="3">3 Year</option>
+                                                                        <option value="4">4 Year</option>
+                                                                    </select>
+                                                                </p>
+                                                            </div> -->
+                                <div class="icon">
+                                    <label class="cd-label" for="cd-textarea">Message</label>
+                                    <textarea class="message" name="cd-textarea" id="cd-textarea" required></textarea>
+                                </div>
+                                <div>
+                                    <input type="submit" value="Send Message"/>
+                                </div>
+                            </fieldset>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal-wrapper"></div>
+    </body>
+    <script src="/js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="/js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBce_yRMYZVvx76xlgRR4ksg3tRpmk6tRU&callback=initMap"></script>
+    <script src="/js/contact.js" type="text/javascript" charset="utf-8"></script>
+    <script src="/js/googlemap.js" type="text/javascript" charset="utf-8"></script>
+    <script src="/js/main.js" type="text/javascript" charset="utf-8"></script>
+</html>
