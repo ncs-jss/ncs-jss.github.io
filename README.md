@@ -1,4 +1,4 @@
-#Website for Nibble Computer Society
+# Website for Nibble Computer Society
 
 Nibble Computer Society is the official computer society of JSS Noida. We are a group of students working towards enhancing knowledge in the field of computer science. The website shows our contribution to the college, our members and events & workshops that we organize.
 
