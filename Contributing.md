@@ -14,16 +14,14 @@
  
  ## Getting Started
  
- * [Fork the repo!](https://github.com/ncs-jss/ncs-jss.github.io/fork)
-      
- * Clone your fork of the repo: "git clone https://github.com/ncs-jss/ncs-jss.github.io/fork".
- * Navigate to the project: "cd ncs-jss".
+ * [Fork the repo!](https://github.com/ncs-jss/ncs-jss.github.io/fork) and clone it.
+ * Navigate to the project: `cd ncs-jss`.
  * Open with your favorite editor.
  * If you've started working on an issue, leave a comment as it helps avoid duplicate work.
  * Make your changes.
   Run "git commit" and add your message describing what you have changed. If you have made changes that address an issue include the text "Closes #1" (where 1 would  be   the issue number) to your commit message.
   
- * Submit a [pull request](https://github.com/ncs-jss/ncs-jss.github.io/pulls). Once you have committed your changes locally and pushed them to your fork of the repo, a banner with a **Compare & pull request** button should appear on the main Zen Audio Player repo page to submit a pull request.
+ * Submit a [pull request](https://github.com/ncs-jss/ncs-jss.github.io/pulls). Once you have committed your changes locally and pushed them to your fork of the repo, a banner with a **Compare & pull request** button should appear on the main repo page to submit a pull request.
  
 ## Code of Conduct
  
