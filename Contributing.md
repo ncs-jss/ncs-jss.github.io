@@ -2,7 +2,7 @@
  # Contributing Guidelines
  
  
- ## Contributing
+ ### Contributing
  
  When contributing to this repository, please first discuss the change you wish to make via issue,
  email, or any other method with the owners of this repository before making a change. 
@@ -12,10 +12,10 @@
  
  
  
- ## Getting Started
+ ### Getting Started
  
  * [Fork the repo!](https://github.com/ncs-jss/ncs-jss.github.io/fork) and clone it.
- * Navigate to the project: `cd ncs-jss`.
+ * Navigate to the project: `cd ncs-jss.github.io`.
  * Open with your favorite editor.
  * If you've started working on an issue, leave a comment as it helps avoid duplicate work.
  * Make your changes.
@@ -23,14 +23,14 @@
   
  * Submit a [pull request](https://github.com/ncs-jss/ncs-jss.github.io/pulls). Once you have committed your changes locally and pushed them to your fork of the repo, a banner with a **Compare & pull request** button should appear on the main repo page to submit a pull request.
  
-## Code of Conduct
+### Code of Conduct
  
 
-##Our Pledge
+### Our Pledge
 
 In the interest of fostering an open and welcoming environment, we as contributors and maintainers pledge to making participation in our project and our community a harassment-free experience for everyone, regardless of age, body size, disability, ethnicity, gender identity and expression, level of experience, nationality, personal appearance, race, religion, or sexual identity and orientation.
 
-##Our Standards
+### Our Standards
 
 Examples of behavior that contributes to creating a positive environment include:
 
@@ -40,7 +40,7 @@ Examples of behavior that contributes to creating a positive environment include
 * Focusing on what is best for the community
 * Showing empathy towards other community members
 
-##Examples of unacceptable behavior by participants include:
+### Examples of unacceptable behavior by participants include:
 
 * The use of sexualized language or imagery and unwelcome sexual attention or advances
 * Trolling, insulting/derogatory comments, and personal or political attacks
@@ -53,7 +53,7 @@ Project maintainers are responsible for clarifying the standards of acceptable b
 
 Project maintainers have the right and responsibility to remove, edit, or reject comments, commits, code, wiki edits, issues, and other contributions that are not aligned to this Code of Conduct, or to ban temporarily or permanently any contributor for other behaviors that they deem inappropriate, threatening, offensive, or harmful.
 
-##Scope
+### Scope
 
 This Code of Conduct applies both within project spaces and in public spaces when an individual is representing the project or its community. Examples of representing a project or community include using an official project e-mail address, posting via an official social media account, or acting as an appointed representative at an online or offline event. Representation of a project may be further defined and clarified by project maintainers.
 
