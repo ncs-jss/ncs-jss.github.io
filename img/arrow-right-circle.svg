@@ -1,0 +1,16 @@
+<svg id="arrow-right-circle" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #fafafa;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 4px;
+      }
+    </style>
+  </defs>
+  <circle id="Ellipse_9" data-name="Ellipse 9" class="cls-1" cx="18" cy="18" r="18" transform="translate(2 2)"/>
+  <path id="Path_23" data-name="Path 23" class="cls-1" d="M12,22.4l7.2-7.2L12,8" transform="translate(8 4.8)"/>
+  <line id="Line_34" data-name="Line 34" class="cls-1" x2="14.4" transform="translate(12.8 20)"/>
+</svg>
