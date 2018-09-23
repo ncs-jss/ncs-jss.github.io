@@ -154,7 +154,7 @@ body {
       padding-top: 3rem;
     }
     .box {
-      background: linear-gradient(90deg, var(--c1, #f6d365), var(--c2, #fda085) 51%, var(--c1, #f6d365)) var(--x, 0)/ 200%;
+      background: linear-gradient(138deg, var(--c1, #f6d365), var(--c2, #fda085) 51%, var(--c1, #f6d365)) var(--x, 0)/ 200%;
       transition: 1s;
       &:hover {
         --x: 100%; 
@@ -173,7 +173,7 @@ body {
       --c2: rgba(26,251,148,1);
     }
     .box4 {
-      --c1: rgba(0,72,212,1);
+      --c1: rgba(0,50,212,1);
       --c2: rgba(209,51,255,1);
     }
     h1 {
@@ -318,6 +318,15 @@ body {
   padding-right: 0px;
   padding-left: 0px;
   }
+  span {
+    font-size: 30px;
+      color: #212121;
+      font-family: 'AvenirNext' , serif;
+      @media(max-width: 768px){
+      font-size: 20px;
+      font-family: 'AvenirNextDemi' , serif;
+      }
+  }
   .margin_new {
     width: 70%;
     @media(max-width: 768px){
@@ -390,6 +399,13 @@ body {
       font-size: 20px;
       @media(max-width: 768px) {
         font-size: 20px;
+      }
+      }
+
+      .padding {
+      padding-top: 4rem;
+      @media(max-width: 768px){
+      padding-top: 0;
       }
       }
       h6 {

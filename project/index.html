@@ -68,9 +68,9 @@
             <div class="col-md-6 ">
               <div class="head_team">
                 <img class="img" src="../img/projects/info-connect.png" />
-                <h2 class="avenir pt-3">
-                JSS Infoconnect
-                </h2>
+                <span class="pt-3">
+                  JSS Infoconnect
+                </span>
                 <!--  <h3 style="display: inline-block;" class="avenirRegular">CTC &amp; President</h3>
                 <div style="display: inline-block; float: right;">
                   <img src="img/github-icon.svg" width="24px">&nbsp;&nbsp;
@@ -81,9 +81,9 @@
             <div class="col-md-6">
               <div class="head_team">
                 <img class="img" src="../img/projects/tech-trek.png" />
-                <h2 class="avenir pt-3">
-                Tech Trek
-                </h2>
+                <span class="pt-3">
+                  Tech Trek
+                </span>
                 <!-- <h3 style="display: inline-block;" class="avenirRegular">Technical Head</h3>
                 <div style="display: inline-block; float: right;">
                   <img src="img/github-icon.svg" width="24px">&nbsp;&nbsp;
@@ -93,7 +93,7 @@
             </div>
           </div>
         </div>
-        <div class="container-fluid  margin mx-auto" style="padding-top: 4rem;">
+        <div class="container-fluid  margin mx-auto padding">
           <div class="row">
             <div class="col-md-4 ">
               <div class="head_team">
@@ -179,55 +179,57 @@
           </div>
         </div>
       </section>
-     <section id="footer">
-          <div class="container-fluid">
-            <div class="row">
-              <div class="col-md-3 text-center">
-                <img src="../img/ncs-logo.svg" height="60px" height="60px" />
-              </div>
-              <div class="col-md-6 pt-3 text-center">
+      <section id="footer">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-3 text-center">
+              <img src="../img/ncs-logo.svg" height="60px" height="60px" />
+            </div>
+            <div class="col-md-6 pt-3 text-center">
+              <a href="mailto:ncs@jssaten.ac.in" style="text-decoration: none;">
                 <h2 class="avenirDemi">ncs@jssaten.ac.in</h2>
-                <br/>
-                <div class="d-none d-md-block">
-                  <a href="#top" id="top-button" class="smoothScroll" title="Back to Top">
-                    <span class="fa fa-chevron-circle-up fa-2x"></span>
-                  </a>
-                </div>
-              </div>
-              <div class="text-center pt-3 col-md-3">
-                <a href="http://facebook.com/nibblecomputersociety" target="_blank" style="text-decoration: none;">
-                  <img src="../img/facebook.svg" class="pr-3" height="36px" />
-                </a>
-                <a href="http://github.com/ncs-jss" target="_blank" style="text-decoration: none;">
-                  <img src="../img/github-icon.svg" height="36px" />
+              </a>
+              <br/>
+              <div class="d-none d-md-block">
+                <a href="#top" id="top-button" class="smoothScroll" title="Back to Top">
+                  <span class="fa fa-chevron-circle-up fa-2x"></span>
                 </a>
               </div>
             </div>
+            <div class="text-center pt-3 col-md-3">
+              <a href="http://facebook.com/nibblecomputersociety" target="_blank" style="text-decoration: none;">
+                <img src="../img/facebook.svg" class="pr-3" height="36px" />
+              </a>
+              <a href="http://github.com/ncs-jss" target="_blank" style="text-decoration: none;">
+                <img src="../img/github-icon.svg" height="36px" />
+              </a>
+            </div>
           </div>
-          <div class="mx-auto d-block d-md-none" style="width: 5%;">
-            <br/>
-            
-            <a href="#top" id="top-button" class="smoothScroll" title="Back to Top">
-              <span class="fa fa-chevron-circle-up fa-2x"></span>
-            </a>
-          </div>
+        </div>
+        <div class="mx-auto d-block d-md-none" style="width: 5%;">
+          <br/>
           
-        </section>
-      </div>
-      <script type="text/javascript">
-      // Smooth scroll
-      $('.smoothScroll').click(function () {
-      if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
-      var target = $(this.hash);
-      target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-      if (target.length) {
-      $('html,body').animate({
-      scrollTop: target.offset().top - 80
-      }, 700);
-      return false;
-      }
-      }
-      });
-      </script>
-    </body>
-  </html>
+          <a href="#top" id="top-button" class="smoothScroll" title="Back to Top">
+            <span class="fa fa-chevron-circle-up fa-2x"></span>
+          </a>
+        </div>
+        
+      </section>
+    </div>
+    <script type="text/javascript">
+    // Smooth scroll
+    $('.smoothScroll').click(function () {
+    if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+    var target = $(this.hash);
+    target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+    if (target.length) {
+    $('html,body').animate({
+    scrollTop: target.offset().top - 80
+    }, 700);
+    return false;
+    }
+    }
+    });
+    </script>
+  </body>
+</html>

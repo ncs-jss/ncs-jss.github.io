@@ -135,7 +135,7 @@ body {
       padding-bottom: 3rem;
       padding-top: 3rem; } }
   #club .box {
-    background: linear-gradient(90deg, var(--c1, #f6d365), var(--c2, #fda085) 51%, var(--c1, #f6d365)) var(--x, 0)/200%;
+    background: linear-gradient(138deg, var(--c1, #f6d365), var(--c2, #fda085) 51%, var(--c1, #f6d365)) var(--x, 0)/200%;
     transition: 1s; }
     #club .box:hover {
       --x: 100%; }
@@ -149,7 +149,7 @@ body {
     --c1:rgba(70,211,255,1);
     --c2: rgba(26,251,148,1); }
   #club .box4 {
-    --c1: rgba(0,72,212,1);
+    --c1: rgba(0,50,212,1);
     --c2: rgba(209,51,255,1); }
   #club h1 {
     font-size: 36px; }
@@ -276,6 +276,14 @@ body {
   #main_team .col-md-4 {
     padding-right: 0px;
     padding-left: 0px; }
+  #main_team span {
+    font-size: 30px;
+    color: #212121;
+    font-family: 'AvenirNext' , serif; }
+    @media (max-width: 768px) {
+      #main_team span {
+        font-size: 20px;
+        font-family: 'AvenirNextDemi' , serif; } }
   #main_team .margin_new {
     width: 70%; }
     @media (max-width: 768px) {
@@ -340,6 +348,11 @@ body {
       @media (max-width: 768px) {
         #main_team .head_team h5 {
           font-size: 20px; } }
+    #main_team .head_team .padding {
+      padding-top: 4rem; }
+      @media (max-width: 768px) {
+        #main_team .head_team .padding {
+          padding-top: 0; } }
     #main_team .head_team h6 {
       font-size: 16px;
       color: #616161; }
