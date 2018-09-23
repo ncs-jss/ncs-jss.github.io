@@ -42,11 +42,12 @@ body {
   .navbar {
     background-color: transparent!important;
     width: 75%;
-    margin-top: 3rem;
+    margin-top: 2rem;
     padding-right: 0px;
     padding-left:0px;
     @media(max-width: 768px) {
         width: 90%;
+        margin-top: 1rem;
     }
     .navbar-brand {
       font-size: 2rem;
