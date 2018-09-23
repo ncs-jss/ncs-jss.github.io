@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 17.6 17.6">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #616161;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 1.6px;
+      }
+    </style>
+  </defs>
+  <g id="git-branch" transform="translate(-2.2 -2.2)">
+    <line id="Line_17" data-name="Line 17" class="cls-1" y2="10.667" transform="translate(5.667 3)"/>
+    <circle id="Ellipse_1" data-name="Ellipse 1" class="cls-1" cx="2.667" cy="2.667" r="2.667" transform="translate(13.667 3)"/>
+    <circle id="Ellipse_2" data-name="Ellipse 2" class="cls-1" cx="2.667" cy="2.667" r="2.667" transform="translate(3 13.667)"/>
+    <path id="Path_9" data-name="Path 9" class="cls-1" d="M17,9a8,8,0,0,1-8,8" transform="translate(-0.667 -0.667)"/>
+  </g>
+</svg>
