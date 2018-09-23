@@ -232,6 +232,21 @@ body {
     @media(max-width: 768px){
       padding-top: 3rem;
     }
+    .box {
+     background: linear-gradient(138deg, var(--c1, #f6d365), var(--c2, #fda085) 51%, var(--c1, #f6d365)) var(--x, 0)/ 200%;
+      transition: 1s;
+      &:hover {
+        --x: 100%; 
+    }
+    }
+    .red_box {
+      --c1: rgba(255, 144, 120, 1);
+     --c2: rgba(255, 142, 210, 1);
+    }
+    .green_box {
+    --c1: rgba(70, 211, 255, 1);
+    --c2: rgba(26, 251, 148, 1);
+    }
     .width_mobile {
       width: 25%;
       @media(max-width: 900px){
