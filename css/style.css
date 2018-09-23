@@ -276,6 +276,11 @@ body {
   #main_team .col-md-4 {
     padding-right: 0px;
     padding-left: 0px; }
+  #main_team .padding {
+    padding-top: 4rem !important; }
+    @media (max-width: 768px) {
+      #main_team .padding {
+        padding-top: 0 !important; } }
   #main_team span {
     font-size: 30px;
     color: #212121;
@@ -348,11 +353,6 @@ body {
       @media (max-width: 768px) {
         #main_team .head_team h5 {
           font-size: 20px; } }
-    #main_team .head_team .padding {
-      padding-top: 4rem; }
-      @media (max-width: 768px) {
-        #main_team .head_team .padding {
-          padding-top: 0; } }
     #main_team .head_team h6 {
       font-size: 16px;
       color: #616161; }

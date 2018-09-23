@@ -318,6 +318,12 @@ body {
   padding-right: 0px;
   padding-left: 0px;
   }
+   .padding {
+      padding-top: 4rem!important;
+      @media(max-width: 768px){
+      padding-top: 0!important;
+      }
+      }
   span {
     font-size: 30px;
       color: #212121;
@@ -402,12 +408,6 @@ body {
       }
       }
 
-      .padding {
-      padding-top: 4rem;
-      @media(max-width: 768px){
-      padding-top: 0;
-      }
-      }
       h6 {
       font-size: 16px;
       color: #616161;
