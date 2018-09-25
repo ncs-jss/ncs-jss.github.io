@@ -1,6 +1,14 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-126400023-1"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-126400023-1');
+    </script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
@@ -17,7 +25,9 @@
       <title>Nibble Computer Society</title>
     </head>
     <body onload="preloader()" id="top">
-      <div id="preloader"></div>
+      <div id="preloader">
+        <img src="./img/preloader.gif">
+      </div>
       <div id="content">
         <a href="#" id="scroll"><span></span></a>
         <nav class="navbar navbar-expand-lg mx-auto navbar-light">
