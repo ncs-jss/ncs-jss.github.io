@@ -254,7 +254,7 @@ body {
           font-size: 24px; } }
     #about .box_medium p {
       color: #fff;
-      font-size: 24px; }
+      font-size: 1.25rem; }
       @media (max-width: 768px) {
         #about .box_medium p {
           font-size: 20px; } }
@@ -319,7 +319,7 @@ body {
         font-size: 20px; } }
   #main_team h4 {
     color: #616161;
-    font-size: 20px;
+    font-size: 1.25rem;
     text-align: left;
     padding-top: 3rem;
     width: 90%;
