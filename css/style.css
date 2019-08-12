@@ -228,18 +228,18 @@ body .navbar-light .navbar-toggler-icon {
 }
 
 #club .box1 {
-  --c1: #F1726C;
-  --c2: #FFAA00;
+  --c1: #f1726c;
+  --c2: #ffaa00;
 }
 
 #club .box2 {
-  --c1: #FF6544;
-  --c2: #FF33AE;
+  --c1: #ff6544;
+  --c2: #ff33ae;
 }
 
 #club .box3 {
-  --c1: #08B5EC;
-  --c2: #00EE80;
+  --c1: #08b5ec;
+  --c2: #00ee80;
 }
 
 #club .box4 {
@@ -774,9 +774,16 @@ body .navbar-light .navbar-toggler-icon {
   margin-bottom: 68px;
 }
 
+@media (max-width: 1000px) {
+  .mainProject .mainProject-wrap {
+    margin-bottom: 100px;
+  }
+}
+
 @media (max-width: 510px) {
   .mainProject .mainProject-wrap {
     margin-bottom: 100px;
+    margin-left: 2vw;
   }
 }
 
@@ -793,17 +800,34 @@ body .navbar-light .navbar-toggler-icon {
   transition: 0.9s ease;
 }
 
+@media (max-width: 1200px) {
+  .mainProject .mainProject-wrap .image-wrap {
+    height: 25vw;
+    width: 41.3vw;
+  }
+}
+
 @media (max-width: 1000px) {
   .mainProject .mainProject-wrap .image-wrap {
-    height: 200px;
-    width: 346px;
+    margin-top: 15%;
+    height: 23vw;
+    width: 36vw;
+  }
+}
+
+@media (max-width: 760px) {
+  .mainProject .mainProject-wrap .image-wrap {
+    margin-top: 15%;
+    height: 40vw;
+    width: 65vw;
+    margin-bottom: 10%;
   }
 }
 
 @media (max-width: 510px) {
   .mainProject .mainProject-wrap .image-wrap {
-    height: 200px;
-    width: 346px;
+    height: 55vw;
+    width: 92.5vw;
     margin-bottom: 40px;
   }
 }
@@ -847,17 +871,33 @@ body .navbar-light .navbar-toggler-icon {
   margin-bottom: 35px;
 }
 
+@media (max-width: 1000px) {
+  .mainProject .mainProject-wrap h2 {
+    margin-bottom: 10px;
+  }
+}
+
 .mainProject .mainProject-wrap p {
   font-size: 24px;
   color: #616161;
   font-family: "AvenirRegular";
+  margin-bottom: 0;
 }
 
-.mainProject .mainProject-wrap img {
-  margin-top: -5px;
-  margin-left: 10px;
-  height: 32px;
+.mainProject .mainProject-wrap .tech img {
+  margin-top: 0;
+  height: 33px;
   margin-bottom: 31px;
+}
+
+.mainProject .mainProject-wrap .tech2 img {
+  height: 52px;
+  margin-bottom: 27px;
+}
+
+.mainProject .mainProject-wrap .tech3 img,
+.mainProject .mainProject-wrap .tech4 img {
+  height: 40px;
 }
 
 .mainProject .mainProject-wrap .buttons {
@@ -911,6 +951,12 @@ body .navbar-light .navbar-toggler-icon {
   margin-bottom: 68px;
 }
 
+@media (max-width: 1100px) {
+  .projects-wrap {
+    margin-left: 2vw;
+  }
+}
+
 @media (max-width: 510px) {
   .projects-wrap {
     margin-left: 20px;
@@ -938,18 +984,36 @@ body .navbar-light .navbar-toggler-icon {
   transition: 0.9s ease;
 }
 
+@media (max-width: 1200px) {
+  .projects-wrap .image-wrap {
+    height: 25vw;
+    width: 41.3vw;
+  }
+}
+
 @media (max-width: 1000px) {
   .projects-wrap .image-wrap {
-    height: 200px;
-    width: 346px;
+    margin-top: 15%;
+    height: 23vw;
+    width: 36vw;
+  }
+}
+
+@media (max-width: 760px) {
+  .projects-wrap .image-wrap {
+    margin-top: 15%;
+    height: 40vw;
+    width: 65vw;
+    margin-bottom: 10%;
   }
 }
 
 @media (max-width: 510px) {
   .projects-wrap .image-wrap {
-    height: 200px;
-    width: 346px;
+    height: 55vw;
+    width: 92.5vw;
     margin-bottom: 40px;
+    margin-left: 2vw;
   }
 }
 
@@ -1068,6 +1132,12 @@ body .navbar-light .navbar-toggler-icon {
   font-family: "AvenirRegular";
 }
 
+@media (max-width: 760px) {
+  .projects-wrap p {
+    max-width: 60vw;
+  }
+}
+
 .year {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
@@ -1084,6 +1154,7 @@ body .navbar-light .navbar-toggler-icon {
   width: 360px;
   max-width: 360px;
   min-width: 20px;
+  margin-top: 1.6vh;
 }
 
 .year h6 {
@@ -1091,7 +1162,6 @@ body .navbar-light .navbar-toggler-icon {
   font-size: 24px;
   font-family: "AvenirNextMedium";
   padding: 0px 40px;
-  margin-top: -14px;
 }
 
 .third {
