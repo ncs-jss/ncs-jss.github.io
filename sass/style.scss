@@ -179,16 +179,16 @@ body {
     }
   }
   .box1 {
-    --c1: #F1726C;
-    --c2: #FFAA00;
+    --c1: #f1726c;
+    --c2: #ffaa00;
   }
   .box2 {
-    --c1: #FF6544;
-    --c2: #FF33AE;
+    --c1: #ff6544;
+    --c2: #ff33ae;
   }
   .box3 {
-    --c1: #08B5EC;
-    --c2: #00EE80;
+    --c1: #08b5ec;
+    --c2: #00ee80;
   }
   .box4 {
     --c1: rgba(0, 50, 212, 1);
@@ -587,12 +587,17 @@ body {
   margin-bottom: 110px;
 
   .mainProject-wrap {
-    max-width: 1046px;
+    max-width: 1046px; 
     margin: auto;
     margin-bottom: 68px;
 
+    @media (max-width: 1000px) {
+      margin-bottom: 100px;
+    }
+
     @media (max-width: 510px) {
       margin-bottom: 100px;
+      margin-left:2vw;
     }
 
     .image-wrap {
@@ -604,15 +609,28 @@ body {
       background-size: 110%;
       box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.24);
       transition: 0.9s ease;
-      @media (max-width: 1000px) {
-        height: 200px;
-        width: 346px;
-        // margin-bottom: 40px;
+
+      @media (max-width: 1200px) {
+        height: 25vw;
+        width: 41.3vw;
       }
-      
+
+      @media (max-width: 1000px) {
+        margin-top: 15%;
+        height: 23vw;
+        width: 36vw;
+      }
+
+      @media (max-width: 760px) {
+        margin-top: 15%;
+        height: 40vw;
+        width: 65vw;
+        margin-bottom: 10%;
+      }
+
       @media (max-width: 510px) {
-        height: 200px;
-        width: 346px;
+        height: 55vw;
+        width: 92.5vw;
         margin-bottom: 40px;
       }
     }
@@ -646,20 +664,38 @@ body {
       color: #212121;
       font-family: "AvenirNextDemi";
       margin-bottom: 35px;
+      @media (max-width: 1000px) {
+        margin-bottom: 10px;
+      }
     }
 
     p {
       font-size: 24px;
       color: #616161;
       font-family: "AvenirRegular";
+      margin-bottom: 0;
     }
 
-    img {
-      margin-top: -5px;
-      margin-left: 10px;
-      height: 32px;
-      // width: 86px;
-      margin-bottom: 31px;
+    .tech {
+      img {
+        margin-top: 0;
+        height: 33px;
+        margin-bottom: 31px;
+      }
+    }
+
+    .tech2 {
+      img {
+        height: 52px;
+        margin-bottom: 27px;
+      }
+    }
+
+    .tech3,
+    .tech4 {
+      img {
+        height: 40px;
+      }
     }
 
     .buttons {
@@ -677,13 +713,13 @@ body {
         height: 40px;
         background-color: #a5a5a5;
         transition: 0.3s ease;
-       
+
         &:hover {
           cursor: pointer;
-          box-shadow: 0px 3.5px 7px 0px rgba(0,0,0,0.75);
+          box-shadow: 0px 3.5px 7px 0px rgba(0, 0, 0, 0.75);
         }
       }
-      .blue{
+      .blue {
         background-color: #0048d4;
       }
       a {
@@ -700,6 +736,13 @@ body {
   max-width: 1046px;
   margin: auto;
   margin-bottom: 68px;
+
+
+
+  @media (max-width: 1100px) {
+    margin-left: 2vw;
+  }
+
   @media (max-width: 510px) {
     margin-left: 20px;
     margin-bottom: 20px;
@@ -721,16 +764,30 @@ body {
     margin-bottom: 27px;
     background-size: 110%;
     transition: 0.9s ease;
+
+    @media (max-width: 1200px) {
+      height: 25vw;
+      width: 41.3vw;
+    }
+
     @media (max-width: 1000px) {
-      height: 200px;
-      width: 346px;
-      // margin-bottom: 40px;
+      margin-top: 15%;
+      height: 23vw;
+      width: 36vw;
+    }
+
+    @media (max-width: 760px) {
+      margin-top: 15%;
+      height: 40vw;
+      width: 65vw;
+      margin-bottom: 10%;
     }
 
     @media (max-width: 510px) {
-      height: 200px;
-      width: 346px;
+      height: 55vw;
+      width: 92.5vw;
       margin-bottom: 40px;
+      margin-left:2vw;
     }
   }
 
@@ -788,6 +845,7 @@ body {
     width: 100%;
     margin-bottom: 18px;
 
+
     h2 {
       width: 70%;
       font-size: 30px;
@@ -820,6 +878,11 @@ body {
     font-size: 24px;
     color: #616161;
     font-family: "AvenirRegular";
+    
+    @media (max-width: 760px) {
+      max-width: 60vw;
+    }
+
   }
 }
 
@@ -834,6 +897,7 @@ body {
     width: 360px;
     max-width: 360px;
     min-width: 20px;
+    margin-top: 1.6vh;
   }
 
   h6 {
@@ -841,7 +905,6 @@ body {
     font-size: 24px;
     font-family: "AvenirNextMedium";
     padding: 0px 40px;
-    margin-top: -14px;
   }
 }
 
@@ -849,7 +912,7 @@ body {
   margin-top: 100px;
 }
 
-.team-description{
+.team-description {
   padding: 0;
   // border: 1px solid black;
   max-width: 734px;
@@ -858,7 +921,7 @@ body {
   justify-content: center;
   align-items: center;
 
-  h4{
+  h4 {
     padding: 0;
     font-size: 24px;
     font-family: "AvenirRegular";
