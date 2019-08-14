@@ -783,7 +783,6 @@ body .navbar-light .navbar-toggler-icon {
 @media (max-width: 510px) {
   .mainProject .mainProject-wrap {
     margin-bottom: 100px;
-    margin-left: 2vw;
   }
 }
 
@@ -951,15 +950,9 @@ body .navbar-light .navbar-toggler-icon {
   margin-bottom: 68px;
 }
 
-@media (max-width: 1100px) {
-  .projects-wrap {
-    margin-left: 2vw;
-  }
-}
-
 @media (max-width: 510px) {
   .projects-wrap {
-    margin-left: 20px;
+    margin-left: 1vw;
     margin-bottom: 20px;
   }
 }
@@ -988,6 +981,7 @@ body .navbar-light .navbar-toggler-icon {
   .projects-wrap .image-wrap {
     height: 25vw;
     width: 41.3vw;
+    margin-left: 4vw;
   }
 }
 
@@ -1005,6 +999,7 @@ body .navbar-light .navbar-toggler-icon {
     height: 40vw;
     width: 65vw;
     margin-bottom: 10%;
+    margin-left: 2vw;
   }
 }
 
@@ -1089,6 +1084,19 @@ body .navbar-light .navbar-toggler-icon {
   margin-bottom: 18px;
 }
 
+@media (max-width: 1100px) {
+  .projects-wrap .heading-box {
+    margin-left: 2vw;
+  }
+}
+
+@media (max-width: 760px) {
+  .projects-wrap .heading-box {
+    margin-left: 2vw;
+    max-width: 95vw;
+  }
+}
+
 .projects-wrap .heading-box h2 {
   width: 70%;
   font-size: 30px;
@@ -1100,9 +1108,7 @@ body .navbar-light .navbar-toggler-icon {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  position: absolute;
   right: 0;
-  margin-right: 35px;
 }
 
 .projects-wrap .heading-box .right-box .right {
@@ -1132,9 +1138,16 @@ body .navbar-light .navbar-toggler-icon {
   font-family: "AvenirRegular";
 }
 
+@media (max-width: 1100px) {
+  .projects-wrap p {
+    margin-left: 2vw;
+  }
+}
+
 @media (max-width: 760px) {
   .projects-wrap p {
-    max-width: 60vw;
+    margin-left: 2vw;
+    max-width: 90vw;
   }
 }
 
