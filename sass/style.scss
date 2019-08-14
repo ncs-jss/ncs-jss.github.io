@@ -599,7 +599,7 @@ body {
     }
 
     @media (max-width: 510px) {
-      margin-bottom: 50px;
+      margin-bottom: 0px;
       // margin-left:2vw;
     }
 
@@ -752,12 +752,16 @@ body {
 
   @media (max-width: 510px) {
     margin-left: 1vw;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
   }
 
   .col-md-6 {
     @media (max-width: 510px) {
-      // margin-bottom: 80px;
+      margin-top:0px;
+      margin-bottom: 0px;
+    padding-bottom: 0px;
+
     }
   }
 
@@ -793,6 +797,7 @@ body {
     }
 
     @media (max-width: 510px) {
+      margin-top: 5%;
       height: 55vw;
       width: 92.5vw;
       // margin-bottom: 40px;
