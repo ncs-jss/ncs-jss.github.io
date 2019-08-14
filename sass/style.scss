@@ -563,6 +563,9 @@ body {
   margin: auto;
   margin-top: 62px;
   margin-bottom: 116.6px;
+  @media (max-width: 760px) {
+  margin-bottom: 76.6px;
+  }
 
   .heading {
     padding-bottom: 48px;
@@ -587,7 +590,7 @@ body {
   margin-bottom: 110px;
 
   .mainProject-wrap {
-    max-width: 1046px; 
+    max-width: 1046px;
     margin: auto;
     margin-bottom: 68px;
 
@@ -596,7 +599,7 @@ body {
     }
 
     @media (max-width: 510px) {
-      margin-bottom: 100px;
+      margin-bottom: 50px;
       // margin-left:2vw;
     }
 
@@ -667,6 +670,9 @@ body {
       @media (max-width: 1000px) {
         margin-bottom: 10px;
       }
+      @media (max-width: 760px) {
+        font-size: 30px;
+      }
     }
 
     p {
@@ -674,6 +680,9 @@ body {
       color: #616161;
       font-family: "AvenirRegular";
       margin-bottom: 0;
+      @media (max-width: 760px) {
+        font-size: 21px;
+      }
     }
 
     .tech {
@@ -737,8 +746,6 @@ body {
   margin: auto;
   margin-bottom: 68px;
 
-
-
   @media (max-width: 1100px) {
     // margin-left: 2vw;
   }
@@ -750,7 +757,7 @@ body {
 
   .col-md-6 {
     @media (max-width: 510px) {
-      margin-bottom: 80px;
+      // margin-bottom: 80px;
     }
   }
 
@@ -768,7 +775,7 @@ body {
     @media (max-width: 1200px) {
       height: 25vw;
       width: 41.3vw;
-      margin-left:4vw;
+      margin-left: 4vw;
     }
 
     @media (max-width: 1000px) {
@@ -782,15 +789,14 @@ body {
       height: 40vw;
       width: 65vw;
       margin-bottom: 10%;
-      margin-left:2vw;
-      
+      margin-left: 2vw;
     }
 
     @media (max-width: 510px) {
       height: 55vw;
       width: 92.5vw;
-      margin-bottom: 40px;
-      margin-left:2vw;
+      // margin-bottom: 40px;
+      margin-left: 2vw;
     }
   }
 
@@ -848,19 +854,21 @@ body {
     width: 100%;
     margin-bottom: 18px;
     @media (max-width: 1100px) {
-      margin-left:2vw;
+      margin-left: 2vw;
     }
     @media (max-width: 760px) {
-      margin-left:2vw;
-      max-width: 95vw;  
+      margin-left: 2vw;
+      max-width: 95vw;
     }
-
 
     h2 {
       width: 70%;
       font-size: 30px;
       color: #212121;
       font-family: "AvenirNextDemi";
+      @media (max-width: 760px) {
+        font-size: 25px;
+      }
     }
 
     .right-box {
@@ -889,13 +897,13 @@ body {
     color: #616161;
     font-family: "AvenirRegular";
     @media (max-width: 1100px) {
-      margin-left:2vw;
+      margin-left: 2vw;
     }
     @media (max-width: 760px) {
-      margin-left:2vw;
-      max-width: 90vw;  
+      margin-left: 2vw;
+      max-width: 90vw;
+      font-size: 18px;
     }
-
   }
 }
 
