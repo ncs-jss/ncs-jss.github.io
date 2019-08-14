@@ -1,596 +1,592 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<!-- Global site tag (gtag.js) - Google Analytics -->
-		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-126400023-1"></script>
-		<script>
+
+<head>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-126400023-1"></script>
+	<script>
 		window.dataLayer = window.dataLayer || [];
-		function gtag(){dataLayer.push(arguments);}
+		function gtag() { dataLayer.push(arguments); }
 		gtag('js', new Date());
 		gtag('config', 'UA-126400023-1');
-		</script>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
-			crossorigin="anonymous">
-			<link rel="shortcut icon" href="../favicon.ico" type="image/vnd.microsoft.icon">
-			<link rel="manifest" href="manifest.json">
-			<!-- Bootstrap CSS -->
-			<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
-			<link rel="stylesheet" href="../css/style.css">
-			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-			<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
-			<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
-			
-			<script type="text/javascript" src="../js/script.js"></script>
-			<title>Nibble Computer Society</title>
-		</head>
-		<body id="top">
-			<!-- <div id="preloader"></div>
+	</script>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+		integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+	<link rel="shortcut icon" href="../favicon.ico" type="image/vnd.microsoft.icon">
+	<link rel="manifest" href="manifest.json">
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"
+		integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+	<link rel="stylesheet" href="../css/style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"
+		integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ"
+		crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"
+		integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm"
+		crossorigin="anonymous"></script>
+
+	<script type="text/javascript" src="../js/script.js"></script>
+	<title>Nibble Computer Society</title>
+</head>
+
+<body id="top">
+	<!-- <div id="preloader"></div>
 			<div id="content"> -->
-				<nav class="navbar navbar-expand-lg mx-auto navbar-light">
-					<a class="navbar-brand" href="/">
-						<img src="../img/ncs-logo.svg" width="120px" />
-					</a>
-					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-					<span class="navbar-toggler-icon"></span>
-					</button>
-					<div class="collapse navbar-collapse justify-content-end" id="navbarTogglerDemo02">
-						<div class="d-block d-md-none pt-3">
-						</div>
-						<ul class="navbar-nav">
-							<li class="nav-item px-2">
-								<a class="nav-link" href="/">Home</a>
-							</li>
-							<li class="nav-item px-2">
-								<a class="nav-link" href="/project">Projects</a>
-							</li>
-							<li class="nav-item px-2">
-								<a class="nav-link active" href="#">Team</a>
-							</li>
-							<li class="nav-item pl-2">
-								<a class="nav-link btn-default btn" href="http://www.facebook.com/nibblecomputersociety" target="_blank">Get in Touch</a>
-							</li>
-						</ul>
-					</div>
-				</nav>
-				<section id="main_team">
-					<h1 class="avenir text-center">
-					Team
-					</h1>
-					<div class="container-fluid margin mx-auto">
-							<div class="container team-description mx-auto">
-								<h4 class="avenirRegular text-center">
-										NCS is a student group that constantly tries to innovate and foster technical activitites in the campus. Since 2000, we have focused on creating meaningful experiences through immersive learning. We hope to bring the best in code, development and design to the college scene.
-									</h4>
-							</div>
-						
-					</div>
-					
-					<div class="container-fluid year">
-							<div class="hr"></div>
-							<div>
-								<h6>4th years</h6>
-							</div>
-							<div class="hr"></div>
-					
-					</div>
-					<div class="container-fluid  margin mx-auto padding">
-						<div class="row">
-								<div class="col-md-3 ">
-										<div class="head_team">
-											<img class="img" src="../img/team/shubham_sir.png" />
-											<h5 class="avenirDemi pt-3 mb-0">
-											Shubham Singh
-											</h5>
-											<h6 style="margin-bottom: 0%;" class="avenirRegular">President</h6>
-											<div style="display: inline-block; float: left;">
-												<a href="https://www.behance.net/shubhmisaki" target="_blank">
-												<img src="../img/behance.svg" width="18px"></a>&nbsp;&nbsp;
-												<a href="https://www.linkedin.com/in/shubhmisaki/" target="_blank">
-													<img src="../img/linkedin.svg" width="18px">
-												</a>&nbsp;&nbsp;
-												<a href="https://www.linkedin.com/in/shubhmisaki/" target="_blank">
-													<img src="../img/globe.svg" width="18px">
-												</a>
-											</div>
-										</div>
-									</div>
-									<div class="col-md-3 ">
-										<div class="head_team">
-											<img class="img" src="../img/team/shobhit.png" />
-											<h5 class="avenirDemi pt-3 mb-0">
-											Shobhit Agarwal
-											</h5>
-											<h6 style="margin-bottom: 0%;" class="avenirRegular">CTC</h6>
-											<div style="display: inline-block; float: left;">
-												<a href="https://www.github.com/shobhit1997" target="_blank">
-												<img src="../img/github-icon.svg" width="18px"></a>&nbsp;&nbsp;
-												<a href="https://www.linkedin.com/in/shobhit1997" target="_blank">
-													<img src="../img/linkedin.svg" width="18px">
-												</a>&nbsp;&nbsp;
-												<a href="http://shobhitagarwal.me" target="_blank">
-													<img src="../img/globe.svg" width="18px">
-												</a>
-											</div>
-										</div>
-									</div>
-									<div class="col-md-3 ">
-										<div class="head_team">
-											<img class="img" src="../img/team/rohit-jakhmola.png" />
-											<h5 class="avenirDemi pt-3 mb-0">
-											Rohit Jakhmola
-											</h5>
-											<h6 style="margin-bottom: 0%;" class="avenirRegular">Technical Head</h6>
-											<div style="display: inline-block; float: left;">
-												<a href="https://github.com/rohit599" target="_blank">
-												<img src="../img/github-icon.svg" width="18px"></a>&nbsp;&nbsp;
-												<a href="https://www.linkedin.com/in/rohit-jakhmola-696a9b141/" target="_blank">
-													<img src="../img/linkedin.svg" width="18px">
-												</a>&nbsp;&nbsp;
-												<a href="#" target="_blank">
-													<img src="../img/globe.svg" width="18px">
-												</a>
-											</div>
-										</div>
-									</div>
-									<div class="col-md-3 ">
-											<div class="head_team">
-												<img class="img" src="../img/team/rahul-sir.png" />
-												<h5 class="avenirDemi pt-3 mb-0">
-												Rahul Singh
-												</h5>
-												<h6 style="margin-bottom: 0%;" class="avenirRegular">General Secretary</h6>
-												<div style="display: inline-block; float: left;">
-													<a href="https://www.github.com/rahul2240" target="_blank">
-														<img src="../img/github-icon.svg" width="18px">
-													</a>&nbsp;&nbsp;
-													<a href="https://www.linkedin.com/in/rahul2240" target="_blank">
-														<img src="../img/linkedin.svg" width="18px">
-													</a>&nbsp;&nbsp;
-													<a href="#" target="_blank">
-														<img src="../img/globe.svg" width="18px">
-													</a>
-												</div>
-											</div>
-										</div>
-							
-							
-						</div>
-
-						<div class="row">
-								<div class="col-md-3 ">
-										<div class="head_team">
-											<img class="img" src="../img/team/kumar.jpeg" />
-											<h5 class="avenirDemi pt-3 mb-0">
-											Kumar Rohit
-											</h5>
-											<h6 style="margin-bottom: 0%;" class="avenirRegular">Creative Head</h6>
-											<div style="display: inline-block; float: left;">
-												<a href="https://www.behance.net/krrohitch" target="_blank">
-													<img src="../img/behance.svg" width="18px">
-												</a>&nbsp;&nbsp;
-												<a href="https://www.linkedin.com/in/krrohitch" target="_blank">
-													<img src="../img/linkedin.svg" width="18px">
-												</a>&nbsp;&nbsp;
-												<a href="https://krrohitch.github.io" target="_blank">
-													<img src="../img/globe.svg" width="18px">
-												</a>
-											</div>
-										</div>
-									</div>
-									<div class="col-md-3 ">
-											<div class="head_team">
-												<img class="img" src="../img/team/vasu.png" />
-												<h5 class="avenirDemi pt-3 mb-0">
-												Vasu Mehra
-												</h5>
-												<h6 style="margin-bottom: 0%;" class="avenirRegular">Financial Head</h6>
-												<div style="display: inline-block; float: left;">
-													<a href="https://www.github.com/imvasumehra" target="_blank">
-													<img src="../img/github-icon.svg" width="18px"></a>&nbsp;&nbsp;
-													<a href="https://www.linkedin.com/in/vasu-mehra-3217a6141" target="_blank">
-														<img src="../img/linkedin.svg" width="18px">
-													</a>&nbsp;&nbsp;
-													<a href="#" target="_blank">
-														<img src="../img/globe.svg" width="18px">
-													</a>
-												</div>
-											</div>
-										</div>
-										<div class="col-md-3 ">
-												<div class="head_team">
-													<img class="img" src="../img/team/kunal.png" />
-													<h5 class="avenirDemi pt-3 mb-0">
-													Kunal Vishnoi
-													</h5>
-													<h6 style="margin-bottom: 0%;" class="avenirRegular">Operational Head</h6>
-													<div style="display: inline-block; float: left;">
-														<a href="https://github.com/kunalvishnoi" target="_blank">
-															<img src="../img/github-icon.svg" width="18px">
-														</a>&nbsp;&nbsp;
-														<a href="https://www.linkedin.com/in/kunalvishnoi" target="_blank">
-															<img src="../img/linkedin.svg" width="18px">
-														</a>&nbsp;&nbsp;
-														<a href="http://kunalvishnoi.me/" target="_blank">
-															<img src="../img/globe.svg" width="18px">
-														</a>
-													</div>
-												</div>
-											</div>
-											<div class="col-md-3 ">
-													<div class="head_team">
-														<img class="img" src="../img/team/siddthara-dota.png" />
-														<h5 class="avenirDemi pt-3 mb-0">
-														Siddharth Yadav
-														</h5>
-														<h6 style="margin-bottom: 0%;" class="avenirRegular">HOC Prog Club</h6>
-														<div style="display: inline-block; float: left;">
-															<a href="https://www.github.com/siddhartha2107" target="_blank">
-															<img src="../img/github-icon.svg" width="18px"></a>&nbsp;&nbsp;
-															<a href="https://www.linkedin.com/in/siddhartha-yadav-2107" target="_blank">
-																<img src="../img/linkedin.svg" width="18px">
-															</a>&nbsp;&nbsp;
-															<a href="#" target="_blank">
-																<img src="../img/globe.svg" width="18px">
-															</a>
-														</div>
-													</div>
-												</div>
-						     </div>
-			      
-						<div class="row">
-								
-								<div class="col-md-3 ">
-										<div class="head_team">
-											<img class="img" src="../img/team/anant.png" />
-											<h5 class="avenirDemi pt-3">
-											Anant Jain
-											</h5>
-											<h6 style="margin-bottom: 0%;" class="avenirRegular">HOC Web Club</h6>
-											<div style="display: inline-block; float: left;">
-												<a href="https://www.github.com/anantjain6" target="_blank">
-													<img src="../img/github-icon.svg" width="18px">
-												</a>&nbsp;&nbsp;
-												<a href="https://www.linkedin.com/in/anantjain60" target="_blank">
-													<img src="../img/linkedin.svg" width="18px">
-												</a>&nbsp;&nbsp;
-												<a href="#" target="_blank">
-													<img src="../img/globe.svg" width="18px">
-												</a>
-											</div>
-										</div>
-									</div>
-									<div class="col-md-3 ">
-											<div class="head_team">
-												<img class="img" src="../img/team/ayush.png" />
-												<h5 class="avenirDemi pt-3">
-												Ayush Srivastava
-												</h5>
-												<h6 style="margin-bottom: 0%;" class="avenirRegular">HOC Web Club</h6>
-												<div style="display: inline-block; float: left;">
-													<a href="https://github.com/geekayush" target="_blank">
-														<img src="../img/github-icon.svg" width="18px">&nbsp;&nbsp;
-													</a>
-													<a href="https://www.linkedin.com/in/srivastavs61/" target="_blank">
-														<img src="../img/linkedin.svg" width="18px">
-													</a>&nbsp;&nbsp;
-													<a href="#" target="_blank">
-														<img src="../img/globe.svg" width="18px">
-													</a>
-												</div>
-											</div>
-										</div>
-							
-							
-							<div class="col-md-3 ">
-									<div class="head_team">
-										<img class="img" src="../img/team/Abhishek.png" />
-										<h5 class="avenirDemi pt-3">
-										Abhishek Singh
-										</h5>
-										<h6 style="margin-bottom: 0%;" class="avenirRegular">HOC Technical Club</h6>
-										<div style="display: inline-block; float: left;">
-											<a href="https://github.com/singh-abhisheksingh" target="_blank">
-												<img src="../img/github-icon.svg" width="18px">
-											</a>
-											&nbsp;&nbsp;
-											<a href="https://www.linkedin.com/in/singh-abhisheksingh/" target="_blank">
-												<img src="../img/linkedin.svg" width="18px">
-											</a>&nbsp;&nbsp;
-											<a href="#" target="_blank">
-												<img src="../img/globe.svg" width="18px">
-											</a>
-										</div>
-									</div>
-								</div>
-								<div class="col-md-3 ">
-										<div class="head_team">
-											<img class="img" src="../img/team/khare.png" />
-											<h5 class="avenirDemi pt-3">
-											Ayush Khare
-											</h5>
-											<h6 style="margin-bottom: 0%;" class="avenirRegular">Mentor Web Club</h6>
-											<div style="display: inline-block; float: left;">
-												<a href="https://github.com/ayukha" target="_blank">
-													<img src="../img/github-icon.svg" width="18px">
-												</a>
-												&nbsp;&nbsp;
-												<a href="#" target="_blank">
-													<img src="../img/linkedin.svg" width="18px">
-												</a>&nbsp;&nbsp;
-												<a href="#" target="_blank">
-													<img src="../img/globe.svg" width="18px">
-												</a>
-											</div>
-										</div>
-									</div>
-							
-						</div>
-						<div class="row">
-						
-						<div class="col-md-3 ">
-								<div class="head_team">
-									<img class="img" src="../img/team/pulkit.png" />
-									<h5 class="avenirDemi pt-3">
-									Pulkit Bansal
-									</h5>
-									<h6 style="margin-bottom: 0%;" class="avenirRegular">Event Head and Mentor Design Club</h6>
-									<div style="display: inline-block; float: left;">
-										<a href="https://www.behance.net/Bansi198" target="_blank">
-										<img src="../img/behance.svg" width="18px"></a>&nbsp;&nbsp;
-										<a href="https://www.linkedin.com/in/bansi198" target="_blank">
-											<img src="../img/linkedin.svg" width="18px">
-										</a>&nbsp;&nbsp;
-										<a href="#" target="_blank">
-											<img src="../img/globe.svg" width="18px">
-										</a>
-									</div>
-								</div>
-							</div>
-						<div class="col-md-3 ">
-								<div class="head_team">
-									<img class="img" src="../img/team/ishneet.png" />
-									<h5 class="avenirDemi pt-3">
-									Ishneet Kaur
-									</h5>
-									<h6 style="margin-bottom: 0%;" class="avenirRegular">Mentor Prog. Club</h6>
-									<div style="display: inline-block; float: left;">
-										<a href="https://github.com/ishneetknarang" target="_blank">
-											<img src="../img/github-icon.svg" width="18px">
-										</a>
-										&nbsp;&nbsp;
-										<a href="#" target="_blank">
-											<img src="../img/linkedin.svg" width="18px">
-										</a>&nbsp;&nbsp;
-										<a href="#" target="_blank">
-											<img src="../img/globe.svg" width="18px">
-										</a>
-									</div>
-								</div>
-							</div>
+	<nav class="navbar navbar-expand-lg mx-auto navbar-light">
+		<a class="navbar-brand" href="/">
+			<img src="../img/ncs-logo.svg" width="120px" />
+		</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
+			aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse justify-content-end" id="navbarTogglerDemo02">
+			<div class="d-block d-md-none pt-3">
+			</div>
+			<ul class="navbar-nav">
+				<li class="nav-item px-2">
+					<a class="nav-link" href="/">Home</a>
+				</li>
+				<li class="nav-item px-2">
+					<a class="nav-link" href="/project">Projects</a>
+				</li>
+				<li class="nav-item px-2">
+					<a class="nav-link active" href="#">Team</a>
+				</li>
+				<li class="nav-item pl-2">
+					<a class="nav-link btn-default btn" href="http://www.facebook.com/nibblecomputersociety"
+						target="_blank">Get in Touch</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+	<section id="main_team">
+		<h1 class="avenir text-center">
+			Team
+		</h1>
+		<div class="container-fluid margin mx-auto">
+			<div class="container team-description mx-auto">
+				<h4 class="avenirRegular text-center">
+					NCS is a student group that constantly tries to innovate and foster technical activitites in the
+					campus. Since 2000, we have focused on creating meaningful experiences through immersive learning.
+					We hope to bring the best in code, development and design to the college scene.
+				</h4>
+			</div>
+		</div>
+		<div class="container-fluid year">
+			<div class="hr"></div>
+			<div>
+				<h6>4th years</h6>
+			</div>
+			<div class="hr"></div>
+		</div>
+		<div class="container-fluid  margin mx-auto padding">
+			<div class="row">
+				<div class="col-md-3 ">
+					<div class="head_team">
+						<img class="img" src="../img/team/shubham_sir.png" />
+						<h5 class="avenirDemi pt-3 mb-0">
+							Shubham Singh
+						</h5>
+						<h6 style="margin-bottom: 0%;" class="avenirRegular">President</h6>
+						<div style="display: inline-block; float: left;">
+							<a href="https://www.behance.net/shubhmisaki" target="_blank">
+								<img src="../img/behance.svg" width="18px"></a>&nbsp;&nbsp;
+							<a href="https://www.linkedin.com/in/shubhmisaki/" target="_blank">
+								<img src="../img/linkedin.svg" width="18px">
+							</a>&nbsp;&nbsp;
+							<a href="https://www.linkedin.com/in/shubhmisaki/" target="_blank">
+								<img src="../img/globe.svg" width="18px">
+							</a>
 						</div>
 					</div>
-
-
-<div class="container-fluid year third">
-		<div class="hr"></div>
+				</div>
+				<div class="col-md-3 ">
+					<div class="head_team">
+						<img class="img" src="../img/team/shobhit.png" />
+						<h5 class="avenirDemi pt-3 mb-0">
+							Shobhit Agarwal
+						</h5>
+						<h6 style="margin-bottom: 0%;" class="avenirRegular">CTC</h6>
+						<div style="display: inline-block; float: left;">
+							<a href="https://www.github.com/shobhit1997" target="_blank">
+								<img src="../img/github-icon.svg" width="18px"></a>&nbsp;&nbsp;
+							<a href="https://www.linkedin.com/in/shobhit1997" target="_blank">
+								<img src="../img/linkedin.svg" width="18px">
+							</a>&nbsp;&nbsp;
+							<a href="http://shobhitagarwal.me" target="_blank">
+								<img src="../img/globe.svg" width="18px">
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 ">
+					<div class="head_team">
+						<img class="img" src="../img/team/rohit-jakhmola.png" />
+						<h5 class="avenirDemi pt-3 mb-0">
+							Rohit Jakhmola
+						</h5>
+						<h6 style="margin-bottom: 0%;" class="avenirRegular">Technical Head</h6>
+						<div style="display: inline-block; float: left;">
+							<a href="https://github.com/rohit599" target="_blank">
+								<img src="../img/github-icon.svg" width="18px"></a>&nbsp;&nbsp;
+							<a href="https://www.linkedin.com/in/rohit-jakhmola-696a9b141/" target="_blank">
+								<img src="../img/linkedin.svg" width="18px">
+							</a>&nbsp;&nbsp;
+							<a href="#" target="_blank">
+								<img src="../img/globe.svg" width="18px">
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 ">
+					<div class="head_team">
+						<img class="img" src="../img/team/rahul-sir.png" />
+						<h5 class="avenirDemi pt-3 mb-0">
+							Rahul Singh
+						</h5>
+						<h6 style="margin-bottom: 0%;" class="avenirRegular">General Secretary</h6>
+						<div style="display: inline-block; float: left;">
+							<a href="https://www.github.com/rahul2240" target="_blank">
+								<img src="../img/github-icon.svg" width="18px">
+							</a>&nbsp;&nbsp;
+							<a href="https://www.linkedin.com/in/rahul2240" target="_blank">
+								<img src="../img/linkedin.svg" width="18px">
+							</a>&nbsp;&nbsp;
+							<a href="https://rahul2240.github.io/" target="_blank">
+								<img src="../img/globe.svg" width="18px">
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-3 ">
+					<div class="head_team">
+						<img class="img" src="../img/team/kumar.jpeg" />
+						<h5 class="avenirDemi pt-3 mb-0">
+							Kumar Rohit
+						</h5>
+						<h6 style="margin-bottom: 0%;" class="avenirRegular">Creative Head</h6>
+						<div style="display: inline-block; float: left;">
+							<a href="https://www.behance.net/krrohitch" target="_blank">
+								<img src="../img/behance.svg" width="18px">
+							</a>&nbsp;&nbsp;
+							<a href="https://www.linkedin.com/in/krrohitch" target="_blank">
+								<img src="../img/linkedin.svg" width="18px">
+							</a>&nbsp;&nbsp;
+							<a href="https://krrohitch.github.io" target="_blank">
+								<img src="../img/globe.svg" width="18px">
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 ">
+					<div class="head_team">
+						<img class="img" src="../img/team/vasu.png" />
+						<h5 class="avenirDemi pt-3 mb-0">
+							Vasu Mehra
+						</h5>
+						<h6 style="margin-bottom: 0%;" class="avenirRegular">Financial Head</h6>
+						<div style="display: inline-block; float: left;">
+							<a href="https://www.github.com/imvasumehra" target="_blank">
+								<img src="../img/github-icon.svg" width="18px"></a>&nbsp;&nbsp;
+							<a href="https://www.linkedin.com/in/vasu-mehra-3217a6141" target="_blank">
+								<img src="../img/linkedin.svg" width="18px">
+							</a>&nbsp;&nbsp;
+							<a href="#" target="_blank">
+								<img src="../img/globe.svg" width="18px">
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 ">
+					<div class="head_team">
+						<img class="img" src="../img/team/kunal.png" />
+						<h5 class="avenirDemi pt-3 mb-0">
+							Kunal Vishnoi
+						</h5>
+						<h6 style="margin-bottom: 0%;" class="avenirRegular">Operational Head</h6>
+						<div style="display: inline-block; float: left;">
+							<a href="https://github.com/kunalvishnoi" target="_blank">
+								<img src="../img/github-icon.svg" width="18px">
+							</a>&nbsp;&nbsp;
+							<a href="https://www.linkedin.com/in/kunalvishnoi" target="_blank">
+								<img src="../img/linkedin.svg" width="18px">
+							</a>&nbsp;&nbsp;
+							<a href="http://kunalvishnoi.me/" target="_blank">
+								<img src="../img/globe.svg" width="18px">
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 ">
+					<div class="head_team">
+						<img class="img" src="../img/team/siddthara-dota.png" />
+						<h5 class="avenirDemi pt-3 mb-0">
+							Siddharth Yadav
+						</h5>
+						<h6 style="margin-bottom: 0%;" class="avenirRegular">HOC Prog Club</h6>
+						<div style="display: inline-block; float: left;">
+							<a href="https://www.github.com/siddhartha2107" target="_blank">
+								<img src="../img/github-icon.svg" width="18px"></a>&nbsp;&nbsp;
+							<a href="https://www.linkedin.com/in/siddhartha-yadav-2107" target="_blank">
+								<img src="../img/linkedin.svg" width="18px">
+							</a>&nbsp;&nbsp;
+							<a href="#" target="_blank">
+								<img src="../img/globe.svg" width="18px">
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-3 ">
+					<div class="head_team">
+						<img class="img" src="../img/team/anant.png" />
+						<h5 class="avenirDemi pt-3">
+							Anant Jain
+						</h5>
+						<h6 style="margin-bottom: 0%;" class="avenirRegular">HOC Web Club</h6>
+						<div style="display: inline-block; float: left;">
+							<a href="https://www.github.com/anantjain6" target="_blank">
+								<img src="../img/github-icon.svg" width="18px">
+							</a>&nbsp;&nbsp;
+							<a href="https://www.linkedin.com/in/anantjain60" target="_blank">
+								<img src="../img/linkedin.svg" width="18px">
+							</a>&nbsp;&nbsp;
+							<a href="#" target="_blank">
+								<img src="../img/globe.svg" width="18px">
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 ">
+					<div class="head_team">
+						<img class="img" src="../img/team/ayush.png" />
+						<h5 class="avenirDemi pt-3">
+							Ayush Srivastava
+						</h5>
+						<h6 style="margin-bottom: 0%;" class="avenirRegular">HOC Web Club</h6>
+						<div style="display: inline-block; float: left;">
+							<a href="https://github.com/geekayush" target="_blank">
+								<img src="../img/github-icon.svg" width="18px">&nbsp;&nbsp;
+							</a>
+							<a href="https://www.linkedin.com/in/srivastavs61/" target="_blank">
+								<img src="../img/linkedin.svg" width="18px">
+							</a>&nbsp;&nbsp;
+							<a href="https://geekayush.github.io/" target="_blank">
+								<img src="../img/globe.svg" width="18px">
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 ">
+					<div class="head_team">
+						<img class="img" src="../img/team/Abhishek.png" />
+						<h5 class="avenirDemi pt-3">
+							Abhishek Singh
+						</h5>
+						<h6 style="margin-bottom: 0%;" class="avenirRegular">HOC Technical Club</h6>
+						<div style="display: inline-block; float: left;">
+							<a href="https://github.com/singh-abhisheksingh" target="_blank">
+								<img src="../img/github-icon.svg" width="18px">
+							</a>
+							&nbsp;&nbsp;
+							<a href="https://www.linkedin.com/in/singh-abhisheksingh/" target="_blank">
+								<img src="../img/linkedin.svg" width="18px">
+							</a>&nbsp;&nbsp;
+							<a href="#" target="_blank">
+								<img src="../img/globe.svg" width="18px">
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 ">
+					<div class="head_team">
+						<img class="img" src="../img/team/khare.png" />
+						<h5 class="avenirDemi pt-3">
+							Ayush Khare
+						</h5>
+						<h6 style="margin-bottom: 0%;" class="avenirRegular">Mentor Web Club</h6>
+						<div style="display: inline-block; float: left;">
+							<a href="https://github.com/ayukha" target="_blank">
+								<img src="../img/github-icon.svg" width="18px">
+							</a>
+							&nbsp;&nbsp;
+							<a href="https://www.linkedin.com/in/ayukha/" target="_blank">
+								<img src="../img/linkedin.svg" width="18px">
+							</a>&nbsp;&nbsp;
+							<a href="#" target="_blank">
+								<img src="../img/globe.svg" width="18px">
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-3 ">
+					<div class="head_team">
+						<img class="img" src="../img/team/pulkit.png" />
+						<h5 class="avenirDemi pt-3">
+							Pulkit Bansal
+						</h5>
+						<h6 style="margin-bottom: 0%;" class="avenirRegular">Event Head and Mentor Design Club</h6>
+						<div style="display: inline-block; float: left;">
+							<a href="https://www.behance.net/Bansi198" target="_blank">
+								<img src="../img/behance.svg" width="18px"></a>&nbsp;&nbsp;
+							<a href="https://www.linkedin.com/in/bansi198" target="_blank">
+								<img src="../img/linkedin.svg" width="18px">
+							</a>&nbsp;&nbsp;
+							<a href="#" target="_blank">
+								<img src="../img/globe.svg" width="18px">
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 ">
+					<div class="head_team">
+						<img class="img" src="../img/team/ishneet.png" />
+						<h5 class="avenirDemi pt-3">
+							Ishneet Kaur
+						</h5>
+						<h6 style="margin-bottom: 0%;" class="avenirRegular">Mentor Prog. Club</h6>
+						<div style="display: inline-block; float: left;">
+							<a href="https://github.com/ishneetknarang" target="_blank">
+								<img src="../img/github-icon.svg" width="18px">
+							</a>
+							&nbsp;&nbsp;
+							<a href="https://www.linkedin.com/in/ishneet-kaur-b8a846140/" target="_blank">
+								<img src="../img/linkedin.svg" width="18px">
+							</a>&nbsp;&nbsp;
+							<a href="#" target="_blank">
+								<img src="../img/globe.svg" width="18px">
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container-fluid year third">
+			<div class="hr"></div>
 			<div>
 				<h6>3rd years</h6>
 			</div>
-		<div class="hr"></div>
-							
-	</div>
-	<div class="container-fluid  margin mx-auto padding">
-				<div class="row">
-						<div class="col-md-3 ">
-								<div class="head_team">
-									<img class="img" src="../img/team/akhil_sir.png" />
-									<h5 class="avenirDemi pt-3">
-									Akhil Omar
-									</h5>
-									<h6 style="margin-bottom: 0%;" class="avenirRegular">Designer</h6>
-									<div style="display: inline-block; float: left;">
-										<a href="https://www.behance.net/akhilomar555" target="_blank">
-										<img src="../img/behance.svg" width="18px"></a>&nbsp;&nbsp;
-										<a href="https://www.linkedin.com/in/akhil-omar-670a38162/" target="_blank">
-											<img src="../img/linkedin.svg" width="18px">
-										</a>&nbsp;&nbsp;
-										<a href="https://akhilomar.github.io/cv/" target="_blank">
-											<img src="../img/globe.svg" width="18px">
-										</a>
-									</div>
-								</div>
-							</div>
-							<div class="col-md-3 ">
-									<div class="head_team">
-										<img class="img" src="../img/team/Anupam_sir.png" />
-										<h5 style="width: 120%;" class="avenirDemi pt-3">
-											Anupam Kushwaha
-										</h5>
-										<h6 style="margin-bottom: 0%;" class="avenirRegular">Developer</h6>
-										<div style="display: inline-block; float: left;">
-											<a href="#" target="_blank">
-											<img src="../img/github-icon.svg" width="18px"></a>&nbsp;&nbsp;
-											<a href="#" target="_blank">
-												<img src="../img/linkedin.svg" width="18px">
-											</a>&nbsp;&nbsp;
-											<a href="#" target="_blank">
-												<img src="../img/globe.svg" width="18px">
-											</a>
-										</div>
-									</div>
-								</div>
-							
-							<div class="col-md-3 ">
-								<div class="head_team">
-									<img class="img" src="../img/team/prakhar_sir.png" />
-									<h5 style="width: 110%;" class="avenirDemi pt-3">
-								Prakhar Varshney
-									</h5>
-									<h6 style="margin-bottom: 0%;" class="avenirRegular">Developer</h6>
-									<div style="display: inline-block; float: left;">
-										<a href="#" target="_blank">
-										<img src="../img/github-icon.svg" width="18px"></a>&nbsp;&nbsp;
-										<a href="https://www.linkedin.com/in/prakhar-varshney99/" target="_blank">
-											<img src="../img/linkedin.svg" width="18px">
-										</a>&nbsp;&nbsp;
-										<a href="#" target="_blank">
-											<img src="../img/globe.svg" width="18px">
-										</a>
-									</div>
-								</div>
-							</div>
-							<div class="col-md-3 ">
-								<div class="head_team">
-									<img class="img" src="../img/team/Pranjali_ma'am.png" />
-									<h5 class="avenirDemi pt-3">
-									Pranjali Katiyar
-									</h5>
-									<h6 style="margin-bottom: 0%;" class="avenirRegular">Programmer</h6>
-									<div style="display: inline-block; float: left;">
-										<a href="https://github.com/pr-jli" target="_blank">
-										<img src="../img/github-icon.svg" width="18px"></a>&nbsp;&nbsp;
-										<a href="https://www.linkedin.com/in/pranjali-katiyar-1aa15a15a/" target="_blank">
-											<img src="../img/linkedin.svg" width="18px">
-										</a>&nbsp;&nbsp;
-										<a href="#" target="_blank">
-											<img src="../img/globe.svg" width="18px">
-										</a>
-									</div>
-								</div>
-							</div>
+			<div class="hr"></div>
+
+		</div>
+		<div class="container-fluid  margin mx-auto padding">
+			<div class="row">
+				<div class="col-md-3 ">
+					<div class="head_team">
+						<img class="img" src="../img/team/akhil_sir.png" />
+						<h5 class="avenirDemi pt-3">
+							Akhil Omar
+						</h5>
+						<h6 style="margin-bottom: 0%;" class="avenirRegular">Designer</h6>
+						<div style="display: inline-block; float: left;">
+							<a href="https://www.behance.net/akhilomar555" target="_blank">
+								<img src="../img/behance.svg" width="18px"></a>&nbsp;&nbsp;
+							<a href="https://www.linkedin.com/in/akhil-omar-670a38162/" target="_blank">
+								<img src="../img/linkedin.svg" width="18px">
+							</a>&nbsp;&nbsp;
+							<a href="https://akhilomar.github.io/cv/" target="_blank">
+								<img src="../img/globe.svg" width="18px">
+							</a>
+						</div>
+					</div>
 				</div>
-				<div class="row">
-							<div class="col-md-3 ">
-								<div class="head_team">
-									<img class="img" src="../img/team/Prashant_sir.png" />
-									<h5 class="avenirDemi pt-3">
-									Prashant Bajaj
-									</h5>
-									<h6 style="margin-bottom: 0%;" class="avenirRegular">Developer</h6>
-									<div style="display: inline-block; float: left;">
-										<a href="https://github.com/bajaj99prashant" target="_blank">
-										<img src="../img/github-icon.svg" width="18px"></a>&nbsp;&nbsp;
-										<a href="https://www.linkedin.com/in/prashant-bajaj-37642b162/" target="_blank">
-											<img src="../img/linkedin.svg" width="18px">
-										</a>&nbsp;&nbsp;
-										<a href="#" target="_blank">
-											<img src="../img/globe.svg" width="18px">
-										</a>
-									</div>
-								</div>
-							</div>
-							<div class="col-md-3 ">
-									<div class="head_team">
-										<img class="img" src="../img/team/Sourubh_sir.png" />
-										<h5 class="avenirDemi pt-3">
-											Saurabh Singh
-										</h5>
-										<h6 style="margin-bottom: 0%;" class="avenirRegular">Programmer</h6>
-										<div style="display: inline-block; float: left;">
-											<a href="#" target="_blank">
-											<img src="../img/github-icon.svg" width="18px"></a>&nbsp;&nbsp;
-											<a href="https://www.linkedin.com/in/sourabh-singh-338476163/" target="_blank">
-												<img src="../img/linkedin.svg" width="18px">
-											</a>&nbsp;&nbsp;
-											<a href="#" target="_blank">
-												<img src="../img/globe.svg" width="18px">
-											</a>
-										</div>
-									</div>
-								</div>
-							<div class="col-md-3 ">
-									<div class="head_team">
-										<img class="img" src="../img/team/vivek_sir.png" />
-										<h5 class="avenirDemi pt-3">
-										Vivek Baghela
-										</h5>
-										<h6 style="margin-bottom: 0%;" class="avenirRegular">Designer</h6>
-										<div style="display: inline-block; float: left;">
-											<a href="https://www.behance.net/vivekbaghe6159" target="_blank">
-											<img src="../img/behance.svg" width="18px"></a>&nbsp;&nbsp;
-											<a href="https://www.linkedin.com/in/vivek-baghela-40482b91/" target="_blank">
-												<img src="../img/linkedin.svg" width="18px">
-											</a>&nbsp;&nbsp;
-											<a href="#" target="_blank">
-												<img src="../img/globe.svg" width="18px">
-											</a>
-										</div>
-									</div>
-								</div>
+				<div class="col-md-3 ">
+					<div class="head_team">
+						<img class="img" src="../img/team/Anupam_sir.png" />
+						<h5 style="width: 120%;" class="avenirDemi pt-3">
+							Anupam Kushwaha
+						</h5>
+						<h6 style="margin-bottom: 0%;" class="avenirRegular">Developer</h6>
+						<div style="display: inline-block; float: left;">
+							<a href="#" target="_blank">
+								<img src="../img/github-icon.svg" width="18px"></a>&nbsp;&nbsp;
+							<a href="#" target="_blank">
+								<img src="../img/linkedin.svg" width="18px">
+							</a>&nbsp;&nbsp;
+							<a href="#" target="_blank">
+								<img src="../img/globe.svg" width="18px">
+							</a>
 						</div>
 					</div>
-				</section>
-				<section id="about">
-					<div class="row">
-						<div class="col-md-12">
-							<div class="width_mobile mx-auto">
-								<a href="/project" style="text-decoration: none;">
-									<div class="box_medium box green_box">
-										<h1 class="avenirDemi">See our projects</h1>
-										<p class="avenirRegular">
-											Take a look at our collaborative work.
-										</p>
-										<img src="../img/arrow-right-circle.svg" width="36px"  style="float: right;"/>
-									</div>
-								</a>
-							</div>
+				</div>
+				<div class="col-md-3 ">
+					<div class="head_team">
+						<img class="img" src="../img/team/prakhar_sir.png" />
+						<h5 style="width: 110%;" class="avenirDemi pt-3">
+							Prakhar Varshney
+						</h5>
+						<h6 style="margin-bottom: 0%;" class="avenirRegular">Developer</h6>
+						<div style="display: inline-block; float: left;">
+							<a href="#" target="_blank">
+								<img src="../img/github-icon.svg" width="18px"></a>&nbsp;&nbsp;
+							<a href="https://www.linkedin.com/in/prakhar-varshney99/" target="_blank">
+								<img src="../img/linkedin.svg" width="18px">
+							</a>&nbsp;&nbsp;
+							<a href="#" target="_blank">
+								<img src="../img/globe.svg" width="18px">
+							</a>
 						</div>
 					</div>
-				</section>
-				<section id="footer">
-					<div class="container-fluid">
-						<div class="row">
-							<div class="col-md-3 text-center">
-								<img src="../img/ncs-logo.svg" height="60px" height="60px" />
-							</div>
-							<div class="col-md-6 pt-3 text-center">
-								<a href="mailto:ncs@jssaten.ac.in" style="text-decoration: none;">
-									<h2 class="avenirDemi">ncs@jssaten.ac.in</h2>
-								</a>
-								<br/>
-								<div class="d-none d-md-block">
-									<a href="#top" id="top-button" class="smoothScroll" title="Back to Top">
-										<span class="fa fa-chevron-circle-up fa-2x"></span>
-									</a>
-								</div>
-							</div>
-							<div class="text-center pt-3 col-md-3">
-								<a href="http://facebook.com/nibblecomputersociety" target="_blank" style="text-decoration: none;">
-									<img src="../img/facebook.svg" class="pr-3" height="36px" />
-								</a>
-								<a href="http://github.com/ncs-jss" target="_blank" style="text-decoration: none;">
-									<img src="../img/github-icon.svg" height="36px" />
-								</a>
-							</div>
+				</div>
+				<div class="col-md-3 ">
+					<div class="head_team">
+						<img class="img" src="../img/team/Pranjali_ma'am.png" />
+						<h5 class="avenirDemi pt-3">
+							Pranjali Katiyar
+						</h5>
+						<h6 style="margin-bottom: 0%;" class="avenirRegular">Programmer</h6>
+						<div style="display: inline-block; float: left;">
+							<a href="https://github.com/pr-jli" target="_blank">
+								<img src="../img/github-icon.svg" width="18px"></a>&nbsp;&nbsp;
+							<a href="https://www.linkedin.com/in/pranjali-katiyar-1aa15a15a/" target="_blank">
+								<img src="../img/linkedin.svg" width="18px">
+							</a>&nbsp;&nbsp;
+							<a href="#" target="_blank">
+								<img src="../img/globe.svg" width="18px">
+							</a>
 						</div>
 					</div>
-					<div class="mx-auto d-block d-md-none" style="width: 5%;">
-						<br/>
-						
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-3 ">
+					<div class="head_team">
+						<img class="img" src="../img/team/Prashant_sir.png" />
+						<h5 class="avenirDemi pt-3">
+							Prashant Bajaj
+						</h5>
+						<h6 style="margin-bottom: 0%;" class="avenirRegular">Developer</h6>
+						<div style="display: inline-block; float: left;">
+							<a href="https://github.com/bajaj99prashant" target="_blank">
+								<img src="../img/github-icon.svg" width="18px"></a>&nbsp;&nbsp;
+							<a href="https://www.linkedin.com/in/prashant-bajaj-37642b162/" target="_blank">
+								<img src="../img/linkedin.svg" width="18px">
+							</a>&nbsp;&nbsp;
+							<a href="#" target="_blank">
+								<img src="../img/globe.svg" width="18px">
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 ">
+					<div class="head_team">
+						<img class="img" src="../img/team/Sourubh_sir.png" />
+						<h5 class="avenirDemi pt-3">
+							Saurabh Singh
+						</h5>
+						<h6 style="margin-bottom: 0%;" class="avenirRegular">Programmer</h6>
+						<div style="display: inline-block; float: left;">
+							<a href="#" target="_blank">
+								<img src="../img/github-icon.svg" width="18px"></a>&nbsp;&nbsp;
+							<a href="https://www.linkedin.com/in/sourabh-singh-338476163/" target="_blank">
+								<img src="../img/linkedin.svg" width="18px">
+							</a>&nbsp;&nbsp;
+							<a href="#" target="_blank">
+								<img src="../img/globe.svg" width="18px">
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 ">
+					<div class="head_team">
+						<img class="img" src="../img/team/vivek_sir.png" />
+						<h5 class="avenirDemi pt-3">
+							Vivek Baghela
+						</h5>
+						<h6 style="margin-bottom: 0%;" class="avenirRegular">Designer</h6>
+						<div style="display: inline-block; float: left;">
+							<a href="https://www.behance.net/vivekbaghe6159" target="_blank">
+								<img src="../img/behance.svg" width="18px"></a>&nbsp;&nbsp;
+							<a href="https://www.linkedin.com/in/vivek-baghela-40482b91/" target="_blank">
+								<img src="../img/linkedin.svg" width="18px">
+							</a>&nbsp;&nbsp;
+							<a href="#" target="_blank">
+								<img src="../img/globe.svg" width="18px">
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="about">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="width_mobile mx-auto">
+					<a href="/project" style="text-decoration: none;">
+						<div class="box_medium box green_box">
+							<h1 class="avenirDemi">See our projects</h1>
+							<p class="avenirRegular">
+								Take a look at our collaborative work.
+							</p>
+							<img src="../img/arrow-right-circle.svg" width="36px" style="float: right;" />
+						</div>
+					</a>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="footer">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-3 text-center">
+					<img src="../img/ncs-logo.svg" height="60px" height="60px" />
+				</div>
+				<div class="col-md-6 pt-3 text-center">
+					<a href="mailto:ncs@jssaten.ac.in" style="text-decoration: none;">
+						<h2 class="avenirDemi">ncs@jssaten.ac.in</h2>
+					</a>
+					<br />
+					<div class="d-none d-md-block">
 						<a href="#top" id="top-button" class="smoothScroll" title="Back to Top">
 							<span class="fa fa-chevron-circle-up fa-2x"></span>
 						</a>
 					</div>
-					
-				</section>
+				</div>
+				<div class="text-center pt-3 col-md-3">
+					<a href="http://facebook.com/nibblecomputersociety" target="_blank" style="text-decoration: none;">
+						<img src="../img/facebook.svg" class="pr-3" height="36px" />
+					</a>
+					<a href="http://github.com/ncs-jss" target="_blank" style="text-decoration: none;">
+						<img src="../img/github-icon.svg" height="36px" />
+					</a>
+				</div>
 			</div>
-<!-- 	New page 2019 -->
-			<script type="text/javascript">
-			// Smooth scroll
-			$('.smoothScroll').click(function () {
+		</div>
+		<div class="mx-auto d-block d-md-none" style="width: 5%;">
+			<br />
+			<a href="#top" id="top-button" class="smoothScroll" title="Back to Top">
+				<span class="fa fa-chevron-circle-up fa-2x"></span>
+			</a>
+		</div>
+
+	</section>
+	</div>
+	<!-- 	New page 2019 -->
+	<script type="text/javascript">
+		// Smooth scroll
+		$('.smoothScroll').click(function () {
 			if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
-			var target = $(this.hash);
-			target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-			if (target.length) {
-			$('html,body').animate({
-			scrollTop: target.offset().top - 80
-			}, 700);
-			return false;
+				var target = $(this.hash);
+				target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+				if (target.length) {
+					$('html,body').animate({
+						scrollTop: target.offset().top - 80
+					}, 700);
+					return false;
+				}
 			}
-			}
-			});
-			</script>
-		</body>
-	</html>
+		});
+	</script>
+</body>
+
+</html>
