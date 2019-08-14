@@ -788,7 +788,7 @@ body .navbar-light .navbar-toggler-icon {
 
 @media (max-width: 510px) {
   .mainProject .mainProject-wrap {
-    margin-bottom: 50px;
+    margin-bottom: 0px;
   }
 }
 
@@ -971,7 +971,16 @@ body .navbar-light .navbar-toggler-icon {
 @media (max-width: 510px) {
   .projects-wrap {
     margin-left: 1vw;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+  }
+}
+
+@media (max-width: 510px) {
+  .projects-wrap .col-md-6 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
   }
 }
 
@@ -1017,6 +1026,7 @@ body .navbar-light .navbar-toggler-icon {
 
 @media (max-width: 510px) {
   .projects-wrap .image-wrap {
+    margin-top: 5%;
     height: 55vw;
     width: 92.5vw;
     margin-left: 2vw;
