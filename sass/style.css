@@ -743,6 +743,12 @@ body .navbar-light .navbar-toggler-icon {
   margin-bottom: 116.6px;
 }
 
+@media (max-width: 760px) {
+  .heading-wrap {
+    margin-bottom: 76.6px;
+  }
+}
+
 .heading-wrap .heading {
   padding-bottom: 48px;
 }
@@ -782,7 +788,7 @@ body .navbar-light .navbar-toggler-icon {
 
 @media (max-width: 510px) {
   .mainProject .mainProject-wrap {
-    margin-bottom: 100px;
+    margin-bottom: 50px;
   }
 }
 
@@ -876,11 +882,23 @@ body .navbar-light .navbar-toggler-icon {
   }
 }
 
+@media (max-width: 760px) {
+  .mainProject .mainProject-wrap h2 {
+    font-size: 30px;
+  }
+}
+
 .mainProject .mainProject-wrap p {
   font-size: 24px;
   color: #616161;
   font-family: "AvenirRegular";
   margin-bottom: 0;
+}
+
+@media (max-width: 760px) {
+  .mainProject .mainProject-wrap p {
+    font-size: 21px;
+  }
 }
 
 .mainProject .mainProject-wrap .tech img {
@@ -957,12 +975,6 @@ body .navbar-light .navbar-toggler-icon {
   }
 }
 
-@media (max-width: 510px) {
-  .projects-wrap .col-md-6 {
-    margin-bottom: 80px;
-  }
-}
-
 .projects-wrap .image-wrap {
   height: 300px;
   width: 496px;
@@ -1007,7 +1019,6 @@ body .navbar-light .navbar-toggler-icon {
   .projects-wrap .image-wrap {
     height: 55vw;
     width: 92.5vw;
-    margin-bottom: 40px;
     margin-left: 2vw;
   }
 }
@@ -1104,6 +1115,12 @@ body .navbar-light .navbar-toggler-icon {
   font-family: "AvenirNextDemi";
 }
 
+@media (max-width: 760px) {
+  .projects-wrap .heading-box h2 {
+    font-size: 25px;
+  }
+}
+
 .projects-wrap .heading-box .right-box {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1148,6 +1165,7 @@ body .navbar-light .navbar-toggler-icon {
   .projects-wrap p {
     margin-left: 2vw;
     max-width: 90vw;
+    font-size: 18px;
   }
 }
 
