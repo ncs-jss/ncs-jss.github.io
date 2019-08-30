@@ -838,7 +838,7 @@ body .navbar-light .navbar-toggler-icon {
 }
 
 .mainProject .mainProject-wrap .project1 {
-  background-image: url("../img/projects/JSS infoconnect@2x.png");
+  background-image: url("../img/projects/jss_infoconnect_2x.png");
 }
 
 .mainProject .mainProject-wrap .project1:hover {
@@ -846,7 +846,7 @@ body .navbar-light .navbar-toggler-icon {
 }
 
 .mainProject .mainProject-wrap .project2 {
-  background-image: url("../img/projects/MCQ MODULE@2x.png");
+  background-image: url("../img/projects/mcq_module_2x.png");
 }
 
 .mainProject .mainProject-wrap .project2:hover {
@@ -854,7 +854,7 @@ body .navbar-light .navbar-toggler-icon {
 }
 
 .mainProject .mainProject-wrap .project3 {
-  background-image: url("../img/projects/EM@2x.png");
+  background-image: url("../img/projects/em_2x.png");
 }
 
 .mainProject .mainProject-wrap .project3:hover {
@@ -862,7 +862,7 @@ body .navbar-light .navbar-toggler-icon {
 }
 
 .mainProject .mainProject-wrap .project4 {
-  background-image: url("../img/projects/KYC.@2x.png");
+  background-image: url("../img/projects/kyc_2x.png");
 }
 
 .mainProject .mainProject-wrap .project4:hover {
@@ -1034,7 +1034,7 @@ body .navbar-light .navbar-toggler-icon {
 }
 
 .projects-wrap .project1 {
-  background-image: url("../img/projects/INFO APP@2x.png");
+  background-image: url("../img/projects/info_app_2x.png");
 }
 
 .projects-wrap .project1:hover {
@@ -1042,7 +1042,7 @@ body .navbar-light .navbar-toggler-icon {
 }
 
 .projects-wrap .project2 {
-  background-image: url("../img/projects/ZEALICON@2x.png");
+  background-image: url("../img/projects/zealicon_2x.png");
 }
 
 .projects-wrap .project2:hover {
@@ -1050,7 +1050,7 @@ body .navbar-light .navbar-toggler-icon {
 }
 
 .projects-wrap .project3 {
-  background-image: url("../img/projects/CODEPAD@2x.png");
+  background-image: url("../img/projects/codepad.jpg");
 }
 
 .projects-wrap .project3:hover {
@@ -1058,7 +1058,7 @@ body .navbar-light .navbar-toggler-icon {
 }
 
 .projects-wrap .project4 {
-  background-image: url("../img/projects/T&P PORTAL@2x.png");
+  background-image: url("../img/projects/tandp_2x.png");
 }
 
 .projects-wrap .project4:hover {
@@ -1066,7 +1066,7 @@ body .navbar-light .navbar-toggler-icon {
 }
 
 .projects-wrap .project5 {
-  background-image: url("../img/projects/PLEXUS@2x.png");
+  background-image: url("../img/projects/plexus_2x.png");
 }
 
 .projects-wrap .project5:hover {
@@ -1074,7 +1074,7 @@ body .navbar-light .navbar-toggler-icon {
 }
 
 .projects-wrap .project6 {
-  background-image: url("../img/projects/REGISTRATION MODULE@2x.png");
+  background-image: url("../img/projects/registration_module_2x.png");
 }
 
 .projects-wrap .project6:hover {
@@ -1082,7 +1082,7 @@ body .navbar-light .navbar-toggler-icon {
 }
 
 .projects-wrap .project7 {
-  background-image: url("../img/projects/SHERLOCKED@2x.png");
+  background-image: url("../img/projects/sherlocked.jpg");
 }
 
 .projects-wrap .project7:hover {
@@ -1090,7 +1090,7 @@ body .navbar-light .navbar-toggler-icon {
 }
 
 .projects-wrap .project8 {
-  background-image: url("../img/projects/LOOT@2x.png");
+  background-image: url("../img/projects/loot_2x.png");
 }
 
 .projects-wrap .project8:hover {
@@ -1180,10 +1180,9 @@ body .navbar-light .navbar-toggler-icon {
 }
 
 .year {
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  width: 100%;
+
+  display: flex;
+  align-items: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -1193,9 +1192,6 @@ body .navbar-light .navbar-toggler-icon {
   height: 2px;
   background-color: #707070;
   width: 360px;
-  max-width: 360px;
-  min-width: 20px;
-  margin-top: 1.6vh;
 }
 
 .year h6 {
@@ -1203,6 +1199,7 @@ body .navbar-light .navbar-toggler-icon {
   font-size: 24px;
   font-family: "AvenirNextMedium";
   padding: 0px 40px;
+  margin-bottom: 0px;
 }
 
 .third {
