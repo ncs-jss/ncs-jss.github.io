@@ -11,53 +11,58 @@ let html = ``;
 
 //template
 const addTemplate = (post) => {
-  let date = post.published_on;
-  console.log(date);
+  let date = moment(post.published_on).format("LL");
+
   let { body } = post;
   let description = body.length > 50 ? `${body.substring(0, 150)}...` : body; //body truncate
   html = `
-  <div class="col-md-5 pt-1 text-center" style="padding-left: 0; padding-right: 0;">
-  <div class="club_card justify-content-center mx-auto" style="margin-bottom: 15px;">
-    <div class="row justify-content-end">
-      <div class="col my-auto">
-      <a href="${post.link}" target="_blank">
-        <img src="../img/icons/blog/${
-          post.source
-        }.png" style="cursor: pointer; height: 100px;" href="${
-    post.link
-  }" class="pt-4"></img></a>
-      </div>
-      <div class="col my-auto">
-        <div
-         
-          class=" pt-4 avenirDemi"
-          style="width: 90%; font-family: auto; color: #747d84;"
-        >
-          ${moment(date).fromNow()} 
-        </div>
-      </div>
+  <div
+  class="col-md-4 pt-1 text-center"
+  style="padding-left: 0; padding-right: 0;"
+>
+  <div
+    class="club_card justify-content-center mx-auto"
+    style="margin-bottom: 15px; padding-bottom: 10px;"
+  >
+    <img
+      class="card-img-top"
+      style="width: 90%; height: 170px;"
+      src="${post.image}"
+      alt="Card image cap"
+    />
+    <div
+      class="card-body"
+      style="padding-bottom: 0px;"
+      align="left"
+    >
+      <h4 class="avenirDemi">${post.title}</h4>
+      <span class="author text-muted">by ${post.author}</span>
+      <p class="card-text pt-3 text-muted">
+        ${description}
+      </p>
     </div>
-    <h4 class="mx-auto pt-4 avenirDemi" style="width: 90%;">
-      ${post.title}
-    </h4>
-    <p style="width: 90%;" class="mx-auto text-muted">
-     ${description}
-    </p>
-    <footer class="blockquote-footer">
-      <small>
-        Written famously by
-        <cite title="Source Title">${post.author}</cite>
-      </small>
-    </footer>
-</div>  
-</div>`;
+    <hr />
+    <div
+      class="footer d-flex mx-auto"
+      style="
+        justify-content: space-between;
+        padding-bottom: 10px;
+        width: 90%;
+      "
+    >
+      <div class="date">${date}</div>
+      <div class="source"><a href="${post.link}" target="_blank"><img style="height: 30px; width: 30px" src="../img/icons/blog/${post.source}.png"</img></a></div>
+    </div>
+  </div>
+</div>
+`;
   section.innerHTML += html;
 };
 
 //calling aysnc function on page load
 window.addEventListener("load", () => {
   getPosts().then((data) => {
-    const arr = data.posts.slice(-2); //for last two posts
+    const arr = data.posts.slice(-3); //for last three posts
     arr.forEach((post) => {
       addTemplate(post);
     });
