@@ -309,8 +309,8 @@ body .navbar-light .navbar-toggler-icon {
 }
 
 #club .club_card:hover {
-  -webkit-box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.24);
-  box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.24);
+  -webkit-box-shadow: 0px 1px 16px rgba(0, 0, 0, 0.24);
+  box-shadow: 0px 1px 16px rgba(0, 0, 0, 0.24);
   background-color: #fff;
 }
 

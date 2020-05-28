@@ -1,31 +1,29 @@
-{
-  "posts": [
-    {
-      "title": "Hello World",
-      "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, quibusdam. Officiis veritatis quis praesentium natus distinctio molestias magni reprehenderit sapiente!",
-      "author": "John Doe",
-      "published_on": "20 November 2019",
-      "source": "medium",
-      "link": "https://medium.com",
-      "image": "../img/zealicon.png"
-    },
-    {
-      "title": "Hello World #2",
-      "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, quibusdam. Officiis veritatis quis praesentium natus distinctio molestias magni reprehenderit sapiente!",
-      "author": "Mario",
-      "published_on": "21 November 2019",
-      "source": "hackernoon",
-      "link": "https://hackernoon.com",
-      "image": "../img/techtrek.png"
-    },
-    {
-      "title": "Hello World #3",
-      "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, quibusdam. Officiis veritatis quis praesentium natus distinctio molestias magni reprehenderit sapiente!",
-      "author": "Luigi",
-      "published_on": "22 November 2020",
-      "source": "medium",
-      "link": "https://medium.com",
-      "image": "../img/project.png"
-    }
-  ]
-}
+[
+  {
+    "title": "Hello World",
+    "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, quibusdam. Officiis veritatis quis praesentium natus distinctio molestias magni reprehenderit sapiente!",
+    "author": "John Doe",
+    "published_on": "20 November 2019",
+    "source": "medium",
+    "link": "https://medium.com",
+    "image": "../img/zealicon.png"
+  },
+  {
+    "title": "Hello World #2",
+    "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, quibusdam. Officiis veritatis quis praesentium natus distinctio molestias magni reprehenderit sapiente!",
+    "author": "Mario",
+    "published_on": "21 November 2019",
+    "source": "hackernoon",
+    "link": "https://hackernoon.com",
+    "image": "../img/techtrek.png"
+  },
+  {
+    "title": "Hello World #3",
+    "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, quibusdam. Officiis veritatis quis praesentium natus distinctio molestias magni reprehenderit sapiente!",
+    "author": "Luigi",
+    "published_on": "22 November 2020",
+    "source": "medium",
+    "link": "https://medium.com",
+    "image": "../img/project.png"
+  }
+]
