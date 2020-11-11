@@ -1268,3 +1268,9 @@ body .navbar-light .navbar-toggler-icon {
   font-family: "AvenirRegular";
 }
 /*# sourceMappingURL=style.css.map */
+#blog-container {
+  width: 90% !important;
+}
+#blog:hover {
+  box-shadow: 0px 5px 5px 0px gray !important;
+}

@@ -1,29 +1,39 @@
+
 [
   {
-    "title": "Hello World",
-    "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, quibusdam. Officiis veritatis quis praesentium natus distinctio molestias magni reprehenderit sapiente!",
-    "author": "John Doe",
-    "published_on": "20 November 2019",
+    "title": "Asynchronous JavaScript to learn before JavaScript Frameworks",
+    "body": "In the last two articles, we have already covered the first two topics so, in",
+    "author": "Rajat Verma",
+    "published_on": "5 June 2020",
     "source": "medium",
-    "link": "https://medium.com",
-    "image": "../img/zealicon.png"
+    "link": "https://medium.com/javascript-in-plain-english/asynchronous-javascript-to-learn-before-javascript-frameworks-9b63972290c2",
+    "image": "https://miro.medium.com/max/700/1*VNJxBO3aLOJ4zI6BVOhH2A.jpeg"
   },
   {
-    "title": "Hello World #2",
-    "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, quibusdam. Officiis veritatis quis praesentium natus distinctio molestias magni reprehenderit sapiente!",
-    "author": "Mario",
-    "published_on": "21 November 2019",
-    "source": "hackernoon",
-    "link": "https://hackernoon.com",
-    "image": "../img/techtrek.png"
+    "title": "How to use NPM (and import/export modules) in JavaScript",
+    "body": "If you are familiar with JavaScript or Web Development then you must have heard about npm.",
+    "author": "Rajat Verma",
+    "published_on": "14 June 2020",
+    "source": "medium",
+    "link": "https://medium.com/javascript-in-plain-english/how-to-use-npm-and-import-export-modules-in-javascript-31a7f66a2064",
+    "image": "https://miro.medium.com/max/700/0*B4Rgu6aaBC8DIZHa.jpeg"
   },
   {
-    "title": "Hello World #3",
-    "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, quibusdam. Officiis veritatis quis praesentium natus distinctio molestias magni reprehenderit sapiente!",
-    "author": "Luigi",
-    "published_on": "22 November 2020",
+    "title": "Learning to learn by writing about it",
+    "body": "I had this certain hesitation in writing or posting about my learnings in design or any other subject that I love. ",
+    "author": "Kumar Rohit Chandra",
+    "published_on": "13 May 2020",
     "source": "medium",
-    "link": "https://medium.com",
-    "image": "../img/project.png"
+    "link": "https://medium.com/@krrohitch/learning-to-learn-by-writing-about-it-a6e8edb7527a",
+    "image": "https://miro.medium.com/max/1920/1*UXsN-jix88KqCq9FaGWPcQ.png"
+  },
+  {
+    "title": "Things to learn before learning a JavaScript framework",
+    "body": "If you are familiar with the World of JavaScript then you must have heard about the trending frameworks in JavaScript like React, Vue, and Angular.",
+    "author": "Rajat Verma",
+    "published_on": "3 May 2020",
+    "source": "medium",
+    "link": "https://medium.com/javascript-in-plain-english/things-to-learn-before-learning-a-javascript-framework-b7baec310247",
+    "image": "https://miro.medium.com/max/686/1*SDjLyKzgl9deLie-KMxEkQ.png"
   }
 ]
