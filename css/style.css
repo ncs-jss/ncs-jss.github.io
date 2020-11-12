@@ -29,7 +29,7 @@ body .navbar-light .navbar-toggler-icon {
 }
 
 .avenir {
-  font-family: 'AvenirNext', serif;
+  font-family: "AvenirNext", serif;
 }
 
 @font-face {
@@ -38,7 +38,7 @@ body .navbar-light .navbar-toggler-icon {
 }
 
 .avenirMedium {
-  font-family: 'AvenirNextMedium', serif;
+  font-family: "AvenirNextMedium", serif;
 }
 
 @font-face {
@@ -47,7 +47,7 @@ body .navbar-light .navbar-toggler-icon {
 }
 
 .avenirDemi {
-  font-family: 'AvenirNextDemi', serif;
+  font-family: "AvenirNextDemi", serif;
 }
 
 @font-face {
@@ -56,7 +56,7 @@ body .navbar-light .navbar-toggler-icon {
 }
 
 .avenirRegular {
-  font-family: 'AvenirRegular', serif;
+  font-family: "AvenirRegular", serif;
 }
 
 .navbar {
@@ -85,7 +85,7 @@ body .navbar-light .navbar-toggler-icon {
 
 .navbar .nav-link {
   color: #757575 !important;
-  font-family: 'AvenirNextDemi', serif !important;
+  font-family: "AvenirNextDemi", serif !important;
 }
 
 .navbar .nav-item .active {
@@ -532,13 +532,13 @@ body .navbar-light .navbar-toggler-icon {
 #main_team span {
   font-size: 30px;
   color: #212121;
-  font-family: 'AvenirNext', serif;
+  font-family: "AvenirNext", serif;
 }
 
 @media (max-width: 768px) {
   #main_team span {
     font-size: 20px;
-    font-family: 'AvenirNextDemi', serif;
+    font-family: "AvenirNextDemi", serif;
   }
 }
 
@@ -808,7 +808,7 @@ body .navbar-light .navbar-toggler-icon {
 .heading-wrap h3 {
   color: #212121;
   font-size: 36px;
-  font-family: 'AvenirNext';
+  font-family: "AvenirNext";
 }
 
 .heading-wrap .heading-description {
@@ -819,7 +819,7 @@ body .navbar-light .navbar-toggler-icon {
 .heading-wrap .heading-description p {
   color: #616161;
   font-size: 24px;
-  font-family: 'AvenirRegular';
+  font-family: "AvenirRegular";
 }
 
 .mainProject {
@@ -890,7 +890,7 @@ body .navbar-light .navbar-toggler-icon {
 }
 
 .mainProject .mainProject-wrap .project1 {
-  background-image: url('../img/projects/JSS infoconnect@2x-min.png');
+  background-image: url("../img/projects/JSS infoconnect@2x-min.png");
 }
 
 .mainProject .mainProject-wrap .project1:hover {
@@ -898,7 +898,7 @@ body .navbar-light .navbar-toggler-icon {
 }
 
 .mainProject .mainProject-wrap .project2 {
-  background-image: url('../img/projects/MCQ MODULE@2x-min.png');
+  background-image: url("../img/projects/MCQ MODULE@2x-min.png");
 }
 
 .mainProject .mainProject-wrap .project2:hover {
@@ -906,7 +906,7 @@ body .navbar-light .navbar-toggler-icon {
 }
 
 .mainProject .mainProject-wrap .project3 {
-  background-image: url('../img/projects/EM@2x-min.png');
+  background-image: url("../img/projects/EM@2x-min.png");
 }
 
 .mainProject .mainProject-wrap .project3:hover {
@@ -914,7 +914,7 @@ body .navbar-light .navbar-toggler-icon {
 }
 
 .mainProject .mainProject-wrap .project4 {
-  background-image: url('../img/projects/KYC.@2x-min.png');
+  background-image: url("../img/projects/KYC.@2x-min.png");
 }
 
 .mainProject .mainProject-wrap .project4:hover {
@@ -924,7 +924,7 @@ body .navbar-light .navbar-toggler-icon {
 .mainProject .mainProject-wrap h2 {
   font-size: 36px;
   color: #212121;
-  font-family: 'AvenirNextDemi';
+  font-family: "AvenirNextDemi";
   margin-bottom: 35px;
 }
 
@@ -943,7 +943,7 @@ body .navbar-light .navbar-toggler-icon {
 .mainProject .mainProject-wrap p {
   font-size: 24px;
   color: #616161;
-  font-family: 'AvenirRegular';
+  font-family: "AvenirRegular";
   margin-bottom: 0;
 }
 
@@ -1010,7 +1010,7 @@ body .navbar-light .navbar-toggler-icon {
 .mainProject .mainProject-wrap .buttons a {
   color: #ffff;
   font-size: 18px;
-  font-family: 'AvenirNextDemi';
+  font-family: "AvenirNextDemi";
   text-decoration: none;
 }
 
@@ -1086,7 +1086,7 @@ body .navbar-light .navbar-toggler-icon {
 }
 
 .projects-wrap .project1 {
-  background-image: url('../img/projects/INFO APP@2x-min.png');
+  background-image: url("../img/projects/INFO APP@2x-min.png");
 }
 
 .projects-wrap .project1:hover {
@@ -1094,7 +1094,7 @@ body .navbar-light .navbar-toggler-icon {
 }
 
 .projects-wrap .project2 {
-  background-image: url('../img/projects/ZEALICON@2x-min.png');
+  background-image: url("../img/projects/ZEALICON@2x-min.png");
 }
 
 .projects-wrap .project2:hover {
@@ -1102,7 +1102,7 @@ body .navbar-light .navbar-toggler-icon {
 }
 
 .projects-wrap .project3 {
-  background-image: url('../img/projects/CODEPAD@2x-min.png');
+  background-image: url("../img/projects/CODEPAD@2x-min.png");
 }
 
 .projects-wrap .project3:hover {
@@ -1110,7 +1110,7 @@ body .navbar-light .navbar-toggler-icon {
 }
 
 .projects-wrap .project4 {
-  background-image: url('../img/projects/T&P PORTAL@2x-min.png');
+  background-image: url("../img/projects/T&P PORTAL@2x-min.png");
 }
 
 .projects-wrap .project4:hover {
@@ -1118,7 +1118,7 @@ body .navbar-light .navbar-toggler-icon {
 }
 
 .projects-wrap .project5 {
-  background-image: url('../img/projects/PLEXUS@2x-min.png');
+  background-image: url("../img/projects/PLEXUS@2x-min.png");
 }
 
 .projects-wrap .project5:hover {
@@ -1126,7 +1126,7 @@ body .navbar-light .navbar-toggler-icon {
 }
 
 .projects-wrap .project6 {
-  background-image: url('../img/projects/REGISTRATION MODULE@2x-min.png');
+  background-image: url("../img/projects/REGISTRATION MODULE@2x-min.png");
 }
 
 .projects-wrap .project6:hover {
@@ -1134,7 +1134,7 @@ body .navbar-light .navbar-toggler-icon {
 }
 
 .projects-wrap .project7 {
-  background-image: url('../img/projects/SHERLOCKED@2x-min.png');
+  background-image: url("../img/projects/SHERLOCKED@2x-min.png");
 }
 
 .projects-wrap .project7:hover {
@@ -1142,7 +1142,7 @@ body .navbar-light .navbar-toggler-icon {
 }
 
 .projects-wrap .project8 {
-  background-image: url('../img/projects/LOOT@2x-min.png');
+  background-image: url("../img/projects/LOOT@2x-min.png");
 }
 
 .projects-wrap .project8:hover {
@@ -1174,7 +1174,7 @@ body .navbar-light .navbar-toggler-icon {
   width: 70%;
   font-size: 30px;
   color: #212121;
-  font-family: 'AvenirNextDemi';
+  font-family: "AvenirNextDemi";
 }
 
 @media (max-width: 760px) {
@@ -1214,7 +1214,7 @@ body .navbar-light .navbar-toggler-icon {
 .projects-wrap p {
   font-size: 24px;
   color: #616161;
-  font-family: 'AvenirRegular';
+  font-family: "AvenirRegular";
 }
 
 @media (max-width: 1100px) {
@@ -1253,7 +1253,7 @@ body .navbar-light .navbar-toggler-icon {
 .year h6 {
   width: 200px;
   font-size: 24px;
-  font-family: 'AvenirNextMedium';
+  font-family: "AvenirNextMedium";
   padding: 0px 40px;
 }
 
@@ -1279,14 +1279,10 @@ body .navbar-light .navbar-toggler-icon {
 .team-description h4 {
   padding: 0;
   font-size: 24px;
-  font-family: 'AvenirRegular';
+  font-family: "AvenirRegular";
 }
 /*# sourceMappingURL=style.css.map */
 
 #blog-container {
   width: 90% !important;
 }
-#blog:hover {
-  box-shadow: 0px 5px 5px 0px gray !important;
-}
-
