@@ -77,7 +77,6 @@
       href="favicon.ico"
       type="image/vnd.microsoft.icon"
     />
-    <!-- <link rel="manifest" href="manifest.json" /> -->
     <!-- Bootstrap CSS -->
     <link
       rel="stylesheet"
@@ -96,11 +95,6 @@
       src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"
       integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm"
       crossorigin="anonymous"
-    ></script>
-    <script
-      async
-      crossorigin="anonymous"
-      src="https://www.instagram.com/static/bundles/es6/EmbedSDK.js/363a6c0267bf.js"
     ></script>
     <script type="text/javascript" src="js/script.js"></script>
     <title>Nibble Computer Society</title>
@@ -237,11 +231,14 @@
       </section>
       <section id="latest_post">
         <h1 class="text-center avenir pb-5">Stay in the Now!</h1>
-        <div id="latest_insta_post" class="px-4 d-block mx-auto">
+        <div
+          id="latest_insta_post"
+          class="px-4 d-block mx-auto"
+          style="display: flex !important; justify-content: center"
+        >
           <blockquote
             class="instagram-media"
             id="instagram-media"
-            data-instgrm-permalink=""
             data-instgrm-version="13"
             style="
               background: #fff;
@@ -258,7 +255,6 @@
               width: calc(100% - 2px);
             "
           ></blockquote>
-          <script async src="//www.instagram.com/embed.js"></script>
         </div>
       </section>
       <section id="club">
@@ -524,6 +520,11 @@
               'data-instgrm-permalink',
               `${el.url}?utm_source=ig_embed&amp;utm_campaign=loading`
             );
+            var script = document.createElement('script');
+            script.src =
+              'https://www.instagram.com/static/bundles/es6/EmbedSDK.js/363a6c0267bf.js';
+            script.setAttribute('crossorigin', 'anonymous');
+            document.getElementsByTagName('head')[0].appendChild(script);
           });
         } catch (e) {
           console.error('Fetching Instagram photos failed', e);
