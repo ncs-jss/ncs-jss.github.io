@@ -77,7 +77,6 @@
       href="favicon.ico"
       type="image/vnd.microsoft.icon"
     />
-    <!-- <link rel="manifest" href="manifest.json" /> -->
     <!-- Bootstrap CSS -->
     <link
       rel="stylesheet"
@@ -232,7 +231,17 @@
       </section>
       <section id="latest_post">
         <h1 class="text-center avenir pb-5">Stay in the Now!</h1>
-        <div id="latest_insta_post" class="px-4 d-block mx-auto"></div>
+        <div
+          id="latest_insta_post"
+          class="px-4 d-block mx-auto"
+          style="display: flex !important; justify-content: center"
+        >
+          <blockquote
+            class="instagram-media"
+            id="instagram-media"
+            data-instgrm-version="13"
+          ></blockquote>
+        </div>
       </section>
       <section id="club">
         <h1 class="text-center avenir">Clubs</h1>
@@ -445,6 +454,7 @@
         </div>
       </section>
     </div>
+
     <script type="text/javascript">
       // Smooth scroll
       $(".smoothScroll").click(function () {
@@ -498,22 +508,17 @@
           const photos = await fetchInstagramPhotos(
             "https://www.instagram.com/hackncs/"
           );
-          const container = document.getElementById("latest_insta_post");
+          const container = document.getElementById('instagram-media');
           photos.forEach((el) => {
-            const a = document.createElement("a");
-            const img = document.createElement("img");
-
-            a.setAttribute("href", el.url);
-            a.setAttribute("target", "_blank");
-            a.setAttribute("rel", "noopener noreferrer");
-            a.classList.add("instagram-photo");
-
-            img.setAttribute("src", el.thumbnailUrl);
-            img.setAttribute("alt", el.caption);
-            img.setAttribute("class", "img-fluid mx-auto d-md-block");
-
-            a.appendChild(img);
-            container.appendChild(a);
+            container.setAttribute(
+              'data-instgrm-permalink',
+              `${el.url}?utm_source=ig_embed&amp;utm_campaign=loading`
+            );
+            var script = document.createElement('script');
+            script.src =
+              'https://www.instagram.com/static/bundles/es6/EmbedSDK.js/363a6c0267bf.js';
+            script.setAttribute('crossorigin', 'anonymous');
+            document.getElementsByTagName('head')[0].appendChild(script);
           });
         } catch (e) {
           console.error("Fetching Instagram photos failed", e);
