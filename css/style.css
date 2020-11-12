@@ -1,7 +1,7 @@
 body {
   margin: 0;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   overflow-x: hidden;
   background-color: #fff;
 }
@@ -16,7 +16,7 @@ body .fa-chevron-circle-up {
 
 body .fa-chevron-circle-up:hover {
   -webkit-transform: scale(1.2) !important;
-          transform: scale(1.2) !important;
+  transform: scale(1.2) !important;
 }
 
 body .navbar-light .navbar-toggler-icon {
@@ -29,7 +29,7 @@ body .navbar-light .navbar-toggler-icon {
 }
 
 .avenir {
-  font-family: "AvenirNext", serif;
+  font-family: 'AvenirNext', serif;
 }
 
 @font-face {
@@ -38,7 +38,7 @@ body .navbar-light .navbar-toggler-icon {
 }
 
 .avenirMedium {
-  font-family: "AvenirNextMedium", serif;
+  font-family: 'AvenirNextMedium', serif;
 }
 
 @font-face {
@@ -47,7 +47,7 @@ body .navbar-light .navbar-toggler-icon {
 }
 
 .avenirDemi {
-  font-family: "AvenirNextDemi", serif;
+  font-family: 'AvenirNextDemi', serif;
 }
 
 @font-face {
@@ -56,7 +56,7 @@ body .navbar-light .navbar-toggler-icon {
 }
 
 .avenirRegular {
-  font-family: "AvenirRegular", serif;
+  font-family: 'AvenirRegular', serif;
 }
 
 .navbar {
@@ -85,7 +85,7 @@ body .navbar-light .navbar-toggler-icon {
 
 .navbar .nav-link {
   color: #757575 !important;
-  font-family: "AvenirNextDemi", serif !important;
+  font-family: 'AvenirNextDemi', serif !important;
 }
 
 .navbar .nav-item .active {
@@ -95,11 +95,25 @@ body .navbar-light .navbar-toggler-icon {
 }
 
 .navbar .btn-default {
-  background: -webkit-gradient(linear, left top, right top, from(var(--c1, #f6d365)), color-stop(51%, var(--c2, #fda085)), to(var(--c1, #f6d365))) var(--x, 0)/200% !important;
-  background: linear-gradient(90deg, var(--c1, #f6d365), var(--c2, #fda085) 51%, var(--c1, #f6d365)) var(--x, 0)/200% !important;
+  background: -webkit-gradient(
+      linear,
+      left top,
+      right top,
+      from(var(--c1, #f6d365)),
+      color-stop(51%, var(--c2, #fda085)),
+      to(var(--c1, #f6d365))
+    )
+    var(--x, 0) / 200% !important;
+  background: linear-gradient(
+      90deg,
+      var(--c1, #f6d365),
+      var(--c2, #fda085) 51%,
+      var(--c1, #f6d365)
+    )
+    var(--x, 0) / 200% !important;
   color: white !important;
   -webkit-box-shadow: 0 0 20px #eee;
-          box-shadow: 0 0 20px #eee;
+  box-shadow: 0 0 20px #eee;
   border-radius: 3rem !important;
   border-width: 2px !important;
   width: 150px;
@@ -125,14 +139,20 @@ body .navbar-light .navbar-toggler-icon {
 }
 
 #home .box_large {
-  background: -webkit-gradient(linear, left top, right bottom, from(#ffaa00), to(#f1726c));
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right bottom,
+    from(#ffaa00),
+    to(#f1726c)
+  );
   background: linear-gradient(to bottom right, #ffaa00, #f1726c);
   border-radius: 12px;
   min-height: 60vh;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
 }
 
 #home .box_large h1 {
@@ -172,7 +192,7 @@ body .navbar-light .navbar-toggler-icon {
   height: 180px;
   width: 100%;
   -webkit-box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.24);
-          box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.24);
+  box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.24);
   border-radius: 8px;
   background-color: #fff;
 }
@@ -185,6 +205,20 @@ body .navbar-light .navbar-toggler-icon {
   padding-bottom: 6rem;
   padding-top: 6rem;
   background-color: #f9f9f9 !important;
+}
+
+.instagram-media {
+  background: #fff;
+  border: 0;
+  border-radius: 6px !important;
+  box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.5), 0 1px 10px 0 rgba(0, 0, 0, 0.15);
+  margin: 1px;
+  padding: 0;
+  max-width: 540px;
+  min-width: 326px;
+  width: 99.375%;
+  width: -webkit-calc(100% - 2px);
+  width: calc(100% - 2px);
 }
 
 @media (max-width: 768px) {
@@ -218,7 +252,13 @@ body .navbar-light .navbar-toggler-icon {
 }
 
 #club .box {
-  background: linear-gradient(138deg, var(--c1, #f6d365), var(--c2, #fda085) 51%, var(--c1, #f6d365)) var(--x, 0)/200%;
+  background: linear-gradient(
+      138deg,
+      var(--c1, #f6d365),
+      var(--c2, #fda085) 51%,
+      var(--c1, #f6d365)
+    )
+    var(--x, 0) / 200%;
   -webkit-transition: 1s;
   transition: 1s;
 }
@@ -284,7 +324,7 @@ body .navbar-light .navbar-toggler-icon {
 
 #club .club_card:hover {
   -webkit-box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.24);
-          box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.24);
+  box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.24);
   background-color: #fff;
 }
 
@@ -332,7 +372,13 @@ body .navbar-light .navbar-toggler-icon {
 }
 
 #about .box {
-  background: linear-gradient(138deg, var(--c1, #f6d365), var(--c2, #fda085) 51%, var(--c1, #f6d365)) var(--x, 0)/200%;
+  background: linear-gradient(
+      138deg,
+      var(--c1, #f6d365),
+      var(--c2, #fda085) 51%,
+      var(--c1, #f6d365)
+    )
+    var(--x, 0) / 200%;
   -webkit-transition: 1s;
   transition: 1s;
 }
@@ -394,7 +440,7 @@ body .navbar-light .navbar-toggler-icon {
   padding-top: 2rem;
   border-radius: 8px;
   -webkit-box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.24);
-          box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.24);
+  box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.24);
 }
 
 @media (max-width: 768px) {
@@ -486,13 +532,13 @@ body .navbar-light .navbar-toggler-icon {
 #main_team span {
   font-size: 30px;
   color: #212121;
-  font-family: "AvenirNext", serif;
+  font-family: 'AvenirNext', serif;
 }
 
 @media (max-width: 768px) {
   #main_team span {
     font-size: 20px;
-    font-family: "AvenirNextDemi", serif;
+    font-family: 'AvenirNextDemi', serif;
   }
 }
 
@@ -569,7 +615,7 @@ body .navbar-light .navbar-toggler-icon {
 
 #main_team .head_team:hover {
   -webkit-box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.14);
-          box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.14);
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.14);
   border-radoius: 4px;
   background-color: #fff;
 }
@@ -640,15 +686,21 @@ body .navbar-light .navbar-toggler-icon {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.24);
-          box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.24);
-  background: -webkit-gradient(linear, left top, right bottom, from(#46d3ff), to(#1afb94));
+  box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.24);
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right bottom,
+    from(#46d3ff),
+    to(#1afb94)
+  );
   background: linear-gradient(to bottom right, #46d3ff, #1afb94);
 }
 
@@ -687,11 +739,11 @@ body .navbar-light .navbar-toggler-icon {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   height: 90vh;
   width: 95%;
 }
@@ -756,7 +808,7 @@ body .navbar-light .navbar-toggler-icon {
 .heading-wrap h3 {
   color: #212121;
   font-size: 36px;
-  font-family: "AvenirNext";
+  font-family: 'AvenirNext';
 }
 
 .heading-wrap .heading-description {
@@ -767,7 +819,7 @@ body .navbar-light .navbar-toggler-icon {
 .heading-wrap .heading-description p {
   color: #616161;
   font-size: 24px;
-  font-family: "AvenirRegular";
+  font-family: 'AvenirRegular';
 }
 
 .mainProject {
@@ -800,7 +852,7 @@ body .navbar-light .navbar-toggler-icon {
   background-repeat: no-repeat;
   background-size: 110%;
   -webkit-box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.24);
-          box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.24);
+  box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.24);
   -webkit-transition: 0.9s ease;
   transition: 0.9s ease;
 }
@@ -838,7 +890,7 @@ body .navbar-light .navbar-toggler-icon {
 }
 
 .mainProject .mainProject-wrap .project1 {
-  background-image: url("../img/projects/JSS infoconnect@2x-min.png");
+  background-image: url('../img/projects/JSS infoconnect@2x-min.png');
 }
 
 .mainProject .mainProject-wrap .project1:hover {
@@ -846,7 +898,7 @@ body .navbar-light .navbar-toggler-icon {
 }
 
 .mainProject .mainProject-wrap .project2 {
-  background-image: url("../img/projects/MCQ MODULE@2x-min.png");
+  background-image: url('../img/projects/MCQ MODULE@2x-min.png');
 }
 
 .mainProject .mainProject-wrap .project2:hover {
@@ -854,7 +906,7 @@ body .navbar-light .navbar-toggler-icon {
 }
 
 .mainProject .mainProject-wrap .project3 {
-  background-image: url("../img/projects/EM@2x-min.png");
+  background-image: url('../img/projects/EM@2x-min.png');
 }
 
 .mainProject .mainProject-wrap .project3:hover {
@@ -862,7 +914,7 @@ body .navbar-light .navbar-toggler-icon {
 }
 
 .mainProject .mainProject-wrap .project4 {
-  background-image: url("../img/projects/KYC.@2x-min.png");
+  background-image: url('../img/projects/KYC.@2x-min.png');
 }
 
 .mainProject .mainProject-wrap .project4:hover {
@@ -872,7 +924,7 @@ body .navbar-light .navbar-toggler-icon {
 .mainProject .mainProject-wrap h2 {
   font-size: 36px;
   color: #212121;
-  font-family: "AvenirNextDemi";
+  font-family: 'AvenirNextDemi';
   margin-bottom: 35px;
 }
 
@@ -891,7 +943,7 @@ body .navbar-light .navbar-toggler-icon {
 .mainProject .mainProject-wrap p {
   font-size: 24px;
   color: #616161;
-  font-family: "AvenirRegular";
+  font-family: 'AvenirRegular';
   margin-bottom: 0;
 }
 
@@ -930,11 +982,11 @@ body .navbar-light .navbar-toggler-icon {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   margin: 0px;
   margin-right: 12px;
   border-radius: 30px;
@@ -948,7 +1000,7 @@ body .navbar-light .navbar-toggler-icon {
 .mainProject .mainProject-wrap .buttons .button:hover {
   cursor: pointer;
   -webkit-box-shadow: 0px 3.5px 7px 0px rgba(0, 0, 0, 0.75);
-          box-shadow: 0px 3.5px 7px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 3.5px 7px 0px rgba(0, 0, 0, 0.75);
 }
 
 .mainProject .mainProject-wrap .buttons .blue {
@@ -958,7 +1010,7 @@ body .navbar-light .navbar-toggler-icon {
 .mainProject .mainProject-wrap .buttons a {
   color: #ffff;
   font-size: 18px;
-  font-family: "AvenirNextDemi";
+  font-family: 'AvenirNextDemi';
   text-decoration: none;
 }
 
@@ -991,7 +1043,7 @@ body .navbar-light .navbar-toggler-icon {
   background-position: center;
   background-repeat: no-repeat;
   -webkit-box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.24);
-          box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.24);
+  box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.24);
   margin-bottom: 27px;
   background-size: 110%;
   -webkit-transition: 0.9s ease;
@@ -1034,7 +1086,7 @@ body .navbar-light .navbar-toggler-icon {
 }
 
 .projects-wrap .project1 {
-  background-image: url("../img/projects/INFO APP@2x-min.png");
+  background-image: url('../img/projects/INFO APP@2x-min.png');
 }
 
 .projects-wrap .project1:hover {
@@ -1042,7 +1094,7 @@ body .navbar-light .navbar-toggler-icon {
 }
 
 .projects-wrap .project2 {
-  background-image: url("../img/projects/ZEALICON@2x-min.png");
+  background-image: url('../img/projects/ZEALICON@2x-min.png');
 }
 
 .projects-wrap .project2:hover {
@@ -1050,7 +1102,7 @@ body .navbar-light .navbar-toggler-icon {
 }
 
 .projects-wrap .project3 {
-  background-image: url("../img/projects/CODEPAD@2x-min.png");
+  background-image: url('../img/projects/CODEPAD@2x-min.png');
 }
 
 .projects-wrap .project3:hover {
@@ -1058,7 +1110,7 @@ body .navbar-light .navbar-toggler-icon {
 }
 
 .projects-wrap .project4 {
-  background-image: url("../img/projects/T&P PORTAL@2x-min.png");
+  background-image: url('../img/projects/T&P PORTAL@2x-min.png');
 }
 
 .projects-wrap .project4:hover {
@@ -1066,7 +1118,7 @@ body .navbar-light .navbar-toggler-icon {
 }
 
 .projects-wrap .project5 {
-  background-image: url("../img/projects/PLEXUS@2x-min.png");
+  background-image: url('../img/projects/PLEXUS@2x-min.png');
 }
 
 .projects-wrap .project5:hover {
@@ -1074,7 +1126,7 @@ body .navbar-light .navbar-toggler-icon {
 }
 
 .projects-wrap .project6 {
-  background-image: url("../img/projects/REGISTRATION MODULE@2x-min.png");
+  background-image: url('../img/projects/REGISTRATION MODULE@2x-min.png');
 }
 
 .projects-wrap .project6:hover {
@@ -1082,7 +1134,7 @@ body .navbar-light .navbar-toggler-icon {
 }
 
 .projects-wrap .project7 {
-  background-image: url("../img/projects/SHERLOCKED@2x-min.png");
+  background-image: url('../img/projects/SHERLOCKED@2x-min.png');
 }
 
 .projects-wrap .project7:hover {
@@ -1090,7 +1142,7 @@ body .navbar-light .navbar-toggler-icon {
 }
 
 .projects-wrap .project8 {
-  background-image: url("../img/projects/LOOT@2x-min.png");
+  background-image: url('../img/projects/LOOT@2x-min.png');
 }
 
 .projects-wrap .project8:hover {
@@ -1122,7 +1174,7 @@ body .navbar-light .navbar-toggler-icon {
   width: 70%;
   font-size: 30px;
   color: #212121;
-  font-family: "AvenirNextDemi";
+  font-family: 'AvenirNextDemi';
 }
 
 @media (max-width: 760px) {
@@ -1143,11 +1195,11 @@ body .navbar-light .navbar-toggler-icon {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   width: 40px;
   height: 40px;
   border: 2px solid #000000;
@@ -1162,7 +1214,7 @@ body .navbar-light .navbar-toggler-icon {
 .projects-wrap p {
   font-size: 24px;
   color: #616161;
-  font-family: "AvenirRegular";
+  font-family: 'AvenirRegular';
 }
 
 @media (max-width: 1100px) {
@@ -1185,8 +1237,8 @@ body .navbar-light .navbar-toggler-icon {
   display: inline-flex;
   width: 100%;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 .year .hr {
@@ -1201,7 +1253,7 @@ body .navbar-light .navbar-toggler-icon {
 .year h6 {
   width: 200px;
   font-size: 24px;
-  font-family: "AvenirNextMedium";
+  font-family: 'AvenirNextMedium';
   padding: 0px 40px;
 }
 
@@ -1217,16 +1269,16 @@ body .navbar-light .navbar-toggler-icon {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .team-description h4 {
   padding: 0;
   font-size: 24px;
-  font-family: "AvenirRegular";
+  font-family: 'AvenirRegular';
 }
 /*# sourceMappingURL=style.css.map */
