@@ -1,22 +1,22 @@
 
 [
   {
-    "title": "Asynchronous JavaScript to learn before JavaScript Frameworks",
-    "body": "In the last two articles, we have already covered the first two topics so, in",
-    "author": "Rajat Verma",
-    "published_on": "5 June 2020",
-    "source": "medium",
-    "link": "https://medium.com/javascript-in-plain-english/asynchronous-javascript-to-learn-before-javascript-frameworks-9b63972290c2",
-    "image": "https://miro.medium.com/max/700/1*VNJxBO3aLOJ4zI6BVOhH2A.jpeg"
+    "title":"Web Scraping — An excellent way to load your database",
+    "author": "Shobhit Agarwal",
+    "published_on":"9 May 2019",
+    "source":"medium",
+    "link":"https://medium.com/@shobhitagarwal756/web-scraping-the-best-way-to-fill-your-database-b94d1c3fa1ff",
+    "image":"https://miro.medium.com/max/700/1*n4DaugNoli1GH5NXVfOIGg.jpeg",
+    "authorImage":"https://miro.medium.com/fit/c/56/56/0*NYeMUQlz9TSrPBjk.jpg"
   },
   {
-    "title": "How to use NPM (and import/export modules) in JavaScript",
-    "body": "If you are familiar with JavaScript or Web Development then you must have heard about npm.",
-    "author": "Rajat Verma",
-    "published_on": "14 June 2020",
-    "source": "medium",
-    "link": "https://medium.com/javascript-in-plain-english/how-to-use-npm-and-import-export-modules-in-javascript-31a7f66a2064",
-    "image": "https://miro.medium.com/max/700/0*B4Rgu6aaBC8DIZHa.jpeg"
+    "title":"Rundown of the Most Important React Hooks",
+    "author":"Kunal Vishnoi",
+    "published_on":"20 August 2019",
+    "source":"medium",
+    "link":"https://medium.com/better-programming/rundown-of-the-most-important-react-hooks-5c9ec4cac5a2",
+    "image":"https://miro.medium.com/max/700/1*HNHZyHCVieQQSoPP51b4cQ.jpeg",
+    "authorImage":"https://miro.medium.com/fit/c/48/48/2*qn-nBkGIDWVNX4BW60qx0w.jpeg"
   },
   {
     "title": "Learning to learn by writing about it",
@@ -25,15 +25,18 @@
     "published_on": "13 May 2020",
     "source": "medium",
     "link": "https://medium.com/@krrohitch/learning-to-learn-by-writing-about-it-a6e8edb7527a",
-    "image": "https://miro.medium.com/max/1920/1*UXsN-jix88KqCq9FaGWPcQ.png"
+    "image": "https://miro.medium.com/max/1920/1*UXsN-jix88KqCq9FaGWPcQ.png",
+    "authorImage":"https://miro.medium.com/fit/c/56/56/2*q1MSJrGsrceeJZp4JXbP6w.jpeg"
   },
   {
-    "title": "Things to learn before learning a JavaScript framework",
-    "body": "If you are familiar with the World of JavaScript then you must have heard about the trending frameworks in JavaScript like React, Vue, and Angular.",
+    "title": "Asynchronous JavaScript to learn before JavaScript Frameworks",
+    "body": "In the last two articles, we have already covered the first two topics so, in",
     "author": "Rajat Verma",
-    "published_on": "3 May 2020",
+    "published_on": "5 June 2020",
     "source": "medium",
-    "link": "https://medium.com/javascript-in-plain-english/things-to-learn-before-learning-a-javascript-framework-b7baec310247",
-    "image": "https://miro.medium.com/max/686/1*SDjLyKzgl9deLie-KMxEkQ.png"
+    "link": "https://medium.com/javascript-in-plain-english/asynchronous-javascript-to-learn-before-javascript-frameworks-9b63972290c2",
+    "image": "https://miro.medium.com/max/700/1*VNJxBO3aLOJ4zI6BVOhH2A.jpeg",
+    "authorImage":"https://miro.medium.com/fit/c/96/96/2*wBRF8K-qTG4nTZZIOcHeBg.jpeg"
   }
+  
 ]

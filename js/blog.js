@@ -4,55 +4,34 @@ let html = ``;
 //template
 const addTemplate = (post) => {
   let { body, title, author } = post;
-  let postTitle = title.length > 13 ? `${title.substring(0, 10)}...` : title;
-  let description = body.length > 30 ? `${body.substring(0, 50)}...` : body; //body truncate
+  let postTitle = title.length > 33 ? `${title.substring(0, 30)}...` : title;
+  // let description = body.length > 30 ? `${body.substring(0, 50)}...` : body; //body truncate
   let postAuthor =
-    author.length > 10 ? `${author.substring(0, 10)}...` : author;
+    author.length > 22 ? `${author.substring(0, 19)}...` : author;
   html = `
   <a style="text-decoration: none; color: #000000" class="aveniDemi" href=${post.link} target="_blank">
-  <div
-  class="col-md-3 pt-1 text-center"
-  style="padding-left: 0; padding-right: 0;"
->
-
-  <div
-    class="club_card justify-content-center mx-auto" id="blog"
-    style="margin-bottom: 15px; padding-bottom: 10px; border-radius: 10px;"
-  >
-    <div
-      class="card-img-top img-responsive mx-auto"
-      style='width: 90%; height: 130px; 
-      background: url("${post.image}"); background-size: cover; border-radius: 10px;'
-      alt="Card image cap"
-    /></div>
-    <div
-      class="card-body"
-      style="padding-bottom: 0px;"
-      align="left"
-    >
-      <h4 class="avenirDemi" style="font-size: 1.5rem;">${postTitle}</h4>
-      <span class="author">by ${postAuthor}</span>
-      <p class="avenirRegular w-75 pt-3 text-muted" style="max-height:200px; overflow-y:hidden;">
-        ${description}
-      </p>
+    <div class="col-md-3 pt-1 text-center" style="padding-left: 0; padding-right: 0;">
+      <div class="club_card justify-content-center mx-auto" id="blog" style="margin-bottom: 15px; padding-bottom: 10px; border-radius: 10px;">
+        <div class="card-img-top img-responsive mx-auto" style='width: 90%; height: 130px;  background: url("${post.image}"); background-size: cover; border-radius: 10px;' alt="Card image cap"/>
+      </div>
+      <div class="card-body" style="padding-bottom: 0px;" align="left">
+        <h4 class="avenirDemi" style="font-size: 1.2rem;">${postTitle}</h4>
+        <div class="source">
+          <a href="${post.link}" target="_blank"><img style="height: 30px; width: 30px" src="../img/icons/blog/${post.source}.png"</img></a></div>
+        </div>
+        <hr style="width: 90%;"/>
+        <a style="text-decoration:none; color:#000000" href=${post.link}>
+        <div class="footer d-flex mx-auto" style="padding-bottom: 10px; width: 90%; align-items: center; cursor: pointer;">
+          <img src=${post.authorImage} style="height: 40px; width: 40px;" class="rounded-circle" />
+          <div class="author-info d-flex" style="flex-direction: column; align-items: flex-start; margin-left: 14px;">  
+            <span class="author-name avenirDemi">${postAuthor}</span>
+            <span class="date text-muted">${post.published_on}</span>
+          </div>
+        </div>
+        </a>
+      </div>
     </div>
-    <hr style="border-top: 0.5px solid black;"/>
-    <div
-      class="footer d-flex mx-auto"
-      style="
-        justify-content: space-between;
-        padding-bottom: 10px;
-        width: 90%;
-        align-items: center;
-      "
-    >
-      <div class="date">${post.published_on}</div>
-      <div class="source"><a href="${post.link}" target="_blank"><img style="height: 30px; width: 30px" src="../img/icons/blog/${post.source}.png"</img></a></div>
-    </div>
-  </>
-  
-</div>
-</a>
+  </a>
 `;
 
   section.innerHTML += html;
