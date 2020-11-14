@@ -11,8 +11,8 @@
       function gtag() {
         dataLayer.push(arguments);
       }
-      gtag('js', new Date());
-      gtag('config', 'UA-126400023-1');
+      gtag("js", new Date());
+      gtag("config", "UA-126400023-1");
     </script>
     <meta charset="utf-8" />
     <meta
@@ -326,7 +326,15 @@
           </div>
         </div>
       </section>
-      <section id="about">
+      <!-- New blog section -->
+      <section id="club" style="background-color: #f9f9f9 !important">
+        <h1 class="text-center avenir">Blogs</h1>
+        <div class="container-fluid margin mx-auto pt-5" id="blog-container">
+          <div id="blog-text" class="row justify-content-between"></div>
+        </div>
+      </section>
+      <!--Blog section ends-->
+      <section id="about" style="background-color: #fff !important">
         <h1 class="text-center avenir pb-4">About</h1>
         <h4
           style="max-width: 764px"
@@ -449,18 +457,18 @@
 
     <script type="text/javascript">
       // Smooth scroll
-      $('.smoothScroll').click(function () {
+      $(".smoothScroll").click(function () {
         if (
-          location.pathname.replace(/^\//, '') ==
-            this.pathname.replace(/^\//, '') &&
+          location.pathname.replace(/^\//, "") ==
+            this.pathname.replace(/^\//, "") &&
           location.hostname == this.hostname
         ) {
           var target = $(this.hash);
           target = target.length
             ? target
-            : $('[name=' + this.hash.slice(1) + ']');
+            : $("[name=" + this.hash.slice(1) + "]");
           if (target.length) {
-            $('html,body').animate(
+            $("html,body").animate(
               {
                 scrollTop: target.offset().top - 80,
               },
@@ -477,7 +485,7 @@
       );
 
       const fetchInstagramPhotos = async (accountUrl) => {
-        const res = await fetch(accountUrl, { method: 'get' });
+        const res = await fetch(accountUrl, { method: "get" });
         const response = await res.text();
         const json = JSON.parse(response.match(instagramRegExp)[1]);
         const edges = json.entry_data.ProfilePage[0].graphql.user.edge_owner_to_timeline_media.edges.splice(
@@ -491,31 +499,32 @@
           caption:
             node.edge_media_to_caption.edges.length > 0
               ? node.edge_media_to_caption.edges[0].node.text
-              : '',
+              : "",
         }));
       };
 
       (async () => {
         try {
           const photos = await fetchInstagramPhotos(
-            'https://www.instagram.com/hackncs/'
+            "https://www.instagram.com/hackncs/"
           );
-          const container = document.getElementById('instagram-media');
+          const container = document.getElementById("instagram-media");
           photos.forEach((el) => {
             container.setAttribute(
-              'data-instgrm-permalink',
+              "data-instgrm-permalink",
               `${el.url}?utm_source=ig_embed&amp;utm_campaign=loading`
             );
-            var script = document.createElement('script');
+            var script = document.createElement("script");
             script.src =
-              'https://www.instagram.com/static/bundles/es6/EmbedSDK.js/363a6c0267bf.js';
-            script.setAttribute('crossorigin', 'anonymous');
-            document.getElementsByTagName('head')[0].appendChild(script);
+              "https://www.instagram.com/static/bundles/es6/EmbedSDK.js/363a6c0267bf.js";
+            script.setAttribute("crossorigin", "anonymous");
+            document.getElementsByTagName("head")[0].appendChild(script);
           });
         } catch (e) {
-          console.error('Fetching Instagram photos failed', e);
+          console.error("Fetching Instagram photos failed", e);
         }
       })();
     </script>
+    <script src="js/blog.js"></script>
   </body>
 </html>
