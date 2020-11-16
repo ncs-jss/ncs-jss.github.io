@@ -1,7 +1,7 @@
 {
 	"forth": [
 		{
-			"profile": "Pranjali_ma'am.png",
+			"profile": "Pranjali.png",
 			"name": "Pranjali Katiyar",
 			"designation": "Chief Executive Member",
 			"links": [
@@ -16,7 +16,7 @@
 			]
 		},
 		{
-			"profile": "prakhar_sir.png",
+			"profile": "prakhar.png",
 			"name": "Prakhar Varshney",
 			"designation": "CTC Member, Head of Club: Technical",
 			"links": [
@@ -31,7 +31,7 @@
 			]
 		},
 		{
-			"profile": "Sourubh_sir.png",
+			"profile": "Sourubh.png",
 			"name": "Sourabh Singh",
 			"designation": "Technical Head, Head of Club: Programming",
 			"links": [
@@ -46,7 +46,7 @@
 			]
 		},
 		{
-			"profile": "akhil_sir.png",
+			"profile": "akhil.png",
 			"name": "Akhil Omar",
 			"designation": "General Secretary, Head of Club: Design",
 			"links": [
@@ -65,7 +65,7 @@
 			]
 		},
 		{
-			"profile": "vivek_sir.png",
+			"profile": "vivek.png",
 			"name": "Vivek Baghela",
 			"designation": "Creative Head",
 			"links": [
@@ -84,7 +84,7 @@
 			]
 		},
 		{
-			"profile": "Anupam_sir.png",
+			"profile": "Anupam.png",
 			"name": "Anupam Kushwaha",
 			"designation": "Head of Club: Web",
 			"links": [
@@ -99,7 +99,7 @@
 			]
 		},
 		{
-			"profile": "Prashant_sir.png",
+			"profile": "Prashant.png",
 			"name": "Prashant Bajaj",
 			"designation": "Financial Head and Treasurer",
 			"links": [
@@ -116,116 +116,7 @@
 	],
 	"third": [
 		{
-			"profile": "rajat_sir.png",
-			"name": "Rajat Verma",
-			"designation": "Developer",
-			"links": [
-				{
-					"website": "linkedin",
-					"url": "https://www.linkedin.com/in/rajat250"
-				},
-				{
-					"website": "github",
-					"url": "https://github.com/rajat2502"
-				},
-				{
-					"website": "medium",
-					"url": "https://medium.com/@rajat2502"
-				}
-			]
-		},
-		{
-			"profile": "saksham_sir.png",
-			"name": "Saksham Raghuvanshi",
-			"designation": "Developer",
-			"links": [
-				{
-					"website": "linkedin",
-					"url": "https://www.linkedin.com/in/saksham-raghuvanshi-0a1b58170/"
-				},
-				{
-					"website": "github",
-					"url": "https://github.com/sraghuvanshi"
-				}
-			]
-		},
-		{
-			"profile": "prajwal_sir.png",
-			"name": "Prajwal Shirur",
-			"designation": "Developer",
-			"links": [
-				{
-					"website": "linkedin",
-					"url": "https://www.linkedin.com/in/prajwal-ss-054a29185/"
-				},
-				{
-					"website": "github",
-					"url": "https://github.com/prajwal2100"
-				}
-			]
-		},
-		{
-			"profile": "sharad_sir.png",
-			"name": "Sharad Mehrotra",
-			"designation": "Developer",
-			"links": [
-				{
-					"website": "linkedin",
-					"url": "https://www.linkedin.com/in/sharad2307/"
-				},
-				{
-					"website": "github",
-					"url": "https://github.com/sharad2307"
-				}
-			]
-		},
-		{
-			"profile": "devansh_sir.png",
-			"name": "Devansh Gera",
-			"designation": "Developer",
-			"links": [
-				{
-					"website": "linkedin",
-					"url": "https://www.linkedin.com/in/devansh-gera-62a2bb16b"
-				},
-				{
-					"website": "github",
-					"url": "https://github.com/Devforlife07"
-				}
-			]
-		},
-		{
-			"profile": "mansi_ma'am.png",
-			"name": "Mansi Gupta",
-			"designation": "Programmer",
-			"links": [
-				{
-					"website": "linkedin",
-					"url": "https://www.linkedin.com/in/mansi-gupta-a1195a91/"
-				},
-				{
-					"website": "github",
-					"url": "https://github.com/Mansi145"
-				}
-			]
-		},
-		{
-			"profile": "zaid_sir.png",
-			"name": "Mohammad Zaid Ansari",
-			"designation": "Programmer",
-			"links": [
-				{
-					"website": "linkedin",
-					"url": "https://www.linkedin.com/in/mohammad-zaid-ansari-927305174"
-				},
-				{
-					"website": "github",
-					"url": "https://github.com/zaid0704"
-				}
-			]
-		},
-		{
-			"profile": "dc_sir.png",
+			"profile": "dc.png",
 			"name": "Devansh Chaudhary",
 			"designation": "Designer",
 			"links": [
@@ -244,7 +135,67 @@
 			]
 		},
 		{
-			"profile": "pranav_sir.png",
+			"profile": "devansh.png",
+			"name": "Devansh Gera",
+			"designation": "Developer",
+			"links": [
+				{
+					"website": "linkedin",
+					"url": "https://www.linkedin.com/in/devansh-gera-62a2bb16b"
+				},
+				{
+					"website": "github",
+					"url": "https://github.com/Devforlife07"
+				}
+			]
+		},
+		{
+			"profile": "mansi.png",
+			"name": "Mansi Gupta",
+			"designation": "Programmer",
+			"links": [
+				{
+					"website": "linkedin",
+					"url": "https://www.linkedin.com/in/mansi-gupta-a1195a91/"
+				},
+				{
+					"website": "github",
+					"url": "https://github.com/Mansi145"
+				}
+			]
+		},
+		{
+			"profile": "zaid.png",
+			"name": "Mohammad Zaid Ansari",
+			"designation": "Programmer",
+			"links": [
+				{
+					"website": "linkedin",
+					"url": "https://www.linkedin.com/in/mohammad-zaid-ansari-927305174"
+				},
+				{
+					"website": "github",
+					"url": "https://github.com/zaid0704"
+				}
+			]
+		},
+		{
+			"profile": "prajwal.png",
+			"name": "Prajwal Shirur",
+			"designation": "Developer",
+			"links": [
+				{
+					"website": "linkedin",
+					"url": "https://www.linkedin.com/in/prajwal-ss-054a29185/"
+				},
+				{
+					"website": "github",
+					"url": "https://github.com/prajwal2100"
+				}
+			]
+		},
+		{
+			"profile": "pranav.png",
 			"name": "Pranav Negi",
 			"designation": "Designer",
 			"links": [
@@ -259,7 +210,56 @@
 			]
 		},
 		{
-			"profile": "viral_sir.png",
+			"profile": "rajat.png",
+			"name": "Rajat Verma",
+			"designation": "Developer",
+			"links": [
+				{
+					"website": "linkedin",
+					"url": "https://www.linkedin.com/in/rajat2502"
+				},
+				{
+					"website": "github",
+					"url": "https://github.com/rajat2502"
+				},
+				{
+					"website": "medium",
+					"url": "https://medium.com/@rajat2502"
+				}
+			]
+		},
+		{
+			"profile": "saksham.png",
+			"name": "Saksham Raghuvanshi",
+			"designation": "Developer",
+			"links": [
+				{
+					"website": "linkedin",
+					"url": "https://www.linkedin.com/in/saksham-raghuvanshi-0a1b58170/"
+				},
+				{
+					"website": "github",
+					"url": "https://github.com/sraghuvanshi"
+				}
+			]
+		},
+		{
+			"profile": "sharad.png",
+			"name": "Sharad Mehrotra",
+			"designation": "Developer",
+			"links": [
+				{
+					"website": "linkedin",
+					"url": "https://www.linkedin.com/in/sharad2307/"
+				},
+				{
+					"website": "github",
+					"url": "https://github.com/sharad2307"
+				}
+			]
+		},
+		{
+			"profile": "viral.png",
 			"name": "Viral Luke",
 			"designation": "Designer",
 			"links": [
