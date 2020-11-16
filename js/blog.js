@@ -15,16 +15,13 @@ const getPosts = async () => {
 //template
 const addTemplate = (post) => {
   let { title, author } = post;
-  let postTitle = title.length > 33 ? `${title.substring(0, 30)}...` : title;
-  let postAuthor =
-    author.length > 22 ? `${author.substring(0, 19)}...` : author;
   html = `
   <a style="text-decoration: none; color: #000000" class="aveniDemi" href=${post.link} target="_blank">
     <div class="col-md-3 pt-1 text-center" style="padding-left: 0; padding-right: 0;">
       <div class="club_card blog_card justify-content-center mx-auto" style="margin-bottom: 15px; padding-bottom: 10px;">
         <div class="card-img img-responsive mx-auto" style='width: 90%; min-height: 140px;  background: url("${post.image}"); background-size: cover;' alt="Card image cap"/>
       </div>
-      <div class="card-body" style="padding-bottom: 0px; padding-left: inherit;" align="left">
+      <div class="card-body" style="padding-bottom: 0px; padding-left: 13px;" align="left">
         <h4 title="${title}" class="avenirDemi" style="font-weight: 500; font-size: 24px; line-height: 33px;">${title}</h4>
         <a style="color: #000000" href="${post.link}" target="_blank">
         <div class="source" style="margin-top: 7px;">
