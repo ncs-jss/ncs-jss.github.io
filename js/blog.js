@@ -15,7 +15,6 @@ const getPosts = async () => {
 //template
 const addTemplate = (post) => {
   let { title, author } = post;
-  console.log(title);
   let postTitle = title.length > 33 ? `${title.substring(0, 30)}...` : title;
   let postAuthor =
     author.length > 22 ? `${author.substring(0, 19)}...` : author;
