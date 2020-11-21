@@ -1477,15 +1477,15 @@ body .navbar-light .navbar-toggler-icon {
 
 @media only screen and (min-width: 320px) and (max-width: 374px) {
     .carousel_section_ncs-item img {
-        min-width: 100% !important;
-        height: 100% !important;
+        min-width: 200px !important;
+        height: auto!important;
         border-radius: 20px !important;
     }
     #event {
         width: 100% !important;
     }
     #carousel-event button {
-        margin-bottom: 230px;
+        margin-bottom: 230px !important;
     }
     .carousel_section_ncs-item {
         width: 220px !important;
@@ -1509,7 +1509,7 @@ body .navbar-light .navbar-toggler-icon {
         width: 100% !important;
     }
     #carousel-event button {
-        margin-bottom: 180px;
+        margin-bottom: 180px !important;
     }
     .carousel_section_ncs-item {
         width: 280px !important;
@@ -1566,5 +1566,8 @@ body .navbar-light .navbar-toggler-icon {
     }
     #carousel-event button {
         margin-bottom: 130px;
+    }
+    .carousel_section_ncs-item {
+        width: 220px !important;
     }
 }
