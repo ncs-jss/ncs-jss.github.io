@@ -1571,3 +1571,9 @@ body .navbar-light .navbar-toggler-icon {
         width: 220px !important;
     }
 }
+
+@media only screen and (min-width: 1441px) {
+    .carousel_section_ncs-item {
+        width: 220px !important;
+    }
+}
