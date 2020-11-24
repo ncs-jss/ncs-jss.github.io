@@ -1286,6 +1286,19 @@ body .navbar-light .navbar-toggler-icon {
 
 .Carousel_text_hide {
     visibility: hidden;
+    width: 400px !important;
+    position: absolute;
+    width: 500px;
+    bottom: -10px;
+    text-align: center !important;
+}
+
+.Carousel_text_show>div {
+    display: block;
+}
+
+.Carousel_text_hide {
+    display: none;
 }
 
 .Carousel_text_show>div {
@@ -1314,6 +1327,7 @@ body .navbar-light .navbar-toggler-icon {
     align-items: center;
     justify-content: center;
     width: 320px !important;
+    height: 600px !important;
 }
 
 .carousel_section_ncs-item h2 {
@@ -1426,13 +1440,13 @@ body .navbar-light .navbar-toggler-icon {
 
 #event {
     padding-top: 3rem;
-    padding-bottom: 2rem;
+    padding-bottom: 2rem !important;
     width: 90% !important;
     margin: 0 auto !important;
 }
 
 #event>h1 {
-    margin: 1.3rem auto !important;
+    margin: 1.3rem auto 0 auto !important;
     font-size: 36px;
 }
 
@@ -1444,38 +1458,16 @@ body .navbar-light .navbar-toggler-icon {
 }
 
 #carousel-event button {
-    margin-bottom: 120px !important;
     border: none !important;
     background-color: #ffffff !important;
+    cursor: pointer;
+}
+
+.Carousel_text_hide h2 {
+    margin-top: 1rem !important;
 }
 
 @media only screen and (max-width: 319px) {
-    .carousel_section_ncs-item img {
-        min-width: 220px !important;
-        height: auto !important;
-        border-radius: 20px !important;
-    }
-    #event {
-        width: 100% !important;
-    }
-    #carousel-event button {
-        margin-bottom: 190px;
-    }
-    .carousel_section_ncs {
-        height: 500px !important;
-        padding-right: auto !important;
-        padding-left: auto !important;
-    }
-    .carousel_section_ncs {
-        height: 500px !important;
-        padding-right: auto !important;
-        padding-left: auto !important;
-        align-items: center;
-        justify-content: center;
-    }
-}
-
-@media only screen and (min-width: 320px) and (max-width: 374px) {
     .carousel_section_ncs-item img {
         min-width: 200px !important;
         height: auto!important;
@@ -1484,11 +1476,14 @@ body .navbar-light .navbar-toggler-icon {
     #event {
         width: 100% !important;
     }
-    #carousel-event button {
-        margin-bottom: 230px !important;
-    }
     .carousel_section_ncs-item {
         width: 220px !important;
+    }
+    #carousel-event {
+        height: 500px !important;
+    }
+    .carousel_section_ncs {
+        height: 500px !important;
     }
     .carousel_section_ncs {
         height: 500px !important;
@@ -1496,6 +1491,53 @@ body .navbar-light .navbar-toggler-icon {
         padding-left: auto !important;
         align-items: center;
         justify-content: center;
+    }
+    .Carousel_text_hide {
+        width: 220px !important;
+        height: 200px !important;
+        padding: 0 !important;
+    }
+    .Carousel_text_hide h2 {
+        margin: 10px 0 0 0 !important;
+        padding: 0 !important;
+        font-size: 24px !important;
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 374px) {
+    .carousel_section_ncs-item img {
+        min-width: 220px !important;
+        height: auto!important;
+        border-radius: 20px !important;
+    }
+    #event {
+        width: 100% !important;
+    }
+    .carousel_section_ncs-item {
+        width: 220px !important;
+    }
+    #carousel-event {
+        height: 500px !important;
+    }
+    .carousel_section_ncs {
+        height: 500px !important;
+    }
+    .carousel_section_ncs {
+        height: 500px !important;
+        padding-right: auto !important;
+        padding-left: auto !important;
+        align-items: center;
+        justify-content: center;
+    }
+    .Carousel_text_hide {
+        width: 220px !important;
+        height: 200px !important;
+        padding: 0 !important;
+    }
+    .Carousel_text_hide h2 {
+        margin: 10px 0 0 0 !important;
+        padding: 0 !important;
+        font-size: 24px !important;
     }
 }
 
@@ -1508,14 +1550,23 @@ body .navbar-light .navbar-toggler-icon {
     #event {
         width: 100% !important;
     }
-    #carousel-event button {
-        margin-bottom: 180px !important;
+    #carousel-event {
+        height: 700px !important;
     }
     .carousel_section_ncs-item {
         width: 280px !important;
     }
     .carousel_section_ncs {
-        height: 550px !important;
+        height: 650px !important;
+    }
+    .Carousel_text_hide {
+        width: 280px !important;
+        /* min-height: 250px !important; */
+        padding: 0 !important;
+    }
+    .Carousel_text_hide h2 {
+        margin: 0 !important;
+        padding: 0 !important;
     }
 }
 
@@ -1528,11 +1579,11 @@ body .navbar-light .navbar-toggler-icon {
     #event {
         width: 100% !important;
     }
-    #carousel-event button {
-        margin-bottom: 190px;
-    }
     .carousel_section_ncs {
         height: 650px !important;
+    }
+    .Carousel_text_hide {
+        width: 320px !important;
     }
 }
 
@@ -1542,9 +1593,6 @@ body .navbar-light .navbar-toggler-icon {
         height: auto !important;
         border-radius: 20px !important;
     }
-    #carousel-event button {
-        margin-bottom: 255px;
-    }
 }
 
 @media only screen and (min-width: 600px) {
@@ -1552,9 +1600,6 @@ body .navbar-light .navbar-toggler-icon {
         min-width: 360px !important;
         height: auto !important;
         border-radius: 20px !important;
-    }
-    #carousel-event button {
-        margin-bottom: 255px;
     }
 }
 
@@ -1564,16 +1609,24 @@ body .navbar-light .navbar-toggler-icon {
         height: auto !important;
         border-radius: 20px !important;
     }
-    #carousel-event button {
-        margin-bottom: 130px;
-    }
     .carousel_section_ncs-item {
         width: 220px !important;
+    }
+    .Carousel_text_hide h2 {
+        margin-top: 1rem !important;
+    }
+    .Carousel_text_hide {
+        width: 390px !important;
+        height: auto !important;
     }
 }
 
 @media only screen and (min-width: 1441px) {
     .carousel_section_ncs-item {
         width: 220px !important;
+        height: auto;
+    }
+    .Carousel_text_hide {
+        width: 390px !important;
     }
 }
