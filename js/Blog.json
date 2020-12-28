@@ -1,12 +1,12 @@
 [
   {
-    "title":"GSoC 20 with CloudCV : EvalAI",
+    "title": "GSoC 20 with CloudCV : EvalAI",
     "author": "Ayush Khare",
-    "published_on":"31 August 2020",
-    "source":"medium",
-    "link":"https://medium.com/@ayussh.khare/gsoc-20-with-cloudcv-evalai-6bd8f1b49598",
-    "image":"https://miro.medium.com/max/700/1*YvdJBFBAvblwTB-UbgqE1A.jpeg",
-    "authorImage":"https://miro.medium.com/fit/c/56/56/0*o4FiFklFmYZXPRCi"
+    "published_on": "31 August 2020",
+    "source": "medium",
+    "link": "https://medium.com/@ayussh.khare/gsoc-20-with-cloudcv-evalai-6bd8f1b49598",
+    "image": "https://miro.medium.com/max/700/1*YvdJBFBAvblwTB-UbgqE1A.jpeg",
+    "authorImage": "https://miro.medium.com/fit/c/56/56/0*o4FiFklFmYZXPRCi"
   },
   {
     "title": "How to use NPM in javascript",
@@ -15,7 +15,7 @@
     "source": "medium",
     "link": "https://medium.com/javascript-in-plain-english/how-to-use-npm-and-import-export-modules-in-javascript-31a7f66a2064",
     "image": "https://miro.medium.com/max/700/0*B4Rgu6aaBC8DIZHa.jpeg",
-    "authorImage":"https://miro.medium.com/fit/c/96/96/2*wBRF8K-qTG4nTZZIOcHeBg.jpeg"
+    "authorImage": "https://miro.medium.com/fit/c/96/96/2*wBRF8K-qTG4nTZZIOcHeBg.jpeg"
   },
   {
     "title": "Learning to learn by writing about it",
@@ -24,15 +24,15 @@
     "source": "medium",
     "link": "https://medium.com/@krrohitch/learning-to-learn-by-writing-about-it-a6e8edb7527a",
     "image": "https://miro.medium.com/max/1920/1*UXsN-jix88KqCq9FaGWPcQ.png",
-    "authorImage":"https://miro.medium.com/fit/c/56/56/2*q1MSJrGsrceeJZp4JXbP6w.jpeg"
-  },  
+    "authorImage": "https://miro.medium.com/fit/c/56/56/2*q1MSJrGsrceeJZp4JXbP6w.jpeg"
+  },
   {
-    "title":"The Most Important React Hooks",
-    "author":"Kunal Vishnoi",
-    "published_on":"20 August 2019",
-    "source":"medium",
-    "link":"https://medium.com/better-programming/rundown-of-the-most-important-react-hooks-5c9ec4cac5a2",
-    "image":"https://miro.medium.com/max/700/1*HNHZyHCVieQQSoPP51b4cQ.jpeg",
-    "authorImage":"https://miro.medium.com/fit/c/48/48/2*qn-nBkGIDWVNX4BW60qx0w.jpeg"
-  }  
+    "title": "The Most Important React Hooks",
+    "author": "Kunal Vishnoi",
+    "published_on": "20 August 2019",
+    "source": "medium",
+    "link": "https://medium.com/better-programming/rundown-of-the-most-important-react-hooks-5c9ec4cac5a2",
+    "image": "https://miro.medium.com/max/700/1*HNHZyHCVieQQSoPP51b4cQ.jpeg",
+    "authorImage": "https://miro.medium.com/fit/c/48/48/2*qn-nBkGIDWVNX4BW60qx0w.jpeg"
+  }
 ]

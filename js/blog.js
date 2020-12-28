@@ -1,14 +1,14 @@
 //getting section for showing blog data
-const section = document.querySelector("#blog-text");
+const section = document.querySelector('#blog-text');
 let html = ``;
 const getPosts = async () => {
   try {
-    const response = await fetch("../js/Blog.json");
+    const response = await fetch('../js/Blog.json');
     const data = await response.json();
     data.slice(-4).forEach((post) => addTemplate(post));
   } catch (error) {
     console.log(error);
-    section.parentElement.parentElement.style.display = "none";
+    section.parentElement.parentElement.style.display = 'none';
   }
 };
 
