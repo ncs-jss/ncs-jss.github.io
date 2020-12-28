@@ -297,12 +297,12 @@ body .navbar-light .navbar-toggler-icon {
 }
 
 #club .margin {
-  width: 75%;
+  width: 75% !important;
 }
 
 @media (max-width: 768px) {
   #club .margin {
-    width: 100%;
+    width: 100% !important;
   }
 }
 
@@ -1296,14 +1296,33 @@ body .navbar-light .navbar-toggler-icon {
   width: 90% !important;
 }
 
-#club .blog_card {
+/* #club .blog_card {
   min-height: 372px !important;
   min-width: 276px !important;
   border-radius: 0px !important;
-}
+} */
 
 .blog_section {
   background-color: #f9f9f9 !important;
+}
+
+#club .blog_title {
+  height: 100px;
+}
+@media (max-width: 1265px) {
+  #club .blog_title {
+    height: 120px;
+  }
+}
+@media (max-width: 937px) {
+  #club .blog_title {
+    height: 150px;
+  }
+}
+@media (max-width: 768px) {
+  #club .blog_title {
+    height: auto;
+  }
 }
 
 /* Event section CSS */
