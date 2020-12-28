@@ -1318,6 +1318,17 @@ body .navbar-light .navbar-toggler-icon {
   filter: blur(2px);
 }
 
+#event {
+  position: relative;
+}
+
+.carousel-heading {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 80px;
+}
+
 .Carousel_text_hide {
   visibility: hidden;
   width: 400px !important;
