@@ -69,8 +69,7 @@
 			integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
 			crossorigin="anonymous"
 		/>
-		<link rel="shortcut icon" href="../favicon.ico" type="image/vnd.microsoft.icon" />
-		<link rel="manifest" href="manifest.json" />
+		<link rel="shortcut icon" href="../favicon.ico" type="image/vnd.microsoft.icon" />		
 		<!-- Bootstrap CSS -->
 		<link
 			rel="stylesheet"
@@ -123,11 +122,11 @@
 						<a class="nav-link" href="/project">Projects</a>
 					</li>
 					<li class="nav-item px-2">
-						<a class="nav-link active" href="#">Team</a>
-					</li>
-					<li class="nav-item px-2">
-						<a class="nav-link" href="/alumni">Alumni</a>
-					</li>
+						<a class="nav-link" href="/team">Team</a>
+                    </li>
+                    <li class="nav-item px-2">
+                        <a class="nav-link active" href="#">Alumni</a>
+                    </li>
 					<li class="nav-item pl-2">
 						<a
 							class="nav-link btn-default btn"
@@ -141,51 +140,54 @@
 		</nav>
 
 		<section class="mb-5" id="main_team">
-			<h1 class="avenir text-center">Team</h1>
+			<h1 class="avenir text-center">Alumni</h1>
 			<div class="container-fluid margin mx-auto">
 				<div class="container team-description mx-auto">
 					<h4 class="avenirRegular text-center">
-						NCS is a student group that constantly tries to innovate and foster technical activities on the campus. Since 2000, we have focused on creating meaningful experiences through immersive learning. We hope to bring the best in code, development, and design to the college scene.
+						Since 2000, society works for enhancing the knowledge in computer acreage and has added many gems to the college, and continues to strive for excellence in every aspect of technology. Here are some of our super seniors from past years
 					</h4>
 				</div>
-			</div>
-
-			<!-- 4th Year -->
-			<div class="container-fluid year">
-				<div class="hr"></div>
-				<div>
-					<h6>4th years</h6>
-				</div>
-				<div class="hr"></div>
-			</div>
-			<div class="container-fluid margin mx-auto padding team" id="four"></div>
-
-			<!-- 3rd Year -->
-			<div class="container-fluid year third">
-				<div class="hr"></div>
-				<div>
-					<h6>3rd years</h6>
-				</div>
-				<div class="hr"></div>
-			</div>
-			<div class="container-fluid margin mx-auto padding team" id="three"></div>
+			</div>		
+			
+		<div id="alumni"></div>
 		</section>
 
 		<!-- About Section -->
 		<section id="about">
-			<div class="row">
-				<div class="col-md-12">
-					<div class="width_mobile mx-auto">
-						<a href="/project" style="text-decoration: none">
-							<div class="box_medium box green_box">
-								<h1 class="avenirDemi">See our projects</h1>
-								<p class="avenirRegular">Take a look at our collaborative work.</p>
-								<img src="../img/arrow-right-circle.svg" width="36px" style="float: right" />
-							</div>
-						</a>
-					</div>
+			<div class="container-fluid">
+				<div class="row">
+				  <div class="offset-md-3 col-md-3 pt-3">
+					<a href="/team" style="text-decoration: none">
+					  <div class="box_medium red_box box">
+						<h1 class="avenirDemi">Meet our team</h1>
+						<p class="avenirRegular">
+						  The geeks behind computer screens.
+						</p>
+						<img
+						  src="../img/arrow-right-circle.svg"
+						  width="36px"
+						  style="float: right"
+						/>
+					  </div>
+					</a>
+				  </div>
+				  <div class="col-md-3 pt-3">
+					<a href="/project" style="text-decoration: none">
+					  <div class="box_medium box green_box">
+						<h1 class="avenirDemi">See our projects</h1>
+						<p class="avenirRegular">
+						  Take a look at our collaborative work.
+						</p>
+						<img
+						  src="../img/arrow-right-circle.svg"
+						  width="36px"
+						  style="float: right"
+						/>
+					  </div>
+					</a>
+				  </div>
 				</div>
-			</div>
+			  </div>
 		</section>
 
 		<!-- Footer -->
@@ -270,70 +272,38 @@
 					}
 				}
 			});
-
-			// Rendering JSON Data
-			function getLinks(data) {
-				var html = "";
-				data.links.forEach((element) => {
-					switch (element.website) {
-						case "github":
-							html += `<a href=${element.url} target='_blank'><img src="../img/github-icon.svg" width="18px" /></a> &nbsp;`;
-							break;
-						case "linkedin":
-							html += `<a href=${element.url} target='_blank'><img src="../img/linkedin.svg" width="18px" /></a> &nbsp;`;
-							break;
-						case "medium":
-							html += `<a href=${element.url} target='_blank'><img src="../img/medium.svg" width="18px" /></a> &nbsp;`;
-							break;
-						case "behance":
-							html += `<a href=${element.url} target='_blank'><img src="../img/behance.svg" width="18px" /></a> &nbsp;`;
-							break;
-						case "personal":
-							html += `<a href=${element.url} target='_blank'><img src="../img/globe.svg" width="18px" /></a>`;
-							break;
-					}
-				});
-				return html;
-			}
-
-			fetch("team.json")
+			
+			const arr = ["2020", "2019", "2018"];
+			fetch("alumni.json")
 				.then((res) => res.json())
 				.then((data) => {
-					// Getting 3rd year data
-					var Data = data.third;
-					for (var i = 0; i < Data.length; i++) {
-						var box = document.createElement("div");
-						box.setAttribute("class", "col-md-3");
-
-						var html = `<div class="head_team">
-										<img src=${"../img/team/" + Data[i].profile} class="img" alt="Photo" />
-										<h5 class="avenirDemi pt-3">${Data[i].name}</h5>
-										<h6 style="margin-bottom: 0%" class="avenirRegular pb-1">${Data[i].designation}</h6>
-										${getLinks(Data[i])}
+					data.forEach((year, index) => {
+						let batch, batchMembers = '', batchHeading;
+						batch = document.createElement("div");
+						batchHeading = `<div class="${index ? "container-fluid year third" : "container-fluid year"}">
+									<div class="hr"></div>
+									<div>
+										<h6 class="text-center">${arr[index]}</h6>
 									</div>
-						`;
-
-						box.innerHTML = html;
-						document.getElementById("three").appendChild(box);
-					}
-
-					// Getting 4th year data
-					var Data = data.forth;
-					for (var i = 0; i < Data.length; i++) {
-						var box = document.createElement("div");
-						box.setAttribute("class", "col-md-3");
-
-						var html = `<div class="head_team">
-										<img src=${"../img/team/" + Data[i].profile} class="img" alt="Photo" />
-										<h5 class="avenirDemi pt-3">${Data[i].name}</h5>
-										<h6 style="margin-bottom: 0%" class="avenirRegular pb-1">${Data[i].designation}</h6>
-										${getLinks(Data[i])}
-									</div>
-						`;
-
-						box.innerHTML = html;
-						document.getElementById("four").appendChild(box);
-					}
+									<div class="hr"></div>
+								</div>`;
+						year.forEach(member => {
+							const {profile, name, links} = member;
+							batchMembers += `<div class="col-md-3">
+												<div class="head_team">
+													<img src=${"../img/alumni/" + profile} class="img" alt="Photo" />
+													<h5 class="avenirDemi pt-3">${name}</h5>
+													<a href=${links[0].url} target='_blank'><img src="../img/linkedin.svg" width="18px" /></a>
+												</div>
+											</div>`;
+						})
+						let box = `<div class="container-fluid margin mx-auto padding team">
+									${batchMembers}
+								<div>`
+						const team = batchHeading + box;
+						batch.innerHTML = team;
+						document.getElementById("alumni").appendChild(batch);
+					})
 				});
 		</script>
 	</body>
