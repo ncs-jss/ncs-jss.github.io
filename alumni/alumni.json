@@ -1,198 +1,198 @@
 [
-	[
-		{
-			"profile": "20-abhishek.jpg",
-			"name": "Abhishek Singh",
-			"links": [
-				{
-					"website": "linkedin",
-					"url": "https://www.linkedin.com/in/singh-abhisheksingh"
-				}
-			]
-		},
-		{
-			"profile": "20-anant.jpg",
-			"name": "Anant Jain",
-			"links": [
-				{
-					"website": "linkedin",
-					"url": "https://www.linkedin.com/in/anantjain60"
-				}									
-			]
-		},
-		{
-			"profile": "20-khare.png",
-			"name": "Ayush Khare",			
-			"links": [
-				{
-					"website": "linkedin",
-					"url": "https://www.linkedin.com/in/ayukha"
-				}									
-			]
-		},
-		{
-			"profile": "20-ayush.jpg",
-			"name": "Ayush Srivastava",
-			"links": [
-				{
-					"website": "linkedin",
-					"url": "https://www.linkedin.com/in/geekayush"
-				}									
-			]
-		},
-		{
-			"profile": "20-ishneet.jpg",
-			"name": "Ishneet Kaur",
-			"links": [
-				{
-					"website": "linkedin",
-					"url": "https://www.linkedin.com/in/ishneet-kaur-b8a846140/"
-				}									
-			]
-		},
-		{
-			"profile": "20-kumar.jpg",
-			"name": "Kumar Rohit Chandra",
-			"links": [
-				{
-					"website": "linkedin",
-					"url": "https://www.linkedin.com/in/krrohitch"
-				}			
-			]
-		},
-		{
-			"profile": "20-kunal.png",
-			"name": "Kunal Vishnoi",			
-			"links": [
-				{
-					"website": "linkedin",
-					"url": "https://www.linkedin.com/in/kunalvishnoi"
-				}
-			]
-		},
-		{
-			"profile": "20-pulkit.jpg",
-			"name": "Pulkit Bansal",
-			"links": [
-				{
-					"website": "linkedin",
-					"url": "https://www.linkedin.com/in/bansi198/"
-				}
-			]
-		},
-		{
-			"profile": "20-rahul.jpg",
-			"name": "Rahul Singh",			
-			"links": [
-				{
-					"website": "linkedin",
-					"url": "https://www.linkedin.com/in/rahul2240"
-				}
-			]
-		},
-		{
-			"profile": "20-rohit.jpg",
-			"name": "Rohit Jakhmola",			
-			"links": [
-				{
-					"website": "linkedin",
-					"url": "https://www.linkedin.com/in/rohit599"
-				}
-			]
-        },
+  [
+    {
+      "profile": "20-abhishek.jpg",
+      "name": "Abhishek Singh",
+      "links": [
         {
-			"profile": "20-shobhit.png",
-			"name": "Shobhit Agarwal",			
-			"links": [
-				{
-					"website": "linkedin",
-					"url": "https://www.linkedin.com/in/shobhit1997"
-				}
-			]
-        },
+          "website": "linkedin",
+          "url": "https://www.linkedin.com/in/singh-abhisheksingh"
+        }
+      ]
+    },
+    {
+      "profile": "20-anant.jpg",
+      "name": "Anant Jain",
+      "links": [
         {
-			"profile": "20-shubham.png",
-			"name": "Shubham Singh",			
-			"links": [
-				{
-					"website": "linkedin",
-					"url": "https://www.linkedin.com/in/shubhmisaki"
-				}
-			]
-        },
+          "website": "linkedin",
+          "url": "https://www.linkedin.com/in/anantjain60"
+        }
+      ]
+    },
+    {
+      "profile": "20-khare.png",
+      "name": "Ayush Khare",
+      "links": [
         {
-			"profile": "20-siddhartha.jpg",
-			"name": "Siddhartha Yadav",
-			"links": [
-				{
-					"website": "linkedin",
-					"url": "https://www.linkedin.com/in/siddhartha-yadav-2107"
-				}
-			]
-        },
+          "website": "linkedin",
+          "url": "https://www.linkedin.com/in/ayukha"
+        }
+      ]
+    },
+    {
+      "profile": "20-ayush.jpg",
+      "name": "Ayush Srivastava",
+      "links": [
         {
-			"profile": "20-vasu.png",
-			"name": "Vasu Mehra",
-			"links": [
-				{
-					"website": "linkedin",
-					"url": "#"
-				}
-			]
-		}
-	],
-	[
-		{
-			"profile": "19-dhruv.png",
-			"name": "Dhruv Srivastava",
-			"links": [
-				{
-					"website": "linkedin",
-					"url": "https://www.linkedin.com/in/dhruvhacks"
-				}
-			]
-		},
-		{
-			"profile": "19-Prankur.png",
-			"name": "Prankur Verma",
-			"links": [
-				{
-					"website": "linkedin",
-					"url": "https://www.linkedin.com/in/prankur-verma"
-				}									
-			]
-		},
-		{
-			"profile": "19-yasha.png",
-			"name": "Yasha Singh",
-			"links": [
-				{
-					"website": "linkedin",
-					"url": "https://www.linkedin.com/in/singhyasha"
-				}									
-			]
-		}
-	],
-	[
-		{
-			"profile": "18-abhinav.png",
-			"name": "Abhinav Pandey",			
-			"links": [
-				{
-					"website": "linkedin",
-					"url": "https://www.linkedin.com/in/abhi-nav"
-				}									
-			]
-		},
-		{
-			"profile": "18-anukriti.png",
-			"name": "Anukriti Keshri",
-			"links": [
-				{
-					"website": "linkedin",
-					"url": "https://www.linkedin.com/in/anukriti-keshari-1b4a0510a"
-				}									
-			]
-		}
-	]
+          "website": "linkedin",
+          "url": "https://www.linkedin.com/in/geekayush"
+        }
+      ]
+    },
+    {
+      "profile": "20-ishneet.jpg",
+      "name": "Ishneet Kaur",
+      "links": [
+        {
+          "website": "linkedin",
+          "url": "https://www.linkedin.com/in/ishneet-kaur-b8a846140/"
+        }
+      ]
+    },
+    {
+      "profile": "20-kumar.jpg",
+      "name": "Kumar Rohit Chandra",
+      "links": [
+        {
+          "website": "linkedin",
+          "url": "https://www.linkedin.com/in/krrohitch"
+        }
+      ]
+    },
+    {
+      "profile": "20-kunal.png",
+      "name": "Kunal Vishnoi",
+      "links": [
+        {
+          "website": "linkedin",
+          "url": "https://www.linkedin.com/in/kunalvishnoi"
+        }
+      ]
+    },
+    {
+      "profile": "20-pulkit.jpg",
+      "name": "Pulkit Bansal",
+      "links": [
+        {
+          "website": "linkedin",
+          "url": "https://www.linkedin.com/in/bansi198/"
+        }
+      ]
+    },
+    {
+      "profile": "20-rahul.jpg",
+      "name": "Rahul Singh",
+      "links": [
+        {
+          "website": "linkedin",
+          "url": "https://www.linkedin.com/in/rahul2240"
+        }
+      ]
+    },
+    {
+      "profile": "20-rohit.jpg",
+      "name": "Rohit Jakhmola",
+      "links": [
+        {
+          "website": "linkedin",
+          "url": "https://www.linkedin.com/in/rohit599"
+        }
+      ]
+    },
+    {
+      "profile": "20-shobhit.png",
+      "name": "Shobhit Agarwal",
+      "links": [
+        {
+          "website": "linkedin",
+          "url": "https://www.linkedin.com/in/shobhit1997"
+        }
+      ]
+    },
+    {
+      "profile": "20-shubham.png",
+      "name": "Shubham Singh",
+      "links": [
+        {
+          "website": "linkedin",
+          "url": "https://www.linkedin.com/in/shubhmisaki"
+        }
+      ]
+    },
+    {
+      "profile": "20-siddhartha.jpg",
+      "name": "Siddhartha Yadav",
+      "links": [
+        {
+          "website": "linkedin",
+          "url": "https://www.linkedin.com/in/siddhartha-yadav-2107"
+        }
+      ]
+    },
+    {
+      "profile": "20-vasu.png",
+      "name": "Vasu Mehra",
+      "links": [
+        {
+          "website": "linkedin",
+          "url": "#"
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "profile": "19-dhruv.png",
+      "name": "Dhruv Srivastava",
+      "links": [
+        {
+          "website": "linkedin",
+          "url": "https://www.linkedin.com/in/dhruvhacks"
+        }
+      ]
+    },
+    {
+      "profile": "19-prankur.png",
+      "name": "Prankur Verma",
+      "links": [
+        {
+          "website": "linkedin",
+          "url": "https://www.linkedin.com/in/prankur-verma"
+        }
+      ]
+    },
+    {
+      "profile": "19-yasha.png",
+      "name": "Yasha Singh",
+      "links": [
+        {
+          "website": "linkedin",
+          "url": "https://www.linkedin.com/in/singhyasha"
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "profile": "18-abhinav.png",
+      "name": "Abhinav Pandey",
+      "links": [
+        {
+          "website": "linkedin",
+          "url": "https://www.linkedin.com/in/abhi-nav"
+        }
+      ]
+    },
+    {
+      "profile": "18-anukriti.png",
+      "name": "Anukriti Keshri",
+      "links": [
+        {
+          "website": "linkedin",
+          "url": "https://www.linkedin.com/in/anukriti-keshari-1b4a0510a"
+        }
+      ]
+    }
+  ]
 ]
