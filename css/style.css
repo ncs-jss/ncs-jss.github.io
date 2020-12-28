@@ -1348,6 +1348,7 @@ body .navbar-light .navbar-toggler-icon {
 
 .Carousel_text_show > div {
   visibility: visible;
+  bottom: -30px;
 }
 
 .carousel_text {
@@ -1566,6 +1567,10 @@ body .navbar-light .navbar-toggler-icon {
   #carousel-button-right {
     display: none;
   }
+
+  .Carousel_text_show > div {
+    bottom: 20px;
+  }
 }
 
 @media only screen and (min-width: 320px) and (max-width: 374px) {
@@ -1608,6 +1613,10 @@ body .navbar-light .navbar-toggler-icon {
   #carousel-button-right {
     display: none;
   }
+
+  .Carousel_text_show > div {
+    bottom: 20px;
+  }
 }
 
 @media only screen and (min-width: 375px) and (max-width: 424px) {
@@ -1642,6 +1651,10 @@ body .navbar-light .navbar-toggler-icon {
   #carousel-button-right {
     display: none;
   }
+
+  .Carousel_text_show > div {
+    bottom: 20px;
+  }
 }
 
 @media only screen and (min-width: 425px) and (max-width: 499px) {
@@ -1663,6 +1676,10 @@ body .navbar-light .navbar-toggler-icon {
   #carousel-button-left,
   #carousel-button-right {
     display: none;
+  }
+
+  .Carousel_text_show > div {
+    bottom: 20px;
   }
 }
 
