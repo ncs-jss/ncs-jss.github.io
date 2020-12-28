@@ -196,7 +196,7 @@
 		},
 		{
 			"profile": "pranav.png",
-			"name": "Pranav Negi",
+			"name": "Pranav Kumar",
 			"designation": "Designer",
 			"links": [
 				{
@@ -246,7 +246,7 @@
 		{
 			"profile": "sharad.png",
 			"name": "Sharad Mehrotra",
-			"designation": "Developer",
+			"designation": "Programmer",
 			"links": [
 				{
 					"website": "linkedin",
@@ -266,6 +266,10 @@
 				{
 					"website": "linkedin",
 					"url": "https://www.linkedin.com/in/viral-luke-0615291aa"
+				},
+				{
+					"website": "github",
+					"url": "https://github.com/ViraldAnarchist"
 				},
 				{
 					"website": "behance",
