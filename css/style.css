@@ -1509,18 +1509,19 @@ body .navbar-light .navbar-toggler-icon {
   border: none !important;
   background-color: #ffffff !important;
   cursor: pointer;
+  z-index: 10;
 }
 
 .Carousel_text_hide h2 {
   margin-top: 1rem !important;
 }
 
-.carousel-button-left {
+#carousel-button-left {
   left: 60px;
   position: absolute;
 }
 
-.carousel-button-right {
+#carousel-button-right {
   right: 60px;
   position: absolute;
 }
@@ -1561,8 +1562,8 @@ body .navbar-light .navbar-toggler-icon {
     font-size: 24px !important;
   }
 
-  .carousel-button-left,
-  .carousel-button-right {
+  #carousel-button-left,
+  #carousel-button-right {
     display: none;
   }
 }
@@ -1603,8 +1604,8 @@ body .navbar-light .navbar-toggler-icon {
     font-size: 24px !important;
   }
 
-  .carousel-button-left,
-  .carousel-button-right {
+  #carousel-button-left,
+  #carousel-button-right {
     display: none;
   }
 }
@@ -1637,8 +1638,8 @@ body .navbar-light .navbar-toggler-icon {
     padding: 0 !important;
   }
 
-  .carousel-button-left,
-  .carousel-button-right {
+  #carousel-button-left,
+  #carousel-button-right {
     display: none;
   }
 }
@@ -1659,8 +1660,8 @@ body .navbar-light .navbar-toggler-icon {
     width: 320px !important;
   }
 
-  .carousel-button-left,
-  .carousel-button-right {
+  #carousel-button-left,
+  #carousel-button-right {
     display: none;
   }
 }
