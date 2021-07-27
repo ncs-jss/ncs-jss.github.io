@@ -277,5 +277,108 @@
 				}
 			]
 		}
+	],
+	"second": [
+		{
+			"profile": "shruti.png",
+			"name": "Shruti Agarwal",
+			"designation": "Developer",
+			"links": [
+				{
+					"website": "linkedin",
+					"url": "https://www.linkedin.com/in/shruti-ag/"
+				},
+				{
+					"website": "github",
+					"url": "https://github.com/Shruti3004"
+				},
+				{
+					"website": "behance",
+					"url": "#"
+				}
+			]
+		},
+		{
+			"profile": "aditee.png",
+			"name": "Aditee Singh",
+			"designation": "Programmer",
+			"links": [
+				{
+					"website": "linkedin",
+					"url": "https://www.linkedin.com/in/aditee-singh-9a034319b/?originalSubdomain=in"
+				},
+				{
+					"website": "github",
+					"url": "https://github.com/aditee-singh"
+				}
+			]
+		},
+		{
+			"profile": "ayush.png",
+			"name": "Ayush Kumar",
+			"designation": "Developer",
+			"links": [
+				{
+					"website": "linkedin",
+					"url": "https://www.linkedin.com/in/ayush-kumar-10bb0b197/?originalSubdomain=in"
+				},
+				{
+					"website": "github",
+					"url": "https://github.com/2580ayush2580"
+				}
+			]
+		},
+		{
+			"profile": "anurag.png",
+			"name": "Anurag Srivastav",
+			"designation": "Developer",
+			"links": [
+				{
+					"website": "linkedin",
+					"url": "https://www.linkedin.com/in/singingapple/"
+				},
+				{
+					"website": "github",
+					"url": "https://github.com/SingingApple"
+				}
+			]
+		},
+		{
+			"profile": "kalpit.png",
+			"name": "Kalpit Arya",
+			"designation": "Programmer",
+			"links": [
+				{
+					"website": "linkedin",
+					"url": "https://www.linkedin.com/in/kalpit-arya/?originalSubdomain=in"
+				},
+				{
+					"website": "github",
+					"url": "#"
+				}
+			]
+		},
+		
+		
+		{
+			"profile": "shrey.png",
+			"name": "Shrey Jain",
+			"designation": "Designer",
+			"links": [
+				{
+					"website": "linkedin",
+					"url": "https://www.linkedin.com/in/shrey-jain-3587161a1/?originalSubdomain=in"
+				},
+				{
+					"website": "github",
+					"url": "#"
+				},
+				{
+					"website": "behance",
+					"url": "#"
+				}
+			]
+		}
 	]
 }
+
