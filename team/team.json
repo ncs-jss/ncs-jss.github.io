@@ -26,7 +26,7 @@
 				},
 				{
 					"website": "github",
-					"url": "https://github.com/prakhar9998"
+					"url": "https://github.com/prakhar9998" 
 				}
 			]
 		},
@@ -116,9 +116,40 @@
 	],
 	"third": [
 		{
+			"profile": "saksham.png",
+			"name": "Saksham Raghuvanshi",
+			"designation": "Chief Executive Member, HOC:Tech",
+			"links": [
+				{
+					"website": "linkedin",
+					"url": "https://www.linkedin.com/in/saksham-raghuvanshi-0a1b58170/"
+				},
+				{
+					"website": "github",
+					"url": "https://github.com/sraghuvanshi"
+				}
+			]
+		},
+		
+		{
+			"profile": "prajwal.png",
+			"name": "Prajwal Shirur",
+			"designation": "Core Team Committee Head",
+			"links": [
+				{
+					"website": "linkedin",
+					"url": "https://www.linkedin.com/in/prajwal-ss-054a29185/"
+				},
+				{
+					"website": "github",
+					"url": "https://github.com/prajwal2100"
+				}
+			]
+		},
+		{
 			"profile": "dc.png",
 			"name": "Devansh Chaudhary",
-			"designation": "Designer",
+			"designation": "HOC: Design Club",
 			"links": [
 				{
 					"website": "linkedin",
@@ -137,7 +168,7 @@
 		{
 			"profile": "devansh.png",
 			"name": "Devansh Gera",
-			"designation": "Developer",
+			"designation": "Financial Head and Treasurer ",
 			"links": [
 				{
 					"website": "linkedin",
@@ -152,7 +183,7 @@
 		{
 			"profile": "mansi.png",
 			"name": "Mansi Gupta",
-			"designation": "Programmer",
+			"designation": "General Secretary",
 			"links": [
 				{
 					"website": "linkedin",
@@ -179,25 +210,11 @@
 				}
 			]
 		},
-		{
-			"profile": "prajwal.png",
-			"name": "Prajwal Shirur",
-			"designation": "Developer",
-			"links": [
-				{
-					"website": "linkedin",
-					"url": "https://www.linkedin.com/in/prajwal-ss-054a29185/"
-				},
-				{
-					"website": "github",
-					"url": "https://github.com/prajwal2100"
-				}
-			]
-		},
+		
 		{
 			"profile": "pranav.png",
 			"name": "Pranav Kumar",
-			"designation": "Designer",
+			"designation": "Creative Head",
 			"links": [
 				{
 					"website": "linkedin",
@@ -212,7 +229,7 @@
 		{
 			"profile": "rajat.png",
 			"name": "Rajat Verma",
-			"designation": "Developer",
+			"designation": "HOC: Web Club",
 			"links": [
 				{
 					"website": "linkedin",
@@ -228,25 +245,11 @@
 				}
 			]
 		},
-		{
-			"profile": "saksham.png",
-			"name": "Saksham Raghuvanshi",
-			"designation": "Developer",
-			"links": [
-				{
-					"website": "linkedin",
-					"url": "https://www.linkedin.com/in/saksham-raghuvanshi-0a1b58170/"
-				},
-				{
-					"website": "github",
-					"url": "https://github.com/sraghuvanshi"
-				}
-			]
-		},
+		
 		{
 			"profile": "sharad.png",
 			"name": "Sharad Mehrotra",
-			"designation": "Programmer",
+			"designation": "HOC:Programming Club",
 			"links": [
 				{
 					"website": "linkedin",
@@ -261,7 +264,7 @@
 		{
 			"profile": "viral.png",
 			"name": "Viral Luke",
-			"designation": "Designer",
+			"designation": "Event Head",
 			"links": [
 				{
 					"website": "linkedin",
@@ -280,26 +283,7 @@
 	],
 	"second": [
 		{
-			"profile": "shruti.png",
-			"name": "Shruti Agarwal",
-			"designation": "Developer",
-			"links": [
-				{
-					"website": "linkedin",
-					"url": "https://www.linkedin.com/in/shruti-ag/"
-				},
-				{
-					"website": "github",
-					"url": "https://github.com/Shruti3004"
-				},
-				{
-					"website": "behance",
-					"url": "#"
-				}
-			]
-		},
-		{
-			"profile": "aditee.png",
+			"profile": "aditeemam.jpg",
 			"name": "Aditee Singh",
 			"designation": "Programmer",
 			"links": [
@@ -310,6 +294,21 @@
 				{
 					"website": "github",
 					"url": "https://github.com/aditee-singh"
+				}
+			]
+		},
+		{
+			"profile": "anurag.png",
+			"name": "Anurag Srivastava",
+			"designation": "Developer",
+			"links": [
+				{
+					"website": "linkedin",
+					"url": "https://www.linkedin.com/in/singingapple/"
+				},
+				{
+					"website": "github",
+					"url": "https://github.com/SingingApple"
 				}
 			]
 		},
@@ -329,21 +328,6 @@
 			]
 		},
 		{
-			"profile": "anurag.png",
-			"name": "Anurag Srivastav",
-			"designation": "Developer",
-			"links": [
-				{
-					"website": "linkedin",
-					"url": "https://www.linkedin.com/in/singingapple/"
-				},
-				{
-					"website": "github",
-					"url": "https://github.com/SingingApple"
-				}
-			]
-		},
-		{
 			"profile": "kalpit.png",
 			"name": "Kalpit Arya",
 			"designation": "Programmer",
@@ -354,12 +338,85 @@
 				},
 				{
 					"website": "github",
+					"url": "https://github.com/desi-yoddha/"
+				}
+			]
+		},
+		{
+			"profile": "mihir.jpg",
+			"name": "Mihir Sahai",
+			"designation": "Programmer",
+			"links": [
+				{
+					"website": "linkedin",
+					"url": "https://www.linkedin.com/in/mihir-sahai-964228191/"
+				},
+				{
+					"website": "github",
+					"url": " https://github.com/MihirSahai"
+				}
+			]
+		},
+		{
+			"profile": "navedg.jpg",
+			"name": "Naved Akhtar",
+			"designation": "Technical",
+			"links": [
+				{
+					"website": "linkedin",
+					"url": "https://www.linkedin.com/in/naved-akhtar-54b5ab146/"
+				}
+			]
+		},
+		{
+			"profile": "ojuswisir.jpg",
+			"name": "Ojuswi Rastogi",
+			"designation": "Programmer",
+			"links": [
+				{
+					"website": "linkedin",
+					"url": " https://www.linkedin.com/in/ojuswizard/"
+				},
+				{
+					"website": "github",
+					"url": "https://github.com/OjusWiZard"
+				},
+				{
+					"website": "behance",
 					"url": "#"
 				}
 			]
 		},
-		
-		
+		{
+			"profile": "paarthg.jpg",
+			"name": "Paarth Agarwal",
+			"designation": "Developer",
+			"links": [
+				{
+					"website": "linkedin",
+					"url": "https://www.linkedin.com/in/paarth17032000"
+				},
+				{
+					"website": "github",
+					"url": "github.com/paarth17032000"
+				}
+			]
+		},
+		{
+			"profile": "shivamsir.jpg",
+			"name": "Shivam Singh",
+			"designation": "Developer",
+			"links": [
+				{
+					"website": "linkedin",
+					"url": "https://www.linkedin.com/in/shivamsingh-07"
+				},
+				{
+					"website": "github",
+					"url": "https://github.com/shivamsingh-07"
+				}
+			]
+		},
 		{
 			"profile": "shrey.png",
 			"name": "Shrey Jain",
@@ -370,15 +427,47 @@
 					"url": "https://www.linkedin.com/in/shrey-jain-3587161a1/?originalSubdomain=in"
 				},
 				{
-					"website": "github",
-					"url": "#"
+					"website": "dribble",
+					"url": "https://dribbble.com/Ares435"
+				}
+			]
+		},
+
+		{
+			"profile": "shruti.png",
+			"name": "Shruti Agarwal",
+			"designation": "Developer",
+			"links": [
+				{
+					"website": "linkedin",
+					"url": "https://www.linkedin.com/in/shruti-ag/"
 				},
 				{
+					"website": "github",
+					"url": "https://github.com/Shruti3004"
+				}
+			]
+		},
+				
+		{
+			"profile": "vaibhavsir.jpg",
+			"name": "Vaibhav Shukla",
+			"designation": "Designer",
+			"links": [
+				{
+					"website": "linkedin",
+					"url": "https://www.linkedin.com/in/vaibhav-shukla-7a2a0b196"
+				},
+				
+				{
 					"website": "behance",
-					"url": "#"
+					"url": "https://www.behance.net/vaibhavshukla2"
 				}
 			]
 		}
+		
+		
+		
 	]
 }
 
