@@ -1,6 +1,124 @@
 [
   [
     {
+      "profile": "21-akhil.png",
+      "name": "Akhil Omar",
+      "designation": "General Secretary, HOC Design Club",
+      "links": [
+        {
+          "website": "linkedin",
+          "url": "https://www.linkedin.com/in/akhil-omar-670a38162"
+        },
+        {
+          "website": "behance",
+          "url": "https://www.behance.net/akhilomar555"
+        },
+        {
+          "website": "personal",
+          "url": "https://akhilomar.github.io/cv/"
+        }
+      ]
+    },
+    {
+      "profile": "21-Anupam.png",
+      "name": "Anupam Kushwaha",
+      "designation": "HOC Web Club",
+      "links": [
+        {
+          "website": "linkedin",
+          "url": "#"
+        },
+        {
+          "website": "github",
+          "url": "#"
+        }
+      ]
+    },
+    {
+      "profile": "21-prakhar.png",
+      "name": "Prakhar Varshney",
+      "designation": "CTC, HOC Tech Club",
+      "links": [
+        {
+          "website": "linkedin",
+          "url": "https://www.linkedin.com/in/prakhar-varshney99"
+        },
+        {
+          "website": "github",
+          "url": "https://github.com/prakhar9998"
+        }
+      ]
+    },
+    {
+      "profile": "21-Pranjali.png",
+      "name": "Pranjali Katiyar",
+      "designation": "President",
+      "links": [
+        {
+          "website": "linkedin",
+          "url": "https://www.linkedin.com/in/pranjali-katiyar-1aa15a15a/"
+        },
+        {
+          "website": "github",
+          "url": "https://github.com/pr-jli"
+        }
+      ]
+    },
+    {
+      "profile": "21-Prashant.png",
+      "name": "Prashant Bajaj",
+      "designation": "Financial Head and Treasurer",
+      "links": [
+        {
+          "website": "linkedin",
+          "url": "https://www.linkedin.com/in/prashant-bajaj-37642b162"
+        },
+        {
+          "website": "github",
+          "url": "https://github.com/bajaj99prashant"
+        }
+      ]
+    },
+
+    {
+      "profile": "21-Sourubh.png",
+      "name": "Sourabh Singh",
+      "designation": "Technical Head, HOC Prog Club",
+      "links": [
+        {
+          "website": "linkedin",
+          "url": "https://www.linkedin.com/in/sourabh-singh-338476163"
+        },
+        {
+          "website": "github",
+          "url": "#"
+        }
+      ]
+    },
+
+    {
+      "profile": "21-vivek.png",
+      "name": "Vivek Baghela",
+      "designation": "Creative Head",
+      "links": [
+        {
+          "website": "linkedin",
+          "url": "https://www.linkedin.com/in/vivek-baghela-40482b91/"
+        },
+        {
+          "website": "github",
+          "url": "https://github.com/vivek767"
+        },
+        {
+          "website": "behance",
+          "url": "https://www.behance.net/vivekbaghe6159"
+        }
+      ]
+    }
+  ],
+
+  [
+    {
       "profile": "20-abhishek.jpg",
       "name": "Abhishek Singh",
       "links": [
