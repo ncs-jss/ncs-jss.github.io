@@ -26,3 +26,4 @@ NCS is a student group that constantly tries to innovate and foster technical ac
 There are lot of mediums thorugh which you can react out to the community following are as follows:
 * https://www.instagram.com/hackncs/
 * https://discord.gg/8Fn9TYVD
+* ncs@jssaten.ac.in
