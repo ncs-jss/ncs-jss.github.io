@@ -165,20 +165,24 @@
       </div>
 
       <!-- 4th Year -->
-      <!-- <div class="container-fluid year">
-				<div class="hr"></div>
-				<div>
-					<h6>4th years</h6>
-				</div>
-				<div class="hr"></div>
-			</div>
-			<div class="container-fluid margin mx-auto padding team" id="four"></div> -->
+      <div class="container-fluid year fourth">
+        <div class="hr"></div>
+        <div>
+          <h6>4th years</h6>
+        </div>
+        <div class="hr"></div>
+      </div>
+      <div
+        class="container-fluid margin mx-auto padding team"
+        style="display: flex; align-items: flex-start"
+        id="four"
+      ></div>
 
       <!-- 3rd Year -->
       <div class="container-fluid year third">
         <div class="hr"></div>
         <div>
-          <h6>4th years</h6>
+          <h6>3rd years</h6>
         </div>
         <div class="hr"></div>
       </div>
@@ -189,7 +193,7 @@
       ></div>
 
       <!-- 2nd Year -->
-      <div class="container-fluid year second">
+     <!-- <div class="container-fluid year second">
         <div class="hr"></div>
         <div>
           <h6>3rd years</h6>
@@ -201,7 +205,7 @@
         style="display: flex; align-items: flex-start"
         id="two"
       ></div>
-    </section>
+    </section> -->
 
     <!-- About Section -->
     <section id="about">
@@ -353,24 +357,24 @@
         .then((res) => res.json())
         .then((data) => {
           // Getting 2nd year data
-          var Data = data.second;
-          for (var i = 0; i < Data.length; i++) {
-            var box = document.createElement("div");
-            box.setAttribute("class", "col-md-3");
+          // var Data = data.second;
+          // for (var i = 0; i < Data.length; i++) {
+          //   var box = document.createElement("div");
+          //   box.setAttribute("class", "col-md-3");
 
-            var html = `<div class="head_team">
-										<img src=${"../img/team/" + Data[i].profile} class="img" alt="Photo" />
-										<h5 class="avenirDemi pt-3">${Data[i].name}</h5>
-										<h6 style="margin-bottom: 0%" class="avenirRegular pb-1">${
-                      Data[i].designation
-                    }</h6>
-										${getLinks(Data[i])}
-									</div>
-						`;
+          //   var html = `<div class="head_team">
+          // 					<img src=${"../img/team/" + Data[i].profile} class="img" alt="Photo" />
+          // 					<h5 class="avenirDemi pt-3">${Data[i].name}</h5>
+          // 					<h6 style="margin-bottom: 0%" class="avenirRegular pb-1">${
+          //             Data[i].designation
+          //           }</h6>
+          // 					${getLinks(Data[i])}
+          // 				</div>
+          // 	`;
 
-            box.innerHTML = html;
-            document.getElementById("two").appendChild(box);
-          }
+          //   box.innerHTML = html;
+          //   document.getElementById("two").appendChild(box);
+          // }
 
           // Getting 3rd year data
           var Data = data.third;
@@ -379,14 +383,14 @@
             box.setAttribute("class", "col-md-3");
 
             var html = `<div class="head_team">
-										<img src=${"../img/team/" + Data[i].profile} class="img" alt="Photo" />
-										<h5 class="avenirDemi pt-3">${Data[i].name}</h5>
-										<h6 style="margin-bottom: 0%" class="avenirRegular pb-1">${
+          					<img src=${"../img/team/" + Data[i].profile} class="img" alt="Photo" />
+          					<h5 class="avenirDemi pt-3">${Data[i].name}</h5>
+          					<h6 style="margin-bottom: 0%" class="avenirRegular pb-1">${
                       Data[i].designation
                     }</h6>
-										${getLinks(Data[i])}
-									</div>
-						`;
+          					${getLinks(Data[i])}
+          				</div>
+          	`;
 
             box.innerHTML = html;
             document.getElementById("three").appendChild(box);
@@ -394,6 +398,7 @@
 
           // Getting 4th year data
           var Data = data.forth;
+          console.log(data.forth);
           for (var i = 0; i < Data.length; i++) {
             var box = document.createElement("div");
             box.setAttribute("class", "col-md-3");
