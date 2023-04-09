@@ -1,6 +1,173 @@
 [
   [
     {
+      "profile": "22-dc.png",
+      "name": "Devansh Chaudhary",
+      "designation": "HOC: Design Club",
+      "links": [
+        {
+          "website": "linkedin",
+          "url": "https://www.linkedin.com/in/rex12543/"
+        },
+        {
+          "website": "github",
+          "url": "https://github.com/rex12543"
+        },
+        {
+          "website": "behance",
+          "url": "https://www.behance.net/rex12543"
+        }
+      ]
+    },
+    {
+      "profile": "22-devansh.png",
+      "name": "Devansh Gera",
+      "designation": "Financial Head and Treasurer ",
+      "links": [
+        {
+          "website": "linkedin",
+          "url": "https://www.linkedin.com/in/devansh-gera-62a2bb16b"
+        },
+        {
+          "website": "github",
+          "url": "https://github.com/Devforlife07"
+        }
+      ]
+    },
+    {
+      "profile": "22-mansi.png",
+      "name": "Mansi Gupta",
+      "designation": "General Secretary",
+      "links": [
+        {
+          "website": "linkedin",
+          "url": "https://www.linkedin.com/in/mansi-gupta-a1195a91/"
+        },
+        {
+          "website": "github",
+          "url": "https://github.com/Mansi145"
+        }
+      ]
+    },
+
+    {
+      "profile": "22-zaid.png",
+      "name": "Mohammad Zaid Ansari",
+      "designation": "Programmer",
+      "links": [
+        {
+          "website": "linkedin",
+          "url": "https://www.linkedin.com/in/mohammad-zaid-ansari-927305174"
+        },
+        {
+          "website": "github",
+          "url": "https://github.com/zaid0704"
+        }
+      ]
+    },
+    {
+      "profile": "22-prajwal.png",
+      "name": "Prajwal Shirur",
+      "designation": "Core Team Committee Head",
+      "links": [
+        {
+          "website": "linkedin",
+          "url": "https://www.linkedin.com/in/prajwal-ss-054a29185/"
+        },
+        {
+          "website": "github",
+          "url": "https://github.com/prajwal2100"
+        }
+      ]
+    },
+    {
+      "profile": "22-pranav.png",
+      "name": "Pranav Kumar",
+      "designation": "Creative Head",
+      "links": [
+        {
+          "website": "linkedin",
+          "url": "https://www.linkedin.com/in/pranavnegi77"
+        },
+        {
+          "website": "behance",
+          "url": "https://www.behance.net/pranavnegi9896"
+        }
+      ]
+    },
+    {
+      "profile": "22-rajat.png",
+      "name": "Rajat Verma",
+      "designation": "HOC: Web Club",
+      "links": [
+        {
+          "website": "linkedin",
+          "url": "https://www.linkedin.com/in/rajat2502"
+        },
+        {
+          "website": "github",
+          "url": "https://github.com/rajat2502"
+        },
+        {
+          "website": "medium",
+          "url": "https://medium.com/@rajat2502"
+        }
+      ]
+    },
+    {
+      "profile": "22-saksham.png",
+      "name": "Saksham Raghuvanshi",
+      "designation": "Chief Executive Member, HOC:Tech",
+      "links": [
+        {
+          "website": "linkedin",
+          "url": "https://www.linkedin.com/in/saksham-raghuvanshi-0a1b58170/"
+        },
+        {
+          "website": "github",
+          "url": "https://github.com/sraghuvanshi"
+        }
+      ]
+    },
+    {
+      "profile": "22-sharad.png",
+      "name": "Sharad Mehrotra",
+      "designation": "HOC:Programming Club",
+      "links": [
+        {
+          "website": "linkedin",
+          "url": "https://www.linkedin.com/in/sharad2307/"
+        },
+        {
+          "website": "github",
+          "url": "https://github.com/sharad2307"
+        }
+      ]
+    },
+
+    {
+      "profile": "22-viral.png",
+      "name": "Viral Luke",
+      "designation": "Event Head",
+      "links": [
+        {
+          "website": "linkedin",
+          "url": "https://www.linkedin.com/in/viral-luke-0615291aa"
+        },
+        {
+          "website": "github",
+          "url": "https://github.com/ViraldAnarchist"
+        },
+        {
+          "website": "behance",
+          "url": "https://www.behance.net/primevirala816"
+        }
+      ]
+    }
+  ],
+  
+  [
+    {
       "profile": "21-akhil.png",
       "name": "Akhil Omar",
       "designation": "General Secretary, HOC Design Club",
